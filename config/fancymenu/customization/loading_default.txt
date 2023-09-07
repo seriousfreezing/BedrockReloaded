@@ -1,0 +1,103 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1009
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 114
+  width = 252
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 3c5e6d64-5dce-4965-b398-fc1c853145231693264211043
+  y = 95
+  height = 62
+}
+
+customization {
+  custom_color_hex = #1e1e1f
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = e0924de8-ea40-4bb2-b7fa-0338a24f26ec1693264211056
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = bottom-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -178
+  width = 352
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 9bca2c0d-19d1-4c23-a250-05a014a52f811693264211056
+  y = -99
+  height = 12
+}
+
+customization {
+  path = fancymenu_data/title.png
+  orientation = mid-centered
+  x = -222
+  width = 442
+  action = addtexture
+  actionid = bee83bdc-52da-4c9f-bac7-a68c50666c611693265438433
+  y = -92
+  height = 91
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"drippy_gl_percent"}%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -10
+  width = 55
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ee2f19a2-f545-44f1-852a-7ab3bb0ab44e1693265452985
+  y = -83
+  alignment = left
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/loading.gif
+  orientation = mid-centered
+  x = -12
+  width = 20
+  action = addtexture
+  actionid = 042df911-639a-4848-9394-b252cf8faf241693265522238
+  y = 24
+  height = 20
+}
+
