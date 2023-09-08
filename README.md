@@ -24,5 +24,4 @@ Features:
 
 ✅ Only 30 Mods!
 
-
-**This modpack is based on [Simply Optimized](https://modrinth.com/modpack/sop)!**
+[![Simply Optimized](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/built-with/simply-optimized_46h.png)](https://modrinth.com/modpack/sop)
