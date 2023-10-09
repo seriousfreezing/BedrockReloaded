@@ -1,2 +1,0 @@
-resourcePacks:["vanilla","fabric","file/BedrockTweaks.zip","midnightcontrols:bedrock","file/BedrockFixes.zip","file/BedrockGUI.zip"]
-incompatibleResourcePacks:["midnightcontrols:bedrock"]
