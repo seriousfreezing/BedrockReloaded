@@ -1,28 +1,5 @@
-# ***[THANKS WE FINALLY REACHED 1K DOWNLOADS!✨❤️](https://www.curseforge.com/minecraft/modpacks/bedrock-fabric)***
+# ***Bedrock Reloaded***
 
-Features:
+This repository exists to host problems and suggestions related to modpack.
 
-✅ Bedrock Features! ([Bedrock Features](https://www.curseforge.com/minecraft/mc-mods/bedrock-features "Bedrock Features"), [Bedrockify](https://modrinth.com/mod/bedrockify "Bedrockify"), [BedrockWaters](https://modrinth.com/mod/bedrockwaters "BedrockWaters"))
-
-✅ Animation when loading chunks! ([Chunks Fade in](https://modrinth.com/mod/chunks-fade-in "Chunks Fade in"))
-
-✅ Support for Touchscreen & Controller! ([MidnightControls](https://modrinth.com/mod/midnightcontrols "MidnightControls"))
-
-✅ Customized Menu! ([Fancy Menu](https://modrinth.com/mod/fancymenu "Fancy Menu"))
-
-✅ Customized Loading! ([Drippy Loading Screen](https://modrinth.com/mod/drippy-loading-screen "Drippy Loading Screen"))
-
-✅ Emojis, Cosmetics & More!  ([Essential](https://modrinth.com/mod/essential "Essential"))
-
-✅ 3 resource packs! ([Vanilla Tweaks](https://vanillatweaks.net/ "Vanilla Tweaks"), [Bedrock Gui](https://gist.github.com/Xetheon/c3d677e0762658f8d79cf05e2c6e65ff "Bedrock Gui"), [BedrockFixes](https://modrinth.com/user/seriousfreezing "BedrockFixes"))
-
-✅ TU69 Tutorial Map! ([by The Minecraft Architect](https://www.theminecraftarchitect.com/ "by The Minecraft Architect"))
-
-✅ Improved Optimization! ([Sodium](https://modrinth.com/mod/sodium "Sodium"), [Starlight](https://modrinth.com/mod/starlight "Starlight"))
-
-✅ Only 30 Mods!
-
-
-# Get out of the LAG curse! Go with Bisect Hosting, get 25% off your first month using the code: SeriousFreezing!
-
-[![Bisect Hosting](https://gcdnb.pbrd.co/images/2H66C4y3tQWm.webp)](https://bisecthosting.com/SeriousFreezing)
+[If you want to play the modpack, click here!]([https://modrinth.com](https://modrinth.com/modpack/bedrock-reloaded)https://modrinth.com/modpack/bedrock-reloaded)
