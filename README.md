@@ -1,5 +1,4 @@
-# ***Bedrock Reloaded***
+![Banner](https://i.imgur.com/LqwCXMR.png)
+## **This repository is used to report bugs, suggestions and the modpack wiki**
 
-This repository exists to host problems and suggestions related to modpack.
-
-[If you want to play the modpack, click here!](https://modrinth.com/modpack/bedrock-reloaded)
+[Play Now!](https://modrinth.com/modpack/bedrock-reloaded)
