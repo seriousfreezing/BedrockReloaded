@@ -1,0 +1,52 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = create_buffet_world_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 26
+  height = 26
+  x = 3
+  y = -1
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
+  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:mimicbutton] = create_buffet_world_screen:504974
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = bottom-centered
+  width = 50
+  height = 20
+  x = -25
+  y = -25
+}
+
+vanilla_button {
+  instance_identifier = 44521
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4334
+  is_hidden = true
+}

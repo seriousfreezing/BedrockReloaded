@@ -1,0 +1,53 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.FriendsScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+vanilla_button {
+  instance_identifier = 502946
+  anchor_point = vanilla
+  width = 152
+  height = 20
+  x = 344
+  y = 306
+}
+
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = vanilla
+  width = 152
+  height = 20
+  x = 188
+  y = 330
+}
+
+vanilla_button {
+  instance_identifier = 502970
+  anchor_point = vanilla
+  width = 152
+  height = 20
+  x = 344
+  y = 330
+}
+
+vanilla_button {
+  instance_identifier = 346946
+  anchor_point = vanilla
+  width = 152
+  height = 20
+  x = 188
+  y = 306
+}

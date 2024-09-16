@@ -1,0 +1,13 @@
+name = "Camera Port"
+filename = "CameraJavaPort-2.2-Fabric+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd2eb8098374a3654b3d0bb0f9067ba684006f5d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5533852
+project-id = 597465

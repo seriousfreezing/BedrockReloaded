@@ -1,0 +1,72 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = share_to_lan_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = image
+  anchor_point = top-centered
+  width = 8
+  height = 8
+  x = 140
+  y = 71
+  source = [source:local]/config/fancymenu/assets/icons/close.png
+}
+
+vanilla_button {
+  instance_identifier = 425160
+  anchor_point = vanilla
+  width = 150
+  height = 20
+  x = 181
+  y = 160
+}
+
+vanilla_button {
+  instance_identifier = 345972
+  anchor_point = bottom-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -80
+}
+
+vanilla_button {
+  instance_identifier = 345100
+  anchor_point = vanilla
+  width = 150
+  height = 20
+  x = 101
+  y = 100
+}
+
+vanilla_button {
+  instance_identifier = 505972
+  anchor_point = top-centered
+  width = 22
+  height = 22
+  x = 133
+  y = 64
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 505100
+  anchor_point = vanilla
+  width = 150
+  height = 20
+  x = 261
+  y = 100
+}

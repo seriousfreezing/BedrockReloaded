@@ -1,0 +1,68 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = edit_server_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = image
+  anchor_point = mid-centered
+  width = 8
+  height = 8
+  x = 86
+  y = -133
+  source = [source:local]/config/fancymenu/assets/icons/close.png
+}
+
+vanilla_button {
+  instance_identifier = 400330
+  anchor_point = mid-centered
+  width = 200
+  height = 20
+  x = -100
+  y = 0
+}
+
+vanilla_button {
+  instance_identifier = 400306
+  anchor_point = mid-centered
+  width = 200
+  height = 20
+  x = -100
+  y = 25
+}
+
+vanilla_button {
+  instance_identifier = 400388
+  anchor_point = mid-centered
+  width = 20
+  height = 20
+  x = 80
+  y = -139
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 400364
+  anchor_point = mid-centered
+  width = 77
+  height = 20
+  x = -36
+  y = 50
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  is_hidden = true
+}

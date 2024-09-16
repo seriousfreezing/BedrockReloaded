@@ -1,0 +1,140 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 26
+  height = 26
+  x = 3
+  y = -1
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
+  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = select_world_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 20
+  x = 47
+  y = -54
+  label = Friends
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -37
+  y = -54
+  label = Servers
+  [executable_action_instance:a3af0922-0f77-4d6a-be00-c5837bad9daf-1711750722162][action_type:opengui] = join_multiplayer_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -121
+  y = -54
+  label = Worlds
+  [executable_action_instance:385c94ce-e940-4eb7-b674-c8c532824df1-1711828864017][action_type:opengui] = select_world_screen
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -117
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/general.png
+}
+
+vanilla_button {
+  instance_identifier = 502946
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -31
+  y = -29
+}
+
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = bottom-centered
+  width = 70
+  height = 20
+  x = 53
+  y = -30
+  label = Add
+}
+
+vanilla_button {
+  instance_identifier = 346946
+  anchor_point = bottom-centered
+  width = 90
+  height = 20
+  x = -125
+  y = -30
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -33
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/server.png
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = 51
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/social.png
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 50232
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 39832
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 502970
+  is_hidden = true
+}
+

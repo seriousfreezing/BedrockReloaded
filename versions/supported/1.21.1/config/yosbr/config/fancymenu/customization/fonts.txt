@@ -1,0 +1,51 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.class_9246
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+menu_background {
+  color = #313233
+  background_type = drippy_color_background
+}
+
+element {
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:local]/config/fancymenu/assets/bg/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 26
+  height = 26
+  x = 3
+  y = -1
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
+  [executable_action_instance:ac04d382-2f64-4711-a731-8bf81f123c5a-1712972788453][action_type:mimicbutton] = net.minecraft.class_9246:400974
+}
+
+vanilla_button {
+  instance_identifier = 46712
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  is_hidden = true
+}

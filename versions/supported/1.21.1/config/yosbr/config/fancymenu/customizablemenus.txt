@@ -1,0 +1,164 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_481 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_6777 {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_422 {
+}
+
+net.minecraft.class_446 {
+}
+
+net.minecraft.class_420 {
+}
+
+net.minecraft.class_403 {
+}
+
+net.minecraft.class_436 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_8134 {
+}
+
+net.minecraft.class_5235 {
+}
+
+net.minecraft.class_447 {
+}
+
+net.minecraft.class_410 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_524 {
+}
+
+net.minecraft.class_405 {
+}
+
+net.minecraft.class_527 {
+}
+
+net.minecraft.class_413 {
+}
+
+net.minecraft.class_415 {
+}
+
+net.minecraft.class_430 {
+}
+
+net.minecraft.class_408 {
+}
+
+net.minecraft.class_9246 {
+}
+
+de.florianmichael.viafabricplus.screen.base.ProtocolSelectionScreen {
+}
+
+de.florianmichael.viafabricplus.screen.settings.SettingsScreen {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_8032 {
+}
+
+io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen {
+}
+
+io.github.gaming32.worldhost.gui.screen.FriendsScreen {
+}
+
+dev.dediamondpro.resourcify.gui.browsepage.BrowseScreen {
+}
+
+dev.dediamondpro.resourcify.gui.update.UpdateGui {
+}
+
+me.cael.capes.menu.SelectorMenu {
+}
+
+net.minecraft.class_426 {
+}
+
+net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI {
+}
+
+org.minepedia.screen.MinepediaIndexScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_5375 {
+}
+
+me.shedaniel.clothconfig2.gui.ClothConfigScreen {
+}
+
+loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
+}
+
+net.minecraft.class_419 {
+}
+
+io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_440 {
+}
+
+dev.spiritstudios.snapper.gui.ScreenshotScreen {
+}
+
+net.minecraft.class_457 {
+}
+

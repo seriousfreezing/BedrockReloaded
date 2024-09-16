@@ -1,0 +1,13 @@
+name = "Reimagined World Menu"
+filename = "reimaginedmenus-3.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5edc46e3fee2c881e63966e154fff6ddeface5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5666847
+project-id = 856261

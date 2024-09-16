@@ -1,0 +1,159 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = select_world_screen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 26
+  height = 26
+  x = 3
+  y = -1
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
+  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = title_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 20
+  x = -9
+  y = -54
+  label = Friends
+  [executable_action_instance:5e32168c-ff3b-4e56-bcdb-9be7a76211b4-1722714630599][action_type:mimicbutton] = join_multiplayer_screen:50232
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -177
+  y = -54
+  label = Worlds
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -93
+  y = -54
+  label = Servers
+  [executable_action_instance:a3af0922-0f77-4d6a-be00-c5837bad9daf-1711750722162][action_type:opengui] = join_multiplayer_screen
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -5
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/social.png
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -89
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/server.png
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -173
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/general.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 106
+  height = 20
+  x = -1
+  y = -30
+  label = Create New World
+  [executable_action_instance:3a7191cd-7654-4389-a3dc-173139603a2a-1712068756220][action_type:mimicbutton] = select_world_screen:554948
+  [executable_action_instance:68aff21e-b60b-4c0c-9ab0-add2c91dba30-1712068764731][action_type:set_variable] = create_world:true
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  anchor_point = bottom-centered
+  width = 41
+  height = 20
+  x = 109
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 504972
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = 70
+  y = -54
+}
+
+vanilla_button {
+  instance_identifier = 346948
+  anchor_point = bottom-centered
+  width = 112
+  height = 20
+  x = -117
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 424972
+  anchor_point = bottom-centered
+  width = 56
+  height = 20
+  x = -177
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 504948
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 582972
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 554948
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 450948
+  is_hidden = true
+}

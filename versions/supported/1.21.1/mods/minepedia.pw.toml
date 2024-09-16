@@ -1,0 +1,13 @@
+name = "Minepedia"
+filename = "Minepedia-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e87141b626a3b3c4caa588f6177cc80db0871cd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5663219
+project-id = 995733

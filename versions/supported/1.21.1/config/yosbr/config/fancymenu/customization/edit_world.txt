@@ -1,0 +1,150 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = edit_world_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = image
+  anchor_point = top-centered
+  width = 8
+  height = 8
+  x = 112
+  y = 44
+  source = [source:local]/config/fancymenu/assets/icons/close.png
+}
+
+vanilla_button {
+  instance_identifier = 502597
+  anchor_point = top-centered
+  width = 22
+  height = 22
+  x = 105
+  y = 37
+  label = 
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 75
+  height = 20
+  x = -36
+  y = 2
+  label = Reset Icon
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400447
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 120
+  height = 20
+  x = -120
+  y = -22
+  label = Open World Folder
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400472
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 75
+  height = 20
+  x = -115
+  y = 2
+  label = Make Backup
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400497
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 120
+  height = 20
+  x = 4
+  y = -22
+  label = Open Backups Folder
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400522
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 75
+  height = 20
+  x = 43
+  y = 2
+  label = Optimize World
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400547
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 75
+  height = 20
+  x = -36
+  y = 38
+  label = Save
+  [executable_action_instance:86a1c6cc-0342-4a63-9302-171b7a4d6a7b-1712860411141][action_type:mimicbutton] = edit_world_screen:400597
+}
+
+vanilla_button {
+  instance_identifier = 400422
+  anchor_point = vanilla
+  width = 200
+  height = 20
+  x = 140
+  y = 57
+}
+
+vanilla_button {
+  instance_identifier = 400408
+  anchor_point = vanilla
+  width = 55
+  height = 9
+  x = 140
+  y = 43
+}
+
+vanilla_button {
+  instance_identifier = 400472
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400597
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400547
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400447
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400497
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400522
+  is_hidden = true
+}

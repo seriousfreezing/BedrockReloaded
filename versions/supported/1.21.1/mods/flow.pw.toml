@@ -1,0 +1,13 @@
+name = "Flow​"
+filename = "flow-2.1.2+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "10037fd4c3cc394ead4cba2ca589865ff7112a79"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5643493
+project-id = 927561

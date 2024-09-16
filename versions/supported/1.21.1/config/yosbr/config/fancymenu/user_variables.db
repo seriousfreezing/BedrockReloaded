@@ -1,0 +1,44 @@
+type = user_variables
+
+variable {
+  name = experimental_villager
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = create_world
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = main_menu
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = lock_diff
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = experimental_bundle
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = cheats
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = language_select_screen:54311
+  value = 
+  reset_on_launch = false
+}
+

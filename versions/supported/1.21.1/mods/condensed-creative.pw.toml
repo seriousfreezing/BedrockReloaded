@@ -1,0 +1,13 @@
+name = "Condensed Creative"
+filename = "condensed_creative-3.4.1+1.21-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "52e11cde0b79c9cb77e5e83b3c9ad8cadf82c1ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5642328
+project-id = 624911

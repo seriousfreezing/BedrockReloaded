@@ -1,0 +1,13 @@
+name = "Simple Close Button"
+filename = "close-btn-2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c350abeaf98ee2287a6585821702fc41d2d152b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5483660
+project-id = 965407

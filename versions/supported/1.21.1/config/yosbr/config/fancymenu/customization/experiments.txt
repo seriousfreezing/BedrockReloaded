@@ -1,0 +1,217 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = experiments_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:local]/config/fancymenu/assets/bg/header.png
+}
+
+element {
+  element_type = shape
+  anchor_point = top-centered
+  width = 379
+  height = 14
+  x = -192
+  y = 50
+  color = #2e6be5
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 380
+  height = 13
+  x = -192
+  y = 50
+  source = Experiments are potential new features. Be careful as things might break.
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 30
+  height = 16
+  x = -165
+  y = 88
+  label = 
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_villager:false
+  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_off.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_off_hover.png
+  [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_villager:true
+  [executable_action_instance:d8637f8d-347f-45f7-b448-a6be0d05b3ae-1711860679479][action_type:mimicbutton] = experiments_screen:611151
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 30
+  height = 16
+  x = -165
+  y = 88
+  label = 
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_villager:true
+  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_on.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_on_hover.png
+  [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_villager:false
+  [executable_action_instance:399474df-b9f6-455f-8632-46ed2b2f3f96-1711860658175][action_type:mimicbutton] = experiments_screen:611151
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 141
+  height = 13
+  x = -130
+  y = 78
+  source = Villager Trade Rebalancing
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 305
+  height = 23
+  x = -130
+  y = 90
+  source = Contains updated trades for villagers for the purpose of rebalancing.
+  base_color = #cdced1
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 30
+  height = 16
+  x = -165
+  y = 128
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_bundle:false
+  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_off.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_off_hover.png
+   [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_bundle:true
+  [executable_action_instance:d8637f8d-347f-45f7-b448-a6be0d05b3ae-1711860679479][action_type:mimicbutton] = experiments_screen:611109
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 30
+  height = 16
+  x = -165
+  y = 128
+  label = 
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_bundle:true
+  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_on.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_on_hover.png
+  [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_bundle:false
+  [executable_action_instance:399474df-b9f6-455f-8632-46ed2b2f3f96-1711860658175][action_type:mimicbutton] = experiments_screen:611109
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 38
+  height = 13
+  x = -130
+  y = 120
+  source = Bundle
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 173
+  height = 13
+  x = -130
+  y = 133
+  source = Enables experimental bundle item.
+  base_color = #cdced1
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 26
+  height = 26
+  x = 3
+  y = -1
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
+  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:mimicbutton] = experiments_screen:504974
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = bottom-centered
+  width = 60
+  height = 30
+  x = -30
+  y = -40
+}
+
+vanilla_button {
+  instance_identifier = 345171
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345115
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 611109
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345157
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345129
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 47012
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34563
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 611151
+  is_hidden = true
+}
