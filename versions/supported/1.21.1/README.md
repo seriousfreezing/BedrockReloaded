@@ -9,7 +9,7 @@
 - [World Host 0.4.14](https://cdn.modrinth.com/data/2AIZDfYo/versions/bd0Ozgi4/world-host-0.4.14%2B1.21.1-fabric.jar)
 
 # 🏆Credits
-The datapack/resourcepack used in this modpack is a great collaboration between different content creators. Please check out the original datapack/resourcepack if possible and download!
+The datapacks/resourcepacks/world used in this modpack is a great collaboration between different content creators. Please check out the original datapacks/resourcepacks/world if possible and download!
 - [3D Item Icons](https://modrinth.com/resourcepack/3d-items-mintynoura)
 - [Environmental Water](https://modrinth.com/resourcepack/environmental-water)
 - [More Compostable Items](https://www.planetminecraft.com/data-pack/more-compostable-items/)
