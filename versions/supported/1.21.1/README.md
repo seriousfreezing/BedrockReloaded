@@ -3,7 +3,7 @@
 - [Caxton 0.6.0-alpha.2](https://cdn.modrinth.com/data/k8iIgzXE/versions/q9mtIfVg/caxton-0.6.0-alpha.2%2B1.21.1-FABRIC.jar)
 - [Jump Sounds 1.4.3](https://cdn.modrinth.com/data/LYzABNNQ/versions/duCEpbpP/Jump-Sounds-1.4.3.jar)
 - [Mica 1.0.2](https://cdn.modrinth.com/data/ku1JKosh/versions/LSogi6jl/mica-1.0.2.jar)
-- [Smooth Swapping 0.10.0](https://github.com/YoungSoulluoS/Smooth-Swapping-1.20.4-Port/releases/download/1.21-Fabric/smoothswapping-0.10.0-1.21-fabric.jar)
+- [Smooth Swapping 0.10.0 (Unofficial)](https://github.com/YoungSoulluoS/Smooth-Swapping-1.20.4-Port/releases/download/1.21-Fabric/smoothswapping-0.10.0-1.21-fabric.jar)
 - [Snapper 1.0.0](https://cdn.modrinth.com/data/MZQyESDC/versions/JYWFOAnC/snapper1.0.0x1.21.jar)
 - [ThreadTweak 0.1.5](https://cdn.modrinth.com/data/vSEH1ERy/versions/F4sjmsi3/threadtweak-fabric-0.1.5%2Bmc1.21.1.jar)
 - [World Host 0.4.14](https://cdn.modrinth.com/data/2AIZDfYo/versions/bd0Ozgi4/world-host-0.4.14%2B1.21.1-fabric.jar)
