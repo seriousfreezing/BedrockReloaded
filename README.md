@@ -27,12 +27,12 @@ This guide uses ATLauncher as an example, you may be able to do this with other 
 2. Create an instance for Minecraft 1.xx.x with Fabric.
 3. [Move the previously downloaded file to your instance folder.](https://i.imgur.com/7A3rAQM.png)
 4. Go to the instance settings and then to the commands tab.
-5. [Click on “Enable commands?” and add this command line to the pre-launch:](https://i.imgur.com/FAjhdEu.png)
+5. [Click on “Enable commands?” and add this command line to the pre-launch:](https://i.imgur.com/Jrn1VsU.png)
 
     - `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/seriousfreezing/BedrockReloaded/refs/heads/main/versions/supported/1.21.1/index.toml`
     (Change to the version you want.)
 
-6. [Add the mods mentioned in the description to this repository folder:](https://i.imgur.com/tJFz6cU.png)
+6. [Add the mods mentioned in the description to this repository folder:](https://i.imgur.com/oj6ilpB.png)
 `./versions/supported/1.xx.x/`
 
     - [Click here to be redirected](https://github.com/seriousfreezing/BedrockReloaded/tree/main/versions/supported)
