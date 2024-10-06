@@ -1,13 +1,13 @@
 name = "ViaFabricPlus"
-filename = "ViaFabricPlus-3.4.5.jar"
+filename = "ViaFabricPlus-3.4.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0386bd660ba9783412fd45dde40d4ea8d5086ce1"
+hash = "180de20cf2783bccd006dcd22bb58766f8e9c88e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5656527
+file-id = 5756912
 project-id = 830604

@@ -18,3 +18,8 @@ defaultGlobalExecutorParallelismExpression = "max(1,min(if(is_client,(cpus/2.66+
 
 [threadedWorldGen]
 	enabled = true
+	
+[vanillaWorldGenOptimizations]
+	
+	[vanillaWorldGenOptimizations.nativeAcceleration]
+		enabled = true

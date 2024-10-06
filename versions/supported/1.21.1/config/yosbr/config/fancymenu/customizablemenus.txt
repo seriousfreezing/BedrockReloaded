@@ -3,9 +3,6 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.class_458 {
-}
-
 net.minecraft.class_443 {
 }
 
@@ -123,9 +120,6 @@ net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI {
 org.minepedia.screen.MinepediaIndexScreen {
 }
 
-net.minecraft.class_442 {
-}
-
 net.minecraft.class_433 {
 }
 
@@ -160,5 +154,14 @@ dev.spiritstudios.snapper.gui.ScreenshotScreen {
 }
 
 net.minecraft.class_457 {
+}
+
+net.minecraft.class_442 {
+}
+
+dev.isxander.controlify.gui.screen.ControllerCarouselScreen {
+}
+
+net.minecraft.class_458 {
 }
 

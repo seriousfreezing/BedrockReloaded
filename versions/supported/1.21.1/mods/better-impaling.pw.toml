@@ -1,13 +1,13 @@
 name = "Better Impaling"
-filename = "betterimpaling-3.0+1.21.jar"
+filename = "betterimpaling-3.1+1.21.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3878778004474cb9dd4b1d64f1b93ea69f31953f"
+hash = "14dc0e57d895de4c90d12b595a3683cfe3b846e3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5423997
+file-id = 5749020
 project-id = 414509

@@ -22,7 +22,7 @@ hash = "96cbd955ca86cd7cff9832a8c5cc35cabfd15a460af969590eee84830209bf72"
 
 [[files]]
 file = "config/yosbr/config/c2me.toml"
-hash = "f2b1fe21b2d71a79e251b6974ebd7ab145c9a23bce414fdb792addf8241e11e8"
+hash = "717a4eefe455237d0d267d1339d9d44ff58a306db14c0b83f6752bdb994a9505"
 
 [[files]]
 file = "config/yosbr/config/capes.json5"
@@ -217,12 +217,8 @@ file = "config/yosbr/config/fancymenu/assets/texts/splashes.txt"
 hash = "423595c716d43da670e1b45b5f0a63c4502d73b4f7d63a9a817603a2e75503d5"
 
 [[files]]
-file = "config/yosbr/config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
-
-[[files]]
 file = "config/yosbr/config/fancymenu/customizablemenus.txt"
-hash = "8fb16007dd19ae5bec9e61d75cb60fd69b4e9fccf4a20a2725756923e527c22c"
+hash = "d6a8a824f9d5ce6b63b537cdb3eda1c3eb0fc9a28500b8b29114ba3cb090ca77"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/accessibility.txt"
@@ -250,7 +246,7 @@ hash = "d43766d49044e01e47eb807d0271073d4ccdea2cad37c3c7f559eabac775e2cc"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/controls.txt"
-hash = "5881f005f87f2462c7f210a92a34caab55f12e9f987b76d60b0af31158b56588"
+hash = "42088ff4834311d9bb1bead5e0f354510653505768027446308fbeac3eb4ca5c"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/create.txt"
@@ -334,7 +330,7 @@ hash = "2a50c52066882cf57928debad101946208481686f5e2cf7f7df76b6752dc6bd8"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/main_menu.txt"
-hash = "d37419eba9d8b712313eccb362678152456998330bf2367abc1de3a5af861e44"
+hash = "e35e14db5a65f7d6c22c0797f76527502ab51fa685ce79b55899e931ebbee29a"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/mouse.txt"
@@ -354,15 +350,15 @@ hash = "95c8e5da31e59481f49bbcccdaec7d89a2bd99a274e0c75c1f4c5539737d7a61"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/options.txt"
-hash = "8b1a981ee65be360554385797f553b303dc2703c1f4f6f97dc85c18b4943630b"
+hash = "1e2a211d5815ad1b96af0e272bc693b3ac7d104f31f14073fc3554be041c301a"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/pack_selection.txt"
-hash = "3fdace4a1723cdb65af50dea4f99acd31ab4a0fba8fabf50bb30ebf7c4b53cce"
+hash = "15b0f3a73707588dbbdc77be556ab3bd478bd40f307bebd55c625172407bf5b7"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/pause.txt"
-hash = "c102d0fb48de71cf8224dc61f6f542ad1e9df1f7b4cac7ebe7111851e87adcd9"
+hash = "d62d5182cf979d87dbb74c2816c2ced58178ba10fcb4e8b177adff26ed607690"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/customization/play.txt"
@@ -401,24 +397,8 @@ file = "config/yosbr/config/fancymenu/customization/world_icons.txt"
 hash = "6266ea2c298d0c6e3c72dc1415d80eacb5a132344abe5bd215ba3a4eb7dc2a2d"
 
 [[files]]
-file = "config/yosbr/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "fe1acfa6310aee95d0f6c052b2efe448acdb73da11b8181ff86b02412fb48ba1"
-
-[[files]]
-file = "config/yosbr/config/fancymenu/legacy_checklist.txt"
-hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
-
-[[files]]
 file = "config/yosbr/config/fancymenu/options.txt"
 hash = "5777efe67980789767247d7050c3e3a747e867b6cfb11e1cb66fbe9c40de5f00"
-
-[[files]]
-file = "config/yosbr/config/fancymenu/ui_themes/dark.json"
-hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
-
-[[files]]
-file = "config/yosbr/config/fancymenu/ui_themes/light.json"
-hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
 file = "config/yosbr/config/fancymenu/user_variables.db"
@@ -437,16 +417,16 @@ file = "config/yosbr/config/flow.config.json"
 hash = "5d88ebfa84869ad6d772491f6a548dafd64d4300bec623f08432353f766c0fe9"
 
 [[files]]
-file = "config/yosbr/config/immediatelyfast.json"
-hash = "f0fa91c42d9a753f8f2773f193864fe248fe1a3527189d1490a0e0094bcd7049"
-
-[[files]]
 file = "config/yosbr/config/modernfix-mixins.properties"
 hash = "485d64a4004bdbfd2d8ea5b806c3edf952e1c8c6f71b1ff843fcda37f94fd26c"
 
 [[files]]
 file = "config/yosbr/config/notenoughanimations.json"
 hash = "e123567dc800d023fc9235a0b68d30ed86b9cb460af54af33a6b896a38b2bc5d"
+
+[[files]]
+file = "config/yosbr/config/resourcepackoverrides.json"
+hash = "e382a975dc3d856df131319252090306b39e53eeb1691f6b1885493a3bff227e"
 
 [[files]]
 file = "config/yosbr/config/simple_close_button.json"
@@ -485,12 +465,12 @@ file = "global_packs/required_data/more-compostable-items-v1-3-1.zip"
 hash = "abbbb6c048e08b0ce50c42fd39f9e58e26182d1592381fe1d6aa4c5a82a9d10f"
 
 [[files]]
-file = "global_packs/required_resources/Bedrocking.zip"
-hash = "a3cdd9a0ededc0def4d8785a06db43d9afcd13bcd3fdb262723e6783fce4a06a"
-
-[[files]]
 file = "mods/Jump-Sounds-1.4.3.jar"
 hash = "e97c6f75713ffb4ab52e235c6627a4e5c8b0655b22248632d25c83563d231c7c"
+
+[[files]]
+file = "mods/Resourcify (1.21+-fabric)-1.4.2.jar"
+hash = "34af63c1fa9653e9e6251b05a0f93ae881e780386836ecd443777f99a19725af"
 
 [[files]]
 file = "mods/accurate-block-placement-reborn.pw.toml"
@@ -514,7 +494,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-impaling.pw.toml"
-hash = "5cdf054e8c100ff5cfa84395de5bfd42156c008abc8319678f71d0d0911b388e"
+hash = "27ecc08d84d1cddd1d5166328c0d3506106a53d4963630a311047928f6d1150e"
 metafile = true
 
 [[files]]
@@ -577,12 +557,12 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "f75c36cc24b93304c1a7ba7a34c44da2fecf389ef577463f85332b6292cbd0b2"
+hash = "edac4c49e3bf3b04460b57f9053757880d36c9f2855a15ed66773168442414ad"
 metafile = true
 
 [[files]]
 file = "mods/enhanced-block-entities.pw.toml"
-hash = "6405421c444ea409b9674a920cf8a85fae38e60ce367f27dd721e26b0546763f"
+hash = "2c1d05da2179691fc1c27b53eaf942c32ff1528739a9be5e3a34dd2a92105696"
 metafile = true
 
 [[files]]
@@ -592,12 +572,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b20e8661162c4568ad733af79a714b9304067fd4a8c1e7af6824d13d548b8355"
+hash = "9cdc3215713f357d68e22b2c61155b84d361646ee57f2cca90287b52837dbb56"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "130d2b078d1a73c86271a0222fcefbd24f5f816df37d94fa780d37a5f1605119"
+hash = "261283f7a28a695ecc876ee7d3fe82e3f3598b8ec075624f8588f7800a31bf84"
 metafile = true
 
 [[files]]
@@ -637,8 +617,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "1a4ca1db88ea243d4e36021f179aedee55e3bf52a99cd0119b2e3a1b966d518f"
+hash = "bf87266803c4386966e90dc88a99888e3bb6e519d11c18b1edccbec507814b93"
 metafile = true
+
+[[files]]
+file = "mods/luminous-no-shading-0.2.1+mc1.21.jar"
+hash = "a9863591e61bbc76eb583b749d7c12d67557fb10601a208694260fc16869d0be"
 
 [[files]]
 file = "mods/melody.pw.toml"
@@ -691,7 +675,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "3099a2608f956fc48555629b76085b78a4159bd1237e8769ef8f3efb55e46d08"
+hash = "dbe0a5feaf96355643d32ffd705bad20799204940ee8bf1b26fa9abd61c558c8"
 metafile = true
 
 [[files]]
@@ -705,8 +689,8 @@ hash = "1a5443700997687476a11de4b48a4ca679f8362e15edaba701d0056affc7ac1b"
 metafile = true
 
 [[files]]
-file = "mods/resourcify.pw.toml"
-hash = "1ee1ede7b38f808dd35e19d5cbd9fd0f69c89d788efcb702ad352d735d8e0a6e"
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "a8ef3e495d2bd16435e9617454175c595e91276c1e20c20afaff74a1c21ccfb4"
 metafile = true
 
 [[files]]
@@ -743,7 +727,7 @@ hash = "d5c0b0f5014b2ab729b820ad17acab7ce7f51b6dd72a5655839b31f6a2394682"
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "f599fe21220b5456a82395393edd90ee120bc154139368f527d1b79f775a09f4"
+hash = "733d7a7851310af020af728c892412b075456e308c573cceb4032e58123dbd29"
 metafile = true
 
 [[files]]
@@ -760,7 +744,11 @@ file = "packwiz-installer-bootstrap.jar"
 hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
-file = "resourcepacks/Noto Sans (Font).zip"
+file = "resourcepacks/Bedrocking.zip"
+hash = "5074e7dd3207af704070fa5f03644fbcdd647f1b50ca9d2cd3e5073ccb0d7142"
+
+[[files]]
+file = "resourcepacks/Noto Sans.zip"
 hash = "91b4842278f6e3d51210507ce317ad91a91afaa78fffb033a8ac7b554b75ad8d"
 
 [[files]]
