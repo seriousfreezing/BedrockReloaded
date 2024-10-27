@@ -27,6 +27,7 @@ element {
   height = 25
   x = -78
   y = -30
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:5c856328-962d-41b3-ae6d-53c9bc21a5fe-1729729647360] = 
   label = Online
   [executable_action_instance:42c711b6-46af-4ca4-95cc-4fd99498ed49-1711717876706][action_type:mimicbutton] = options_screen:50429
 }
@@ -38,6 +39,19 @@ element {
   height = 25
   x = 2
   y = -30
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:73a3b777-9c28-4734-82f5-79dfbe16992e-1729729658264] = 
+  label = Chat
+  [executable_action_instance:80ac1b73-5d94-4575-b84b-86461e6504c4-1711717934332][action_type:opengui] = chat_options_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  x = -37
+  y = -30
+  width = 75
+  height = 25
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:5128174c-575d-4ec6-8a53-45020ebc5fcb-1729729675744] = 
   label = Chat
   [executable_action_instance:80ac1b73-5d94-4575-b84b-86461e6504c4-1711717934332][action_type:opengui] = chat_options_screen
 }
@@ -47,7 +61,7 @@ element {
   anchor_point = top-centered
   height = 32
   stretch_x = true
-  source = [source:local]/config/fancymenu/assets/bg/header.png
+  source = [source:location]fancymenu:bg/header.png
 }
 
 element {

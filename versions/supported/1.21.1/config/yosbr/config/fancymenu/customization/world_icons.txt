@@ -2,7 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen
-  custom_menu_title = {"placeholder":"stringify","values":{"text":" "}}
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
 customization {
@@ -25,8 +25,18 @@ element {
   y = -1
   backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
   backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:mimicbutton] = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen:504952
-  [executable_block:88d6dd2c-a7f5-47b8-82ad-a4180762ed40-1711735808748][type:generic] = [executables:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612;]
+  [executable_action_instance:65b752b0-51a9-4f0f-87a2-f3818538727b-1729627833870][action_type:mimicbutton] = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen:504952
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 108
+  height = 30
+  x = 2
+  y = -40
+  label = Done
+  [executable_action_instance:352a9599-23bf-4ba9-8560-afbdb7346c8f-1729627824358][action_type:mimicbutton] = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen:504952
 }
 
 vanilla_button {
@@ -34,8 +44,8 @@ vanilla_button {
   anchor_point = bottom-centered
   width = 108
   height = 30
-  x = -54
-  y = -34
+  x = -110
+  y = -40
 }
 
 vanilla_button {

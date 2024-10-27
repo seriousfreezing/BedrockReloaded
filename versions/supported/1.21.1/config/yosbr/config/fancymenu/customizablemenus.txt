@@ -108,9 +108,6 @@ dev.dediamondpro.resourcify.gui.browsepage.BrowseScreen {
 dev.dediamondpro.resourcify.gui.update.UpdateGui {
 }
 
-me.cael.capes.menu.SelectorMenu {
-}
-
 net.minecraft.class_426 {
 }
 
@@ -135,16 +132,10 @@ loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfig
 net.minecraft.class_419 {
 }
 
-io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen {
-}
-
 net.minecraft.class_4189 {
 }
 
 net.minecraft.class_404 {
-}
-
-net.minecraft.class_429 {
 }
 
 net.minecraft.class_440 {
@@ -156,12 +147,18 @@ dev.spiritstudios.snapper.gui.ScreenshotScreen {
 net.minecraft.class_457 {
 }
 
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen {
+}
+
 net.minecraft.class_442 {
 }
 
-dev.isxander.controlify.gui.screen.ControllerCarouselScreen {
-}
-
-net.minecraft.class_458 {
+io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen {
 }
 

@@ -20,7 +20,7 @@ element {
   anchor_point = top-centered
   height = 32
   stretch_x = true
-  source = [source:local]/config/fancymenu/assets/bg/header.png
+  source = [source:location]fancymenu:bg/header.png
 }
 
 element {
@@ -54,7 +54,7 @@ element {
   y = 88
   label = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_villager:false
-  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_off.png
+  backgroundnormal = [source:location]fancymenu:bg/toggle_off.png
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_off_hover.png
   [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_villager:true
   [executable_action_instance:d8637f8d-347f-45f7-b448-a6be0d05b3ae-1711860679479][action_type:mimicbutton] = experiments_screen:611151
@@ -69,7 +69,7 @@ element {
   y = 88
   label = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_villager:true
-  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_on.png
+  backgroundnormal = [source:location]fancymenu:bg/toggle_on.png
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_on_hover.png
   [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_villager:false
   [executable_action_instance:399474df-b9f6-455f-8632-46ed2b2f3f96-1711860658175][action_type:mimicbutton] = experiments_screen:611151
@@ -106,7 +106,7 @@ element {
   x = -165
   y = 128
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_bundle:false
-  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_off.png
+  backgroundnormal = [source:location]fancymenu:bg/toggle_off.png
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_off_hover.png
    [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_bundle:true
   [executable_action_instance:d8637f8d-347f-45f7-b448-a6be0d05b3ae-1711860679479][action_type:mimicbutton] = experiments_screen:611109
@@ -121,7 +121,7 @@ element {
   y = 128
   label = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7a41dd60-9f6e-4871-a53c-790f1daddc9a-1711859431631] = experimental_bundle:true
-  backgroundnormal = [source:local]/config/fancymenu/assets/bg/toggle_on.png
+  backgroundnormal = [source:location]fancymenu:bg/toggle_on.png
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/toggle_on_hover.png
   [executable_action_instance:aef0441c-5e86-4ac5-971a-ef74e8117368-1711859473672][action_type:set_variable] = experimental_bundle:false
   [executable_action_instance:399474df-b9f6-455f-8632-46ed2b2f3f96-1711860658175][action_type:mimicbutton] = experiments_screen:611109

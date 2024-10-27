@@ -70,6 +70,26 @@ element {
   source = [source:local]/config/fancymenu/assets/icons/general.png
 }
 
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = -33
+  y = -50
+  source = [source:location]fancymenu:icons/server.png
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-centered
+  width = 12
+  height = 12
+  x = 51
+  y = -50
+  source = [source:local]/config/fancymenu/assets/icons/social.png
+}
+
 vanilla_button {
   instance_identifier = 502946
   anchor_point = bottom-centered
@@ -98,26 +118,6 @@ vanilla_button {
   y = -30
 }
 
-element {
-  element_type = image
-  anchor_point = bottom-centered
-  width = 12
-  height = 12
-  x = -33
-  y = -50
-  source = [source:local]/config/fancymenu/assets/icons/server.png
-}
-
-element {
-  element_type = image
-  anchor_point = bottom-centered
-  width = 12
-  height = 12
-  x = 51
-  y = -50
-  source = [source:local]/config/fancymenu/assets/icons/social.png
-}
-
 vanilla_button {
   instance_identifier = 8975
   is_hidden = true
@@ -137,4 +137,3 @@ vanilla_button {
   instance_identifier = 502970
   is_hidden = true
 }
-

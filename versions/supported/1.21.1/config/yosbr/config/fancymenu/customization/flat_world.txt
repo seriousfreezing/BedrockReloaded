@@ -30,15 +30,10 @@ element {
 vanilla_button {
   instance_identifier = 505948
   anchor_point = vanilla
-  x = 325
-  y = 308
   width = 150
   height = 20
-}
-
-vanilla_button {
-  instance_identifier = 505972
-  is_hidden = true
+  x = 325
+  y = 308
 }
 
 vanilla_button {
@@ -48,6 +43,11 @@ vanilla_button {
   height = 20
   x = 165
   y = 308
+}
+
+vanilla_button {
+  instance_identifier = 505972
+  is_hidden = true
 }
 
 vanilla_button {

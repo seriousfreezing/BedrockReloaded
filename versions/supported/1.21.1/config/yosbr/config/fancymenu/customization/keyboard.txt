@@ -25,7 +25,7 @@ element {
   anchor_point = top-centered
   height = 32
   stretch_x = true
-  source = [source:local]/config/fancymenu/assets/bg/header.png
+  source = [source:location]fancymenu:bg/header.png
 }
 
 element {

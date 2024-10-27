@@ -1,0 +1,13 @@
+name = "MidnightControlsExtra"
+filename = "midnightcontrols-extra-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6910cdc4c5b6ced85f7d1a725d13dfead604b41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3847832
+project-id = 637016

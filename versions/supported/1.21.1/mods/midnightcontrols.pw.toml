@@ -1,0 +1,13 @@
+name = "MidnightControls"
+filename = "midnightcontrols-fabric-1.10.0-rc.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a3f3ce4ca195ba2a8b1a802d94baaebd27dc6783"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5827885
+project-id = 621768

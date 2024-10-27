@@ -77,7 +77,7 @@ element {
   height = 12
   x = -89
   y = -50
-  source = [source:local]/config/fancymenu/assets/icons/server.png
+  source = [source:location]fancymenu:icons/server.png
 }
 
 element {
