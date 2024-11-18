@@ -1,0 +1,13 @@
+name = "Empty Air Bubbles"
+filename = "Empty Air Bubbles 1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e145938b1a5ee7bef0133262bff5df14e8586826"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5481608
+project-id = 1051983

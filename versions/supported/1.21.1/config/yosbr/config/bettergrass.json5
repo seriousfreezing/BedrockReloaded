@@ -1,0 +1,19 @@
+{
+	betterGrassMode: "OFF",
+	snowLayers: [
+		"snow"
+	],
+	excludedTags: [
+		"leaves",
+		"buttons",
+		"rails",
+		"wooden_pressure_plates",
+		"saplings"
+	],
+	excludedBlocks: [
+		"heavy_weighted_pressure_plate",
+		"light_weighted_pressure_plate",
+		"polished_blackstone_pressure_plate",
+		"stone_pressure_plate"
+	]
+}

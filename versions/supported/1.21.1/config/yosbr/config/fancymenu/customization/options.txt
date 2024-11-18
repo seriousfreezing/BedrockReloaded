@@ -329,10 +329,13 @@ element {
   width = 150
   height = 25
   x = -21
-  y = 46
-  slider_type = decimal range
+  y = -134
+  slider_type = decimal_range
   min_range_value = -1.0
   max_range_value = 1.0
+  slider_element_executable_block_identifier = 80b53801-b6af-464d-bbb2-922530f97b94-1731723004133
+  [executable_action_instance:a28d49f4-28a5-450b-819d-af6490c73ec7-1731723053609][action_type:edit_minecraft_option] = fov:$$value
+  [executable_block:80b53801-b6af-464d-bbb2-922530f97b94-1731723004133][type:generic] = [executables:a28d49f4-28a5-450b-819d-af6490c73ec7-1731723053609;]
   pre_selected_value = {"placeholder":"minecraft_option_value","values":{"name":"fov"}}
   slider_label = $$value
 }

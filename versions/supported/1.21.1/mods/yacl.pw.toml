@@ -1,0 +1,13 @@
+name = "YetAnotherConfigLib"
+filename = "YetAnotherConfigLib-3.6.1+1.21-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3be53c700591dc76dc504a3640f9b4af24af178"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5834696
+project-id = 667299

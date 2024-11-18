@@ -1,0 +1,13 @@
+name = "project-1122522"
+filename = "bia-1.0.1-1.21-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14a04db3d6831bf863f389aa438d00f82f900f52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5816480
+project-id = 1122522

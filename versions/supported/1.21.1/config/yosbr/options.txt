@@ -2,7 +2,7 @@ version:3953
 fullscreen:false
 showAutosaveIndicator:false
 maxFps:260
-simulationDistance:5
+simulationDistance:8
 menuBackgroundBlurriness:0.0
 key_bedrockIfy.key.settings:key.keyboard.unknown
 key_key.fbp.open_settings:key.keyboard.unknown

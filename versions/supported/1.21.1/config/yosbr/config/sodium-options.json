@@ -1,1 +1,1 @@
-{"advanced":{"cpu_render_ahead_limit":5},"performance":{"use_entity_culling":false}}
+{"performance":{"use_entity_culling":false,"leaf_culling_quality":"SOLID"}}
