@@ -2,6 +2,8 @@
 
 **Bedrock Reloaded** is a modpack designed entirely as an alternative to the Bedrock edition of Minecraft. It brings several improvements and features such as: **Improved interfaces**, fade in when loading chunks, enhanced particles, support for controllers and touchscreen, connect to **any Bedrock edition server** and much more!
 
+### Looking to fork or use assets from my modpack? [Click here!](https://github.com/seriousfreezing/BedrockReloaded/wiki/Forks)
+
 # 🤔 Why not use Bedrock?
 ### 🚀 High Performance
 Play with **huge** amounts of **render distances** with **shaders!**  
