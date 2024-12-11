@@ -18,11 +18,11 @@ customization {
 element {
   element_type = image
   anchor_point = top-centered
-  width = 275
-  height = 47
+  width = 276
+  height = 66
   x = -132
   y = 23
-  source = [source:local]/config/fancymenu/assets/icons/minecraft.png
+  source = [source:location]minecraft:textures/gui/title/minecraft.png
 }
 
 element {
@@ -32,9 +32,9 @@ element {
   height = 35
   x = -85
   y = -20
-  label = Play
-  [executable_action_instance:66a165a5-6ed9-422f-bed7-f9d93760b640-1729633062536][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
-  [executable_action_instance:dd6711f4-1635-47f4-85fa-9b501e8832b6-1729633068372][action_type:set_variable] = create_world:true
+  label = {"placeholder":"local","values":{"key":"br.menu.play"}}
+  [executable_action_instance:0][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
+  [executable_action_instance:1][action_type:set_variable] = create_world:true
 }
 
 element {
@@ -62,29 +62,28 @@ element {
 }
 
 element {
-  label = Dressing Room
+  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
   element_type = custom_button
   anchor_point = bottom-right
   width = 92
   height = 28
   x = -123
   y = -48
-  [executable_action_instance:611c4e1f-9e2d-47ab-bd72-6dc0d36a2d50-1722714508746][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+  [executable_action_instance:2][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
 }
 
 element {
   element_type = shape
   anchor_point = bottom-right
-  width = 50
-  advanced_width = {"placeholder":"elementwidth","values":{"id":"5559cd6f-fc56-46b1-a733-4c341fe92c33-1725407262116"}}
-  height = 15
-  x = -38
-  y = -14
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
+  advanced_height = {"placeholder":"elementheight","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
   color = #00000075
 }
 
 element {
-  instance_identifier = 5559cd6f-fc56-46b1-a733-4c341fe92c33-1725407262116
+  instance_identifier = 447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715
   element_type = text_v2
   anchor_point = bottom-right
   width = 41
@@ -94,6 +93,7 @@ element {
   source = v{"placeholder":"mcversion"}
   source_mode = direct
   shadow = false
+  enable_scrolling = false
 }
 
 element {
@@ -105,8 +105,8 @@ element {
   y = 54
   backgroundnormal = [source:local]/config/fancymenu/assets/bg/bt_market.gif
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/bt_market_hover.gif
-  label = Marketplace
-  [executable_action_instance:c2cc71ef-352e-4ff8-bbb9-91595eca4df6-1725407432398][action_type:mimicbutton] = pack_selection_screen:69510
+  label = {"placeholder":"local","values":{"key":"br.menu.shop"}}
+  [executable_action_instance:3][action_type:mimicbutton] = pack_selection_screen:69510
 }
 
 element {
@@ -116,8 +116,8 @@ element {
   height = 27
   x = 4
   y = -55
-  [executable_action_instance:fe837181-ca05-4d3d-876d-af6e31344eb3-1712006745294][action_type:opengui] = language_select_screen
-  [executable_action_instance:29649ad8-7716-444f-8e59-b0b98664f198-1712067874540][action_type:set_variable] = main_menu:true
+  [executable_action_instance:4][action_type:opengui] = language_select_screen
+  [executable_action_instance:5][action_type:set_variable] = main_menu:true
 }
 
 element {
@@ -137,8 +137,8 @@ element {
   height = 27
   x = 33
   y = -55
-  [executable_action_instance:29e3d640-9b68-4e97-873e-9bbd9cb1d0f1-1712006832274][action_type:opengui] = accessibility_options_screen
-  [executable_action_instance:61b02b0f-66b7-4b80-a796-e8acae86890a-1712067850549][action_type:set_variable] = main_menu:true
+  [executable_action_instance:6][action_type:opengui] = accessibility_options_screen
+  [executable_action_instance:7][action_type:set_variable] = main_menu:true
 }
 
 element {
@@ -154,11 +154,10 @@ element {
 element {
   element_type = shape
   anchor_point = bottom-left
-  width = 50
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
   advanced_width = {"placeholder":"elementwidth","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  height = 15
-  x = 0
-  y = -15
+  advanced_height = {"placeholder":"elementheight","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
   color = #00000075
 }
 
@@ -183,7 +182,7 @@ vanilla_button {
   height = 35
   x = -85
   y = 17
-  label = Settings
+  label = {"placeholder":"local","values":{"key":"br.options.title"}}
 }
 
 deep_element {
@@ -258,5 +257,45 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 604310
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376322
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376382
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604382
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604298
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 901978
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 870978
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 768990
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 629382
   is_hidden = true
 }

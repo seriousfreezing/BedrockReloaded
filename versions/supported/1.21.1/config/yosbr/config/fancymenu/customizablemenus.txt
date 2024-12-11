@@ -60,9 +60,6 @@ net.minecraft.class_410 {
 net.minecraft.class_424 {
 }
 
-net.minecraft.class_524 {
-}
-
 net.minecraft.class_405 {
 }
 
@@ -93,9 +90,6 @@ de.florianmichael.viafabricplus.screen.settings.SettingsScreen {
 net.minecraft.class_525 {
 }
 
-net.minecraft.class_8032 {
-}
-
 io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen {
 }
 
@@ -115,9 +109,6 @@ net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI {
 }
 
 org.minepedia.screen.MinepediaIndexScreen {
-}
-
-net.minecraft.class_433 {
 }
 
 net.minecraft.class_5375 {
@@ -141,16 +132,10 @@ net.minecraft.class_404 {
 net.minecraft.class_440 {
 }
 
-dev.spiritstudios.snapper.gui.ScreenshotScreen {
-}
-
 net.minecraft.class_457 {
 }
 
 net.minecraft.class_458 {
-}
-
-net.minecraft.class_429 {
 }
 
 net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen {
@@ -160,5 +145,47 @@ net.minecraft.class_442 {
 }
 
 io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen {
+}
+
+net.minecraft.class_477 {
+}
+
+net.minecraft.class_524 {
+}
+
+net.minecraft.class_8032 {
+}
+
+io.github.gaming32.worldhost.gui.screen.PlayerInfoScreen {
+}
+
+io.github.gaming32.worldhost.gui.screen.AddFriendScreen {
+}
+
+com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen {
+}
+
+dev.isxander.yacl3.gui.YACLScreen {
+}
+
+com.mineblock11.skinshuffle.client.gui.CompactCarouselScreen {
+}
+
+com.mineblock11.skinshuffle.client.gui.PresetEditScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_429 {
+}
+
+dev.spiritstudios.snapper.gui.screen.ScreenshotScreen {
+}
+
+dev.spiritstudios.snapper.gui.screen.ScreenshotViewerScreen {
+}
+
+dev.spiritstudios.snapper.gui.screen.RenameScreenshotScreen {
 }
 

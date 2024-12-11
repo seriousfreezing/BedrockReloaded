@@ -18,22 +18,14 @@ customization {
 element {
   element_type = custom_button
   anchor_point = mid-centered
-  width = 25
-  height = 25
-  x = 143
-  y = -97
+  width = 12
+  height = 12
+  x = 110
+  y = -67
   label = 
-  [executable_action_instance:ea59d411-3909-42df-a2de-36b06e77f39a-1725732578596][action_type:closegui] = 
-}
-
-element {
-  element_type = image
-  anchor_point = mid-centered
-  width = 11
-  height = 11
-  x = 150
-  y = -90
-  source = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundnormal = [source:location]close-btn:textures/gui/sprites/widget/close_button.png
+  backgroundhovered = [source:location]close-btn:textures/gui/sprites/widget/close_button_highlighted.png
+  [executable_action_instance:0][action_type:closegui] = 
 }
 
 vanilla_button {

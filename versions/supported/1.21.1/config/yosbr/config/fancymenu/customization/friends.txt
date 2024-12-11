@@ -19,13 +19,13 @@ customization {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = select_world_screen
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = select_world_screen
 }
 
 element {
@@ -35,7 +35,7 @@ element {
   height = 20
   x = 47
   y = -54
-  label = Friends
+  label = {"placeholder":"local","values":{"key":"br.play.friends"}}
 }
 
 element {
@@ -45,8 +45,8 @@ element {
   height = 20
   x = -37
   y = -54
-  label = Servers
-  [executable_action_instance:a3af0922-0f77-4d6a-be00-c5837bad9daf-1711750722162][action_type:opengui] = join_multiplayer_screen
+  label = {"placeholder":"local","values":{"key":"br.play.servers"}}
+  [executable_action_instance:1][action_type:opengui] = join_multiplayer_screen
 }
 
 element {
@@ -56,8 +56,8 @@ element {
   height = 20
   x = -121
   y = -54
-  label = Worlds
-  [executable_action_instance:385c94ce-e940-4eb7-b674-c8c532824df1-1711828864017][action_type:opengui] = select_world_screen
+  label = {"placeholder":"local","values":{"key":"br.play.worlds"}}
+  [executable_action_instance:2][action_type:opengui] = select_world_screen
 }
 
 element {
@@ -96,7 +96,7 @@ vanilla_button {
   width = 80
   height = 20
   x = -31
-  y = -29
+  y = -30
 }
 
 vanilla_button {
@@ -106,7 +106,7 @@ vanilla_button {
   height = 20
   x = 53
   y = -30
-  label = Add
+  label = {"placeholder":"local","values":{"key":"br.friendserver.add"}}
 }
 
 vanilla_button {
@@ -119,7 +119,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 8975
+  instance_identifier = 502970
   is_hidden = true
 }
 
@@ -134,6 +134,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 502970
+  instance_identifier = 8975
   is_hidden = true
 }

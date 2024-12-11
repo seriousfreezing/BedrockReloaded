@@ -42,25 +42,34 @@ element {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:b5d369bc-073a-4654-bd3c-0dcfd695bb06-1712067051301] = 
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = title_screen
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  element_loading_requirement_container_identifier = a0daa2b8-ccde-4110-a1e8-bc39b451dd1e-1733077879133
+  [loading_requirement_container_meta:a0daa2b8-ccde-4110-a1e8-bc39b451dd1e-1733077879133] = [groups:][instances:]
+  button_element_executable_block_identifier = 36aa877a-0acf-42ba-acdc-4afeb580beb4-1733077879133
+  [executable_action_instance:c72094f7-1706-47af-afb7-a2b632b23021-1733078042382][action_type:opengui] = pause_screen
+  [executable_block:c2daba8e-f2ef-4b14-b197-fa9dd4dea287-1733078040433][type:if] = [executables:c72094f7-1706-47af-afb7-a2b632b23021-1733078042382;][appended:ce8b3456-d840-4108-9ddc-8b451b0fd203-1733078058533]
+  [executable_action_instance:54dd56bc-5a35-4372-93b5-7c11cb6acb11-1733078064933][action_type:opengui] = title_screen
+  [executable_block:ce8b3456-d840-4108-9ddc-8b451b0fd203-1733078058533][type:else] = [executables:54dd56bc-5a35-4372-93b5-7c11cb6acb11-1733078064933;]
+  [if_executable_block_body:c2daba8e-f2ef-4b14-b197-fa9dd4dea287-1733078040433] = 1680658f-686f-4b08-86d5-8f881c00b66a-1733077986916
+  [loading_requirement_container_meta:1680658f-686f-4b08-86d5-8f881c00b66a-1733077986916] = [groups:][instances:b602a4a3-8179-4e6f-9493-4d07f7276a5e-1733077994774;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:b602a4a3-8179-4e6f-9493-4d07f7276a5e-1733077994774] = 
+  [executable_block:36aa877a-0acf-42ba-acdc-4afeb580beb4-1733077879133][type:generic] = [executables:c2daba8e-f2ef-4b14-b197-fa9dd4dea287-1733078040433;]
 }
 
 element {
-  label = How to Play
   element_type = custom_button
   anchor_point = top-left
   width = 230
   height = 25
   x = 4
   y = 61
-  [executable_action_instance:20ef62dd-d5e6-4d35-bfe5-bdad5937197b-1711738024843][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
+  label = {"placeholder":"local","values":{"key":"br.howtoplay"}}
+  [executable_action_instance:0][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
 }
 
 element {
@@ -70,7 +79,7 @@ element {
   height = 19
   x = 4
   y = 93
-  source = Controls
+  source = {"placeholder":"local","values":{"key":"br.category.controls"}}
   source_mode = direct
   scale = 2.0
   enable_scrolling = false
@@ -83,9 +92,9 @@ element {
   height = 25
   x = 4
   y = 194
-  label = General
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:opengui] = credits_and_attribution_screen
-  [executable_action_instance:7cf889a6-2165-4b27-b353-a256b79f0e07-1712968802052][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.category.general"}}
+  [executable_action_instance:1][action_type:opengui] = credits_and_attribution_screen
+  [executable_action_instance:2][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -95,7 +104,7 @@ element {
   height = 19
   x = 4
   y = 173
-  source = General
+  source = {"placeholder":"local","values":{"key":"br.category.general"}}
   source_mode = direct
   scale = 2.0
   enable_scrolling = false
@@ -108,9 +117,9 @@ element {
   height = 25
   x = 4
   y = 34
-  label = Accessibility
-  [executable_action_instance:20ef62dd-d5e6-4d35-bfe5-bdad5937197b-1711738024843][action_type:opengui] = accessibility_options_screen
-  [executable_action_instance:58799e7e-71ed-49f9-82d6-fbc911e4428b-1712968727573][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.accessibility.title"}}
+  [executable_action_instance:3][action_type:opengui] = accessibility_options_screen
+  [executable_action_instance:4][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -120,9 +129,9 @@ element {
   height = 25
   x = 4
   y = 114
-  label = Keyboard & Mouse
-  [executable_action_instance:7a318065-23e5-4264-a93e-ebd3ba46cabf-1711738862242][action_type:opengui] = controls_screen
-  [executable_action_instance:283da1a4-834f-453c-ba4b-5dbd7be3e9a2-1712968781243][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.keyboard.title"}}
+  [executable_action_instance:5][action_type:opengui] = controls_screen
+  [executable_action_instance:6][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -132,9 +141,9 @@ element {
   height = 25
   x = 4
   y = 221
-  label = Account
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:opengui] = skin_customization_screen
-  [executable_action_instance:d59c2656-8105-4d42-86d9-7267d4698984-1712968809803][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.account.title"}}
+  [executable_action_instance:7][action_type:opengui] = skin_customization_screen
+  [executable_action_instance:8][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -144,9 +153,9 @@ element {
   height = 25
   x = 4
   y = 275
-  label = Audio
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:opengui] = sound_options_screen
-  [executable_action_instance:aafb9d84-fede-4cf5-af3b-516e4ed6f9eb-1712968826204][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.sounds.title"}}
+  [executable_action_instance:9][action_type:opengui] = sound_options_screen
+  [executable_action_instance:10][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -156,9 +165,9 @@ element {
   height = 25
   x = 4
   y = 302
-  label = Resource Packs
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:opengui] = pack_selection_screen
-  [executable_action_instance:6b2aa530-940a-4d84-8a81-2497d6655332-1712968836812][action_type:set_variable] = create_world:false
+  label = {"placeholder":"local","values":{"key":"br.resourcepacks.title"}}
+  [executable_action_instance:11][action_type:opengui] = pack_selection_screen
+  [executable_action_instance:12][action_type:set_variable] = create_world:false
 }
 
 element {
@@ -168,9 +177,9 @@ element {
   height = 25
   x = 4
   y = 329
-  label = Language
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:opengui] = language_select_screen
-  [executable_action_instance:0ef8eed7-5c77-4c61-9869-5a8216131c22-1712968843533][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.lang.title"}}
+  [executable_action_instance:13][action_type:opengui] = language_select_screen
+  [executable_action_instance:14][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -260,9 +269,9 @@ element {
   height = 25
   x = 4
   y = 248
-  label = Video
-  [executable_action_instance:51af0cb3-4238-4de1-ac9b-1fca3f4c3879-1711738709715][action_type:mimicbutton] = options_screen:345139
-  [executable_action_instance:07646983-e453-4faf-9126-ae6a8182a711-1712968819300][action_type:set_variable] = main_menu:false
+  label = {"placeholder":"local","values":{"key":"br.video.title"}}
+  [executable_action_instance:15][action_type:mimicbutton] = options_screen:345139
+  [executable_action_instance:16][action_type:set_variable] = main_menu:false
 }
 
 element {
@@ -278,58 +287,33 @@ element {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:9dfa2a8c-c37d-41ff-85d5-a2a5907b88a2-1712067016576] = 
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:ea311999-2c0b-4a87-b073-1ad2c501fcd3-1712067120189][action_type:opengui] = pause_screen
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
   width = 230
   height = 25
   x = 4
   y = 141
-  label = Controller & Touch
-  [executable_action_instance:19507258-cc72-4e7b-be89-1c3079da276f-1712968791924][action_type:set_variable] = main_menu:false
-  [executable_action_instance:7a318065-23e5-4264-a93e-ebd3ba46cabf-1711738862242][action_type:mimicbutton] = controls_screen:65837
+  label = {"placeholder":"local","values":{"key":"br.controller.title"}}
+  [executable_action_instance:17][action_type:set_variable] = main_menu:false
+  [executable_action_instance:18][action_type:mimicbutton] = controls_screen:65837
 }
 
 element {
   element_type = image
   anchor_point = top-left
-  x = 12
-  y = 146
   width = 22
   height = 15
+  x = 12
+  y = 146
   source = [source:location]fancymenu:icons/controller.png
-}
-
-element {
-  element_type = text_v2
-  anchor_point = top-centered
-  width = 45
-  height = 20
-  x = -70
-  y = 50
-  source = FOV:
-  source_mode = direct
-  scale = 2.0
-  enable_scrolling = false
 }
 
 element {
   element_type = slider_v2
   anchor_point = top-centered
-  width = 150
+  width = 200
   height = 25
-  x = -21
-  y = -134
+  x = -70
+  y = 45
+  slider_label = {"placeholder":"local","values":{"key":"br.options.fov"}} $$value
   slider_type = decimal_range
   min_range_value = -1.0
   max_range_value = 1.0
@@ -337,71 +321,75 @@ element {
   [executable_action_instance:a28d49f4-28a5-450b-819d-af6490c73ec7-1731723053609][action_type:edit_minecraft_option] = fov:$$value
   [executable_block:80b53801-b6af-464d-bbb2-922530f97b94-1731723004133][type:generic] = [executables:a28d49f4-28a5-450b-819d-af6490c73ec7-1731723053609;]
   pre_selected_value = {"placeholder":"minecraft_option_value","values":{"name":"fov"}}
-  slider_label = $$value
 }
 
 element {
   element_type = custom_button
   anchor_point = top-centered
-  width = 199
+  width = 200
   height = 30
   x = -70
-  y = 79
-  label = Advanced settings
-  [executable_action_instance:ef12b239-41b0-42c2-89ca-e39cf6bd8df9-1725590003424][action_type:mimicbutton] = options_screen:34591
+  y = 78
+  label = {"placeholder":"local","values":{"key":"br.options.bedrockify"}}
+  [executable_action_instance:19][action_type:mimicbutton] = options_screen:34591
 }
 
-vanilla_button {
-  instance_identifier = 32029
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 24
+  height = 24
+  x = 138
+  y = 81
+  label = 
+  [executable_action_instance:20][action_type:mimicbutton] = options_screen:35629
+}
+
+element {
+  element_type = image
   anchor_point = top-centered
   width = 20
   height = 20
-  x = -70
-  y = 117
+  x = 140
+  y = 83
+  source = [source:location]distanthorizons:textures/gui/button.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 0
+  nine_slice_texture_border_y = 0
 }
 
-vanilla_button {
-  instance_identifier = 34591
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 504115
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 345115
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 504139
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 345187
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 345211
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 345163
-  is_hidden = true
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 400
+  height = 20
+  x = -82
+  y = 5
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.options.title"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
 }
 
 vanilla_button {
   instance_identifier = 50429
+  anchor_point = top-centered
+  width = 200
+  height = 30
+  x = -70
+  y = 116
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:96f55e22-3c0c-471a-84c8-848f27211572-1733459167926] = 
+}
+
+vanilla_button {
+  instance_identifier = 504187
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 504163
+  instance_identifier = 35629
   is_hidden = true
 }
 
@@ -411,17 +399,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 48212
-  is_hidden = true
-}
-
-vanilla_button {
   instance_identifier = 504211
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 34629
   is_hidden = true
 }
 
@@ -431,6 +409,46 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 504187
+  instance_identifier = 504139
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345163
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504163
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504115
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345187
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345115
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34629
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34591
   is_hidden = true
 }

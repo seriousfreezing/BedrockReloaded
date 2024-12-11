@@ -2,7 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = join_multiplayer_screen
-  custom_menu_title = {"placeholder":"stringify","values":{"text":" "}}
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
 customization {
@@ -19,13 +19,13 @@ customization {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = select_world_screen
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = select_world_screen
 }
 
 element {
@@ -35,8 +35,8 @@ element {
   height = 20
   x = -177
   y = -54
-  label = Worlds
-  [executable_action_instance:385c94ce-e940-4eb7-b674-c8c532824df1-1711828864017][action_type:opengui] = select_world_screen
+  label = {"placeholder":"local","values":{"key":"br.play.worlds"}}
+  [executable_action_instance:1][action_type:opengui] = select_world_screen
 }
 
 element {
@@ -46,7 +46,7 @@ element {
   height = 20
   x = -93
   y = -54
-  label = Servers
+  label = {"placeholder":"local","values":{"key":"br.play.servers"}}
 }
 
 element {
@@ -76,8 +76,8 @@ element {
   height = 20
   x = -9
   y = -54
-  label = Friends
-  [executable_action_instance:5e32168c-ff3b-4e56-bcdb-9be7a76211b4-1722714630599][action_type:mimicbutton] = join_multiplayer_screen:50232
+  label = {"placeholder":"local","values":{"key":"br.play.friends"}}
+  [executable_action_instance:2][action_type:mimicbutton] = join_multiplayer_screen:50232
 }
 
 element {
@@ -97,8 +97,8 @@ element {
   height = 20
   x = -30
   y = 5
-  label = Guide
-  [executable_action_instance:f3fc19ab-2bb2-4dc7-9b6e-a35683e0525d-1725595518465][action_type:openlink] = https://github.com/seriousfreezing/BedrockReloaded/wiki/Post-Installation#%EF%B8%8Fsupport-for-bedrock-servers
+  label = {"placeholder":"local","values":{"key":"br.server.guide"}}
+  [executable_action_instance:3][action_type:openlink] = https://github.com/ViaVersion/ViaFabricPlus/blob/main/docs/USAGE.md#bedrock-edition
 }
 
 vanilla_button {
@@ -170,11 +170,11 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 39832
+  instance_identifier = 50232
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 50232
+  instance_identifier = 39832
   is_hidden = true
 }

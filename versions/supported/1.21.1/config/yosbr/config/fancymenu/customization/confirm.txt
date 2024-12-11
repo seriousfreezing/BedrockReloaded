@@ -1,0 +1,58 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = confirm_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 120
+  height = 30
+  x = -60
+  y = 180
+  label = {"placeholder":"local","values":{"key":"br.options.confirm"}}
+  [executable_action_instance:0][action_type:mimicbutton] = confirm_screen:345262
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0ea5aa13-5041-4c33-b639-372544d60e2a-1732756301032
+  width = 20
+  height = 20
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = 0ea5aa13-5041-4c33-b639-372544d60e2a-1732756301032
+  anchor_point = top-centered
+  width = 20
+  height = 20
+  x = 133
+  y = 65
+  backgroundnormal = [source:location]close-btn:textures/gui/sprites/widget/close_button.png
+  backgroundhovered = [source:location]close-btn:textures/gui/sprites/widget/close_button_highlighted.png
+  [executable_action_instance:1][action_type:mimicbutton] = confirm_screen:505262
+}
+
+vanilla_button {
+  instance_identifier = 505262
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345262
+  is_hidden = true
+}

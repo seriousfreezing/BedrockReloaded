@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = dev.spiritstudios.snapper.gui.ScreenshotScreen
+  identifier = dev.spiritstudios.snapper.gui.screen.ScreenshotScreen
   custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
@@ -16,74 +16,91 @@ customization {
   baseheight = 1080
 }
 
-vanilla_button {
-  instance_identifier = 502944
-  anchor_point = vanilla
-  width = 74
-  height = 20
-  x = 344
-  y = 304
-}
-
-vanilla_button {
-  instance_identifier = 424944
-  anchor_point = vanilla
-  width = 74
-  height = 20
-  x = 266
-  y = 304
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = pause_screen
 }
 
 vanilla_button {
   instance_identifier = 580944
-  anchor_point = vanilla
-  width = 74
-  height = 20
-  x = 422
-  y = 304
-}
-
-vanilla_button {
-  instance_identifier = 554968
-  anchor_point = vanilla
-  width = 100
-  height = 20
-  x = 396
-  y = 328
-}
-
-vanilla_button {
-  instance_identifier = 450968
-  anchor_point = vanilla
-  width = 100
-  height = 20
-  x = 292
-  y = 328
-}
-
-vanilla_button {
-  instance_identifier = 346968
-  anchor_point = vanilla
-  width = 100
-  height = 20
-  x = 188
-  y = 328
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = 57
+  y = -33
 }
 
 vanilla_button {
   instance_identifier = 346944
-  anchor_point = vanilla
-  width = 74
-  height = 20
-  x = 188
-  y = 304
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -167
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 502944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = 57
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 450968
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -55
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 424944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -55
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 346968
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -167
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 554968
+  anchor_point = bottom-right
+  width = 110
+  height = 30
+  x = -127
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 322968
+  anchor_point = bottom-centered
+  width = 25
+  height = 25
+  x = -196
+  y = -46
 }
 
 vanilla_button {
   instance_identifier = 658968
-  anchor_point = vanilla
-  width = 20
-  height = 20
-  x = 500
-  y = 328
+  is_hidden = true
 }

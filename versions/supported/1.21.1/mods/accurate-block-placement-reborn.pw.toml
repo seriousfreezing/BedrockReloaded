@@ -1,13 +1,13 @@
 name = "Accurate Block Placement Reborn"
 filename = "accurate-block-placement-1.2.5.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/kzwxhsjp/versions/Pji2XG3Q/accurate-block-placement-1.2.5.jar"
 hash-format = "sha1"
 hash = "1da46c92fc91cddb0c23c2df611390974e168a83"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5497500
-project-id = 886719
+[update.modrinth]
+mod-id = "kzwxhsjp"
+version = "Pji2XG3Q"

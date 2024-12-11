@@ -16,8 +16,8 @@ customization {
 }
 
 menu_background {
-  color = #313233
   background_type = drippy_color_background
+  color = #313233
 }
 
 element {
@@ -31,21 +31,36 @@ element {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = skin_customization_screen
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = skin_customization_screen
 }
 
-vanilla_button {
-  instance_identifier = 46712
-  is_hidden = true
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 524
+  height = 20
+  x = -262
+  y = 5
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.chat.options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
 }
 
 vanilla_button {
   instance_identifier = 400974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 46712
   is_hidden = true
 }

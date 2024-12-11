@@ -1,0 +1,76 @@
+br.menu.play = Грати
+br.options.title = Налаштування
+br.menu.shop = Ринок
+br.menu.skin = Роздягальня
+
+br.lang.title = Мова
+br.lang.options = Налаштування мови
+
+br.fonts.title = Шрифти
+br.fonts.options = Налаштування шрифтів
+
+br.options.bedrockify = Розширені параметри
+br.options.fov = Кут огляду:
+br.options.done = Готово
+br.options.confirm = Підтвердити
+
+br.accessibility.title = Спеціальні можливості
+br.accessibility.options = Налаштування доступності
+
+br.howtoplay = Як грати
+
+br.category.controls = Керування
+br.category.general = Загальні
+
+br.general.text = Я не знаю, де і як би було найкраще сказати: дякую всім тим людям, які внесли свій внесок або якимось чином допомогли мені з цим пакетом модів.%n%%n%Тож дякую вам, хто читає це, на створення цього пакета модів пішли місяці і навіть багато років. І без цих людей нічого з цього було б неможливо:
+br.general.license = Ліцензія
+br.general.licenses = Ліцензії
+br.general.credits = Титри
+br.general.attribution = Автори
+
+br.keyboard.title = Клавіатура та миша
+br.keyboard.options = Параметри клавіатури та миші
+br.keyboard.keybinds = Розкладка клавіатури
+
+br.mouse.options = Налаштування миші
+
+br.controller.title = Контролер
+
+br.account.title = Обліковий запис
+br.account.options = Параметри облікового запису
+
+br.online.title = Онлайн
+br.online.options = Онлайн-налаштування
+
+br.chat.title = Чат
+br.chat.options = Параметри чату
+
+br.video.title = Відео
+
+br.sounds.title = Звук
+br.sounds.options = Параметри звуку
+
+br.resourcepacks.title = Пакети ресурсів
+br.datapacks.title = Пакети даних
+
+br.play.worlds = Світи
+br.play.servers = Сервери
+br.play.friends = Друзі
+br.play.create = Створити новий світ
+br.play.selected = Грати у вибраному світі
+
+br.server.guide = Гід
+
+br.friendserver.add = Додати
+br.friends.add = Додати друга
+br.friends.remove = Видалити друга
+br.friends.info = Показати інформацію
+
+br.pause.return = Відновити гру
+br.pause.stats = Статистика
+br.pause.invite = Запросити до гри
+br.pause.quit = Зберегти й вийти
+
+br.command.block = Тип блоку:
+br.command.condition = Умова:
+br.command.redstone = Редстоун:

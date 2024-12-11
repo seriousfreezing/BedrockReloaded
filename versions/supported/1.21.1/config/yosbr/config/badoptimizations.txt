@@ -1,4 +1,4 @@
-enable_lightmap_caching: true
+enable_lightmap_caching: false
 lightmap_time_change_needed_for_update: 80
 enable_sky_color_caching: true
 skycolor_time_change_needed_for_update: 20

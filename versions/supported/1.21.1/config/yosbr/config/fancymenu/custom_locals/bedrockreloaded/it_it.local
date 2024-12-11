@@ -1,0 +1,77 @@
+br.menu.play = Gioca
+br.options.title = Impostazioni
+br.menu.shop = Marketplace
+br.menu.skin = Camerino
+
+br.lang.title = Lingua
+br.lang.options = Impostazioni lingua
+
+br.fonts.title = Caratteri
+br.fonts.options = Impostazioni caratteri
+
+br.options.bedrockify = Impostazioni avanzate
+br.options.fov = Campo visivo:
+br.options.done = Fatto
+br.options.confirm = Conferma
+
+br.accessibility.title = Accessibilità
+br.accessibility.options = Impostazioni di accessibilità
+
+br.howtoplay = Come giocare
+
+br.category.controls = Comandi
+br.category.general = Generale
+
+br.general.text = Non so dove e in che modo sia meglio dirlo, ma voglio ringraziare tutte quelle persone che hanno contribuito o mi hanno aiutato in qualche modo con questo modpack.
+Quindi grazie a te, che stai leggendo questo. Questo modpack ha richiesto mesi e addirittura anni per essere creato. E senza queste persone, tutto ciò non sarebbe stato possibile:
+br.general.license = Licenza
+br.general.licenses = Licenze
+br.general.credits = Riconoscimenti
+br.general.attribution = Attribuzione
+
+br.keyboard.title = Mouse e tastiera
+br.keyboard.options = Impostazioni mouse e tastiera
+br.keyboard.keybinds = Layout di tastiera
+
+br.mouse.options =Impostazioni mouse
+
+br.controller.title = Controller
+
+br.account.title = Account
+br.account.options = Impostazioni account
+
+br.online.title = Online
+br.online.options = Impostazioni online
+
+br.chat.title = Chat
+br.chat.options = Impostazioni della chat
+
+br.video.title = Video
+
+br.sounds.title = Audio
+br.sounds.options = Impostazioni audio
+
+br.resourcepacks.title = Pacchetti di risorse
+br.datapacks.title = Pacchetti di dati
+
+br.play.worlds = Mondi
+br.play.servers = Server
+br.play.friends = Amici
+br.play.create = Crea un nuovo mondo
+br.play.selected = Gioca nel mondo selezionato
+
+br.server.guide = Guida
+
+br.friendserver.add = Aggiungi
+br.friends.add = Aggiungi amico
+br.friends.remove = Rimuovi amico
+br.friends.info = Mostra informazioni
+
+br.pause.return = Riprendi gioco
+br.pause.stats = Statistiche
+br.pause.invite = Invita a giocare
+br.pause.quit = Salva ed esci
+
+br.command.block = Tipo di blocco:
+br.command.condition = Condizione:
+br.command.redstone = Pietrarossa:

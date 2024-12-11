@@ -16,8 +16,8 @@ customization {
 }
 
 menu_background {
-  color = #313233
   background_type = drippy_color_background
+  color = #313233
 }
 
 element {
@@ -31,28 +31,45 @@ element {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7e3859c6-1ff4-40e7-83a0-f4eb7970cff1-1712067961685] = main_menu:false
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = options_screen
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  element_loading_requirement_container_identifier = d7b662b3-5f29-46c6-a23e-458cbb3b1989-1732942543298
+  [loading_requirement_container_meta:d7b662b3-5f29-46c6-a23e-458cbb3b1989-1732942543298] = [groups:][instances:]
+  button_element_executable_block_identifier = 6f07b0f9-69fc-42b3-bfeb-b3af71e4a978-1732942543298
+  [executable_action_instance:cb040e5a-ecbb-4344-a13c-92c5b6bb89ae-1732941962747][action_type:mimicbutton] = language_select_screen:505972
+  [executable_action_instance:c366de06-12da-4e65-bdfe-f6edd3a9ad8c-1732942054440][action_type:opengui] = title_screen
+  [executable_action_instance:c286b11a-f879-483b-8a54-9f2042636384-1732942064068][action_type:set_variable] = main_menu:false
+  [executable_block:7c168e63-ce0f-4e52-aee2-d45244750c7c-1732942591797][type:if] = [executables:c366de06-12da-4e65-bdfe-f6edd3a9ad8c-1732942054440;c286b11a-f879-483b-8a54-9f2042636384-1732942064068;][appended:11666ff2-778d-4412-a6a5-df6534112f5b-1732942800638]
+  [executable_action_instance:172eea26-5dc2-4ec5-9931-aec92fc1cda6-1732941992504][action_type:opengui] = options_screen
+  [executable_block:11666ff2-778d-4412-a6a5-df6534112f5b-1732942800638][type:else] = [executables:172eea26-5dc2-4ec5-9931-aec92fc1cda6-1732941992504;]
+  [if_executable_block_body:7c168e63-ce0f-4e52-aee2-d45244750c7c-1732942591797] = 5c17111c-cbfe-4479-b749-9c5053655412-1732943541527
+  [loading_requirement_container_meta:5c17111c-cbfe-4479-b749-9c5053655412-1732943541527] = [groups:][instances:63832d10-fee7-463c-8b0a-99b17d58bbd9-1732943550325;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:63832d10-fee7-463c-8b0a-99b17d58bbd9-1732943550325] = main_menu:true
+  [executable_block:6f07b0f9-69fc-42b3-bfeb-b3af71e4a978-1732942543298][type:generic] = [executables:cb040e5a-ecbb-4344-a13c-92c5b6bb89ae-1732941962747;7c168e63-ce0f-4e52-aee2-d45244750c7c-1732942591797;]
 }
 
 element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:94fd6820-e501-4cfa-849d-5578c5acbf91-1712067898916] = main_menu:true
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:opengui] = title_screen
-  [executable_action_instance:f5aa0132-1bdd-4488-8246-ab94b74c338b-1712067947764][action_type:set_variable] = main_menu:false
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 524
+  height = 20
+  x = -262
+  y = 5
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.accessibility.options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  is_hidden = true
 }
 
 vanilla_button {
@@ -62,10 +79,5 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 44712
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 504974
   is_hidden = true
 }

@@ -14,12 +14,3 @@ customization {
   basewidth = 1920
   baseheight = 1080
 }
-
-vanilla_button {
-  instance_identifier = message
-  anchor_point = vanilla
-  width = 0
-  height = 0
-  x = 342
-  y = 176
-}

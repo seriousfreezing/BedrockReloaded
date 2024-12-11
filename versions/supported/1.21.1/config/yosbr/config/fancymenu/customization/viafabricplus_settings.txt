@@ -18,21 +18,18 @@ customization {
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 26
-  height = 26
-  x = 3
-  y = -1
-  backgroundnormal = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect.png
-  backgroundhovered = [source:location]minecraft:textures/gui/sprites/transferable_list/unselect_highlighted.png
-  [executable_action_instance:02d95cd7-faf5-47e5-bb1f-d42652a75182-1711735946612][action_type:mimicbutton] = de.florianmichael.viafabricplus.screen.settings.SettingsScreen:55
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = de.florianmichael.viafabricplus.screen.settings.SettingsScreen:55
 }
 
 vanilla_button {
   instance_identifier = 39025
-  width = 221
-  height = 11
-  x = 210
-  y = 25
+  is_hidden = true
 }
 
 vanilla_button {

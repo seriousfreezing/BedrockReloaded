@@ -1,13 +1,13 @@
 name = "MidnightControls"
 filename = "midnightcontrols-fabric-1.10.0.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/bXX9h73M/versions/bwBto4CW/midnightcontrols-fabric-1.10.0.jar"
 hash-format = "sha1"
 hash = "3ea23d315174b35c1b61238e91eda847bdbe540d"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5896777
-project-id = 621768
+[update.modrinth]
+mod-id = "bXX9h73M"
+version = "bwBto4CW"

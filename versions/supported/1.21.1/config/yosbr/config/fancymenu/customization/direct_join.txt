@@ -2,6 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = direct_join_server_screen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
 customization {
@@ -16,32 +17,77 @@ customization {
 }
 
 element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 225
+  height = 30
+  x = -112
+  y = 156
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"direct_join_server_screen:400358"}}
+  [executable_action_instance:0][action_type:mimicbutton] = direct_join_server_screen:400358
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
+  width = 217
+  height = 52
+  x = 4
+  y = 12
+  color = #00000050
+}
+
+element {
+  instance_identifier = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
   element_type = image
-  anchor_point = mid-centered
-  width = 8
-  height = 8
-  x = 85
-  y = -84
-  source = [source:local]/config/fancymenu/assets/icons/close.png
+  anchor_point = top-centered
+  width = 225
+  height = 73
+  x = -112
+  y = 75
+  source = [source:local]/config/fancymenu/assets/bg/command1.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 20
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
+  width = 225
+  height = 14
+  y = 4
+  source = ^^^%n%{"placeholder":"local","values":{"key":"selectServer.direct"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  base_color = #464546
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
+  width = 12
+  height = 12
+  x = 210
+  y = 4
+  label = 
+  backgroundnormal = [source:location]close-btn:textures/gui/sprites/widget/close_button.png
+  backgroundhovered = [source:location]close-btn:textures/gui/sprites/widget/close_button_highlighted.png
+  [executable_action_instance:1][action_type:mimicbutton] = direct_join_server_screen:400382
 }
 
 vanilla_button {
   instance_identifier = 400358
-  anchor_point = mid-centered
-  width = 81
-  height = 25
-  x = -100
-  y = -25
+  is_hidden = true
 }
 
 vanilla_button {
   instance_identifier = 400382
-  anchor_point = mid-centered
-  width = 22
-  height = 22
-  x = 78
-  y = -90
-  label = 
+  is_hidden = true
 }
 
 vanilla_button {

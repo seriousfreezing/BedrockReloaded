@@ -1,13 +1,13 @@
 name = "Minepedia"
 filename = "Minepedia-1.2.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/TL9TUXua/versions/7bupV5J1/Minepedia-1.2.jar"
 hash-format = "sha1"
 hash = "e87141b626a3b3c4caa588f6177cc80db0871cd8"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5663219
-project-id = 995733
+[update.modrinth]
+mod-id = "TL9TUXua"
+version = "7bupV5J1"

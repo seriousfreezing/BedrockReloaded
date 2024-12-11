@@ -1,13 +1,13 @@
 name = "Persistent Inventory Search"
 filename = "persistentinventorysearch-1.21.1-1.5.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/KYSUUp57/versions/ey8EuwwW/persistentinventorysearch-1.21.1-1.5.jar"
 hash-format = "sha1"
 hash = "1a0e349017f8614a648945bfd6cd9ae545d6d566"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5609538
-project-id = 880052
+[update.modrinth]
+mod-id = "KYSUUp57"
+version = "ey8EuwwW"

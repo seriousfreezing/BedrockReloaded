@@ -15,21 +15,3 @@ customization {
   basewidth = 1920
   baseheight = 1080
 }
-
-vanilla_button {
-  instance_identifier = 297974
-  anchor_point = vanilla
-  width = 200
-  height = 20
-  x = 139
-  y = 334
-}
-
-vanilla_button {
-  instance_identifier = 503974
-  anchor_point = vanilla
-  width = 200
-  height = 20
-  x = 345
-  y = 334
-}

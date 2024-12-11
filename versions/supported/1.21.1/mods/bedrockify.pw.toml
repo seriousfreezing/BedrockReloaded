@@ -1,13 +1,13 @@
-name = "BedrockIfy - Bedrock Features on Java!"
+name = "BedrockIfy"
 filename = "bedrockify-1.10.1+mc1.21.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/ox3rDp1B/versions/3nHbIP4m/bedrockify-1.10.1%2Bmc1.21.jar"
 hash-format = "sha1"
 hash = "a42496b5ce60bf54da8cd1d4ea9e681f3aab9ac3"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5618385
-project-id = 403858
+[update.modrinth]
+mod-id = "ox3rDp1B"
+version = "3nHbIP4m"

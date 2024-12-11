@@ -38,7 +38,7 @@ element {
   y = -18
   description = {"placeholder":"local","values":{"key":"world-host.config.UPnP.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345238"}}
-  [executable_action_instance:af1b02a0-2fc8-4a54-9f2c-ed0ed3b15ab6-1729651068927][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345238
+  [executable_action_instance:0][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345238
 }
 
 element {
@@ -62,7 +62,7 @@ element {
   y = 40
   description = {"placeholder":"local","values":{"key":"world-host.config.whitelistJoins.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505286"}}
-  [executable_action_instance:67398399-6f06-4ba1-a730-dbbc92e718eb-1729724332854][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505286
+  [executable_action_instance:1][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505286
 }
 
 element {
@@ -74,7 +74,7 @@ element {
   y = 11
   description = {"placeholder":"local","values":{"key":"world-host.config.UPnP.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505214"}}
-  [executable_action_instance:a5b1a76e-239b-4d99-b7d4-a728bd5d637d-1729724451664][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505214
+  [executable_action_instance:2][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505214
 }
 
 element {
@@ -99,7 +99,7 @@ element {
   y = -7
   description = {"placeholder":"local","values":{"key":"world-host.config.announceFriendsOnline.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345286"}}
-  [executable_action_instance:97f436d2-ee65-452c-a6f0-a7cf32aa5160-1729724683055][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345286
+  [executable_action_instance:3][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345286
 }
 
 element {
@@ -111,7 +111,7 @@ element {
   y = -94
   description = {"placeholder":"local","values":{"key":"world-host.config.allowFriendRequests.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505262"}}
-  [executable_action_instance:f72adf60-bcab-4cd6-a6ca-2b51130aef77-1729724818000][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505262
+  [executable_action_instance:4][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505262
 }
 
 element {
@@ -123,7 +123,7 @@ element {
   y = 51
   description = {"placeholder":"local","values":{"key":"world-host.config.shareButton.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345262"}}
-  [executable_action_instance:096d33aa-9683-4e8d-980e-bcc58b12c20d-1729724806514][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345262
+  [executable_action_instance:5][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345262
 }
 
 element {
@@ -135,7 +135,7 @@ element {
   y = -65
   description = {"placeholder":"local","values":{"key":"world-host.config.enableFriends.tooltip"}}
   label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505190"}}
-  [executable_action_instance:f44ac672-9f65-4d56-8713-786dd9a4faa0-1729724844696][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505190
+  [executable_action_instance:6][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505190
 }
 
 element {

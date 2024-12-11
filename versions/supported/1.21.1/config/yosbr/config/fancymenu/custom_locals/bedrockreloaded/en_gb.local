@@ -1,0 +1,76 @@
+br.menu.play = Play
+br.options.title = Settings
+br.menu.shop = Marketplace
+br.menu.skin = Dressing Room
+
+br.lang.title = Language
+br.lang.options = Online Settings
+
+br.fonts.title = Fonts
+br.fonts.options = Fonts Settings
+
+br.options.bedrockify = Advanced Settings
+br.options.fov = FOV:
+br.options.done = Done
+br.options.confirm = Confirm
+
+br.accessibility.title = Accessibility
+br.accessibility.options = Accessibility Settings
+
+br.howtoplay = How to Play
+
+br.category.controls = Controls
+br.category.general = General
+
+br.general.text = I don't know where and what would be the best way to say: thank you to all those people who contributed or helped me in some way with this modpack.%n%%n%So thank you, you who are reading this, this modpack took months and even many years to make. And without these people, none of this would be possible:
+br.general.license = Licence
+br.general.licenses = Licences
+br.general.credits = Credits
+br.general.attribution = Attribution
+
+br.keyboard.title = Keyboard & Mouse
+br.keyboard.options = Keyboard and Mouse Settings
+br.keyboard.keybinds = Keyboard Layout
+
+br.mouse.options =  Mouse Settings
+
+br.controller.title = Controller
+
+br.account.title = Account
+br.account.options = Account Settings
+
+br.online.title = Online
+br.online.options = Online Settings
+
+br.chat.title = Chat
+br.chat.options = Chat Settings
+
+br.video.title = Video
+
+br.sounds.title = Audio
+br.sounds.options = Audio Settings
+
+br.resourcepacks.title = Resource Packs
+br.datapacks.title = Data Packs
+
+br.play.worlds = Worlds
+br.play.servers = Servers
+br.play.friends = Friends
+br.play.create = Create New World
+br.play.selected = Play Selected World
+
+br.server.guide = Guide
+
+br.friendserver.add = Add
+br.friends.add = Add Friend
+br.friends.remove = Remove Friend
+br.friends.info = Show Info
+
+br.pause.return = Resume Game
+br.pause.stats = Statistics
+br.pause.invite = Invite to Game
+br.pause.quit = Save & Quit
+
+br.command.block = Block Type:
+br.command.condition = Condition:
+br.command.redstone = Redstone:

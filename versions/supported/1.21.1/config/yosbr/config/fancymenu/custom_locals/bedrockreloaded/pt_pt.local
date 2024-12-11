@@ -1,0 +1,77 @@
+br.menu.play = Jogar
+br.options.title = Definições
+br.menu.shop = Marketplace
+br.menu.skin = Camarim
+
+br.lang.title = Idioma
+br.lang.options = Definições de Língua
+
+br.fonts.title = Fontes
+br.fonts.options = Definições de Fontes
+
+br.options.bedrockify = Configurações Avançadas
+br.options.fov = Campo de Visão:
+br.options.done = Concluído
+br.options.confirm = Confirmar
+
+br.accessibility.title = Acessibilidade
+br.accessibility.options = Definições de Acessibilidade
+
+br.howtoplay = Instruções de Jogo
+
+br.category.controls = Controlos
+br.category.general = Geral
+
+br.general.text = Obrigado a todas as pessoas que contribuíram ou me ajudaram de alguma forma com este modpack.
+Portanto, obrigado a ti, que estás a ler isto. Este modpack levou meses e até anos a ser feito. E sem estas pessoas, nada disto seria possível:
+br.general.license = Licença
+br.general.licenses = Licenças
+br.general.credits = Ficha técnica
+br.general.attribution = Atribuição
+
+br.keyboard.title = Teclado e Rato
+br.keyboard.options = Definições de Teclado e Rato
+br.keyboard.keybinds = Esquema de Teclado
+
+br.mouse.options = Definições de Rato
+
+br.controller.title = Comando
+
+br.account.title = Conta
+br.account.options = Definições de Conta
+
+br.online.title = Online
+br.online.options = Definições Online
+
+br.chat.title = Chat
+br.chat.options = Definições do chat
+
+br.video.title = Vídeo
+
+br.sounds.title = Áudio
+br.sounds.options = Definições de Áudio
+
+br.resourcepacks.title = Pacotes de Recursos
+br.datapacks.title = Pacotes de Dados
+
+br.play.worlds = Mundos
+br.play.servers = Servidores
+br.play.friends = Amigos
+br.play.create = Criar Novo Mundo
+br.play.selected = Jogar no Mundo Selecionado
+
+br.server.guide = Guia
+
+br.friendserver.add = Adicionar
+br.friends.add = Adicionar amigo
+br.friends.remove = Remover Amigo
+br.friends.info = Mostrar Informações
+
+br.pause.return = Retomar Jogo
+br.pause.stats = Estatísticas
+br.pause.invite = Convidar para o Jogo
+br.pause.quit = Guardar e Sair
+
+br.command.block = Tipo de Bloco:
+br.command.condition = Condição:
+br.command.redstone = Redstone:

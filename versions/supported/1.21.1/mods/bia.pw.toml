@@ -1,0 +1,13 @@
+name = "Bedrock Inventory Animations"
+filename = "bia-1.0.1-1.21-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jEcog5Ts/versions/RnXHiWqe/bia-1.0.1-1.21-fabric.jar"
+hash-format = "sha1"
+hash = "14a04db3d6831bf863f389aa438d00f82f900f52"
+
+[update]
+[update.modrinth]
+mod-id = "jEcog5Ts"
+version = "RnXHiWqe"

@@ -3,11 +3,11 @@ filename = "fancymenu_fabric_3.3.2_MC_1.21.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/Wq5SjeWM/versions/G8ceGymd/fancymenu_fabric_3.3.2_MC_1.21.1.jar"
 hash-format = "sha1"
 hash = "89cc7fea8fc31d826f80cda1bffb09b2090b3f8f"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5823962
-project-id = 367706
+[update.modrinth]
+mod-id = "Wq5SjeWM"
+version = "G8ceGymd"

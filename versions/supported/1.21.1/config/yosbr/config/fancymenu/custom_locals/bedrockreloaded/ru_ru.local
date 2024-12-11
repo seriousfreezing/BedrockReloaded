@@ -1,0 +1,76 @@
+br.menu.play = Играть
+br.options.title = Настройки
+br.menu.shop = Рынок
+br.menu.skin = Гардеробная
+
+br.lang.title = Язык
+br.lang.options = Настройки языка
+
+br.fonts.title = Шрифты
+br.fonts.options = Настройки шрифтов
+
+br.options.bedrockify = Расширенные настройки
+br.options.fov = Поле зрения:
+br.options.done = Готово
+br.options.confirm = Подтвердить
+
+br.accessibility.title = Специальные возможности
+br.accessibility.options = Настройки доступности
+
+br.howtoplay = Обучение
+
+br.category.controls = Элементы управления
+br.category.general = Общие
+
+br.general.text = Я не знаю, где и как лучше всего сказать: спасибо всем тем людям, которые внесли свой вклад или помогли мне каким-то образом с этим модпаком.%n%%n%Так что спасибо вам, кто читает это, этот модпак создавался месяцами и даже годами. И без этих людей ничего бы этого не было:
+br.general.license = Лицензия
+br.general.licenses = Лицензии
+br.general.credits = Титры
+br.general.attribution = Определение
+
+br.keyboard.title = Клавиатура и мышь
+br.keyboard.options = Настройки клавиатуры и мыши	
+br.keyboard.keybinds = Раскладка клавиатуры
+
+br.mouse.options = Настройки мыши
+
+br.controller.title = Геймпад
+
+br.account.title = Учетная запись
+br.account.options = Настройки учетной записи
+
+br.online.title = В сети
+br.online.options = Онлайн-настройки
+
+br.chat.title = Чат
+br.chat.options = Настройки чата
+
+br.video.title = Видео
+
+br.sounds.title = Звук
+br.sounds.options = Настройки звука
+
+br.resourcepacks.title = Наборы ресурсов
+br.datapacks.title = Пакеты данных
+
+br.play.worlds = Миры
+br.play.servers = Серверы
+br.play.friends = Друзья
+br.play.create = Создать новый мир
+br.play.selected = Играть в выбранном мире
+
+br.server.guide = Гид
+
+br.friendserver.add = Добавить
+br.friends.add = Добавить друга
+br.friends.remove = Удалить друга
+br.friends.info = Показать информацию
+
+br.pause.return = Продолжить игру
+br.pause.stats = Статистика
+br.pause.invite = Пригласить в игру
+br.pause.quit = Сохранить и выйти
+
+br.command.block = Тип блока:
+br.command.condition = Условие:
+br.command.redstone = Красный камень:

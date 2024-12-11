@@ -1,13 +1,13 @@
 name = "Fancy Block Particles - Renewed"
 filename = "FancyBlockParticles-1.21.1-fabric-21.1.2.0.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/S2guHrs2/versions/ui9olMGX/FancyBlockParticles-1.21.1-fabric-21.1.2.0.jar"
 hash-format = "sha1"
 hash = "0f881e8373e0d208b06b1f10fcac64f2d9b89118"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5895591
-project-id = 937011
+[update.modrinth]
+mod-id = "S2guHrs2"
+version = "ui9olMGX"

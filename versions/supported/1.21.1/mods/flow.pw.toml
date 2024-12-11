@@ -1,13 +1,13 @@
-name = "Flow​"
+name = "Flow"
 filename = "flow-2.2.0+1.21.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/Eoxi2LJd/versions/HcbVIxAm/flow-2.2.0%2B1.21.jar"
 hash-format = "sha1"
 hash = "08710688eb96ef4572fa306e4218cc7b7409285a"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5908690
-project-id = 927561
+[update.modrinth]
+mod-id = "Eoxi2LJd"
+version = "HcbVIxAm"

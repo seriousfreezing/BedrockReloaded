@@ -7,14 +7,20 @@ variable {
 }
 
 variable {
+  name = note
+  value = 
+  reset_on_launch = false
+}
+
+variable {
   name = create_world
-  value = false
+  value = true
   reset_on_launch = false
 }
 
 variable {
   name = main_menu
-  value = false
+  value = true
   reset_on_launch = false
 }
 

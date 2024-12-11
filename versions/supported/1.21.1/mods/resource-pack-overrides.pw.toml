@@ -1,13 +1,13 @@
-name = "Resource Pack Overrides [Forge & Fabric]"
+name = "Resource Pack Overrides"
 filename = "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/YsFycamt/versions/MIxxajqC/ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar"
 hash-format = "sha1"
 hash = "ea53b83821e3a584159d0bca490e2460e27c616d"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5733967
-project-id = 832644
+[update.modrinth]
+mod-id = "YsFycamt"
+version = "MIxxajqC"

@@ -16,29 +16,37 @@ customization {
   baseheight = 1080
 }
 
-vanilla_button {
-  instance_identifier = 346972
-  anchor_point = vanilla
-  width = 150
-  height = 20
-  x = 166
-  y = 332
-}
-
-vanilla_button {
-  instance_identifier = 972972
-  anchor_point = vanilla
-  width = 20
-  height = 20
-  x = 612
-  y = 332
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/back.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen:346972
 }
 
 vanilla_button {
   instance_identifier = 504972
-  anchor_point = vanilla
-  width = 150
+  anchor_point = bottom-centered
+  width = 110
+  height = 25
+  x = -55
+  y = -28
+}
+
+vanilla_button {
+  instance_identifier = 972972
+  anchor_point = bottom-centered
+  width = 20
   height = 20
-  x = 324
-  y = 332
+  x = 63
+  y = -26
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  is_hidden = true
 }
