@@ -13,11 +13,13 @@
 - [Modrinth Launcher](https://support.modrinth.com/en/articles/8802250-modpacks-on-modrinth)
 - [MultiMC](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/141)
 </details>
+
+> [!WARNING]
+> Back up your server before you do anything.
+
 <details>
 <summary>Server-side</summary>
 
-> [!WARNING]
-> Make a backup before anything else to avoid problems in the future.
   - [Docker Compose](https://docker-minecraft-server.readthedocs.io/en/latest/)
   - [mcman](https://github.com/ParadigmMC/mcman)
 - <details>
@@ -40,6 +42,7 @@
 # 🙌 Credits
 - The modpack is based on **[Adrenaline](https://modrinth.com/modpack/adrenaline) and [Simply Optimized](https://modrinth.com/modpack/sop)**;
 - The descriptions and the wiki are inspired by the projects: **[Adrenaline](https://modrinth.com/modpack/adrenaline), [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) and [Sodium](https://modrinth.com/mod/sodium)**;
+- The player's head icon on the pause screen was made thanks to **[MCHeads](https://mc-heads.net/)**!
 - Some features are from other resource packs:
   - [3D Item Icons](https://modrinth.com/resourcepack/3d-items-mintynoura) by [mintynoura](https://modrinth.com/user/mintynoura)
   - [Bedrock weather](https://modrinth.com/resourcepack/bedrock-weather) by [mineland](https://modrinth.com/user/mineland)
