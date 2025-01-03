@@ -1,0 +1,70 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.PlayerInfoScreen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  width = 101
+  height = 205
+  x = 4
+  y = 9
+  color = #00000050
+}
+
+element {
+  element_type = image
+  instance_identifier = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  anchor_point = mid-centered
+  width = 110
+  height = 218
+  x = -55
+  y = -137
+  source = [source:local]/config/fancymenu/assets/bg/command.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  width = 12
+  height = 12
+  x = 96
+  y = 2
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  [executable_action_instance:0][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.PlayerInfoScreen:425600
+}
+
+vanilla_button {
+  instance_identifier = 400225
+  anchor_point = mid-centered
+  width = 200
+  height = 184
+  x = -100
+  y = -117
+}
+
+vanilla_button {
+  instance_identifier = 425600
+  is_hidden = true
+}

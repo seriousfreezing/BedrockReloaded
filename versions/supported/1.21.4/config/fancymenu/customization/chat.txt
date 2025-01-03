@@ -1,0 +1,66 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = chat_options_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+menu_background {
+  background_type = drippy_color_background
+  color = #313233
+}
+
+element {
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:bg/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = skin_customization_screen
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  width = 524
+  height = 20
+  x = -262
+  y = 5
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.chat.options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 46712
+  is_hidden = true
+}

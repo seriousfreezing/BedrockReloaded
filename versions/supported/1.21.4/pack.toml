@@ -1,0 +1,16 @@
+name = "BedrockReloaded"
+author = "SeriousFreezing"
+version = "22.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9a896d44699c280660f07c32d2335b82ed7ea8322e29e48b8cc25f46e00285f3"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.21.4"
+
+[options]
+acceptable-game-versions = ["1.21.3"]

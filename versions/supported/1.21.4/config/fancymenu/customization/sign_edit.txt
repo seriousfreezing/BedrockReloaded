@@ -1,0 +1,14 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = sign_edit_screen
+}
+
+vanilla_button {
+  instance_identifier = 400394
+  anchor_point = bottom-centered
+  width = 130
+  height = 30
+  x = -65
+  y = -43
+}

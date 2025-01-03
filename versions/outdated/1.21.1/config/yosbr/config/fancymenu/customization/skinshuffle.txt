@@ -1,0 +1,16 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}

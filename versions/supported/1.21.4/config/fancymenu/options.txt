@@ -1,0 +1,12 @@
+##[customization]
+B:show_customization_overlay = 'false';
+
+##[window]
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/icon32x.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/icon32x.png';
+S:custom_window_title = 'Bedrock Reloaded';
+S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x.png';
+
+##[tutorial]
+B:show_welcome_screen = 'false';

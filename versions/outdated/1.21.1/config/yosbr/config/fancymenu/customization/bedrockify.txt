@@ -1,0 +1,17 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = me.shedaniel.clothconfig2.gui.ClothConfigScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}

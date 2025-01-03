@@ -1,0 +1,57 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = de.florianmichael.viafabricplus.screen.base.ProtocolSelectionScreen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = join_multiplayer_screen
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  anchor_point = bottom-centered
+  width = 130
+  height = 25
+  x = -65
+  y = -28
+}
+
+vanilla_button {
+  instance_identifier = 897975
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 39025
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 5975
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 55
+  is_hidden = true
+}

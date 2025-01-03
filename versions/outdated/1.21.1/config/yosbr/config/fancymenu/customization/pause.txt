@@ -1,0 +1,361 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = image
+  anchor_point = mid-right
+  width = 189
+  height = 100
+  x = -168
+  stretch_y = true
+  source = [source:local]/config/fancymenu/assets/bg/pause_player.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  instance_identifier = c1eb85fd-de18-4d9b-8296-5b108ee20379-1733423939176
+  element_type = image
+  anchor_point = top-right
+  width = 153
+  height = 30
+  x = -160
+  y = 26
+  source = [source:local]/config/fancymenu/assets/bg/pause_shadow.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  instance_identifier = e6805ba8-0f2d-4532-8383-a41fe8c8b167-1733423939176
+  element_type = image
+  anchor_point = mid-centered
+  width = 228
+  height = 180
+  x = -294
+  y = -104
+  source = [source:local]/config/fancymenu/assets/bg/pause_shadow.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 85
+  height = 38
+  x = -10
+  y = 37
+  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
+  [executable_action_instance:0][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+}
+
+element {
+  element_type = fancymenu_customization_player_entity
+  anchor_point = mid-centered
+  width = 30
+  height = 90
+  x = 18
+  y = -60
+  copy_client_player = true
+  scale = 50
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-right
+  width = 153
+  height = 35
+  x = -160
+  y = 64
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if_not][req_id:58ed11ee-ad06-41b5-b701-ee8c61cddf6e-1714615833724] = 
+  label = {"placeholder":"local","values":{"key":"br.pause.invite"}}
+  [executable_action_instance:5][action_type:mimicbutton] = pause_screen:504330
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-left
+  width = 14
+  height = 18
+  x = 65
+  y = -39
+  source = [source:local]/config/fancymenu/assets/icons/achievements.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-left
+  width = 30
+  height = 30
+  x = 19
+  y = -45
+  [executable_action_instance:6][action_type:openlink] = https://aka.ms/minecraftfb?OCID=Ingamefeedbackpausecta
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-left
+  width = 18
+  height = 18
+  x = 25
+  y = -39
+  source = [source:local]/config/fancymenu/assets/icons/feedback.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-left
+  width = 30
+  height = 30
+  x = 95
+  y = -45
+  [executable_action_instance:7][action_type:mimicbutton] = pause_screen:370282
+}
+
+element {
+  element_type = image
+  anchor_point = bottom-left
+  width = 19
+  height = 14
+  x = 101
+  y = -37
+  source = [source:local]/config/fancymenu/assets/icons/screenshots.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = e6805ba8-0f2d-4532-8383-a41fe8c8b167-1733423939176
+  width = 220
+  height = 40
+  x = 4
+  y = 4
+  label = {"placeholder":"local","values":{"key":"br.pause.return"}}
+  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:mc_pausescreen_return_to_game_button
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = e6805ba8-0f2d-4532-8383-a41fe8c8b167-1733423939176
+  width = 220
+  height = 40
+  x = 4
+  y = 48
+  label = {"placeholder":"local","values":{"key":"br.options.title"}}
+  [executable_action_instance:3][action_type:mimicbutton] = pause_screen:mc_pausescreen_options_button
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = e6805ba8-0f2d-4532-8383-a41fe8c8b167-1733423939176
+  width = 220
+  height = 40
+  x = 4
+  y = 92
+  label = {"placeholder":"local","values":{"key":"br.pause.stats"}}
+  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:mc_pausescreen_stats_button
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = e6805ba8-0f2d-4532-8383-a41fe8c8b167-1733423939176
+  width = 220
+  height = 40
+  x = 4
+  y = 136
+  label = {"placeholder":"local","values":{"key":"br.pause.quit"}}
+  [executable_action_instance:1][action_type:mimicbutton] = pause_screen:mc_pausescreen_disconnect_button
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = be9c02bc-c8b2-45c8-bcf6-0d030b526388-1733429495510
+  width = 16
+  height = 16
+  x = 1
+  y = 1
+  color = #3F3F3F
+}
+
+element {
+  instance_identifier = be9c02bc-c8b2-45c8-bcf6-0d030b526388-1733429495510
+  element_type = image
+  anchor_point = element
+  anchor_point_element = c1eb85fd-de18-4d9b-8296-5b108ee20379-1733423939176
+  width = 16
+  height = 16
+  x = 5
+  y = 7
+  source = [source:web]https://mc-heads.net/avatar/{"placeholder":"playeruuid"}
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = c1eb85fd-de18-4d9b-8296-5b108ee20379-1733423939176
+  width = 131
+  height = 16
+  x = 21
+  y = 9
+  source = {"placeholder":"playername"}
+  source_mode = direct
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-right
+  width = 153
+  height = 16
+  x = -160
+  y = 4
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if][req_id:00b56e3d-9c64-4d01-9c8b-fdfcb4b14872-1733424316264] = 
+  source = {"placeholder":"current_server_ip"}
+  source_mode = direct
+  scale = 1.5
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-right
+  width = 153
+  height = 16
+  x = -160
+  y = 4
+  [loading_requirement:fancymenu_visibility_requirement_is_survival][requirement_mode:if][req_id:00b56e3d-9c64-4d01-9c8b-fdfcb4b14872-1733424316264] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:ec1383bb-e7c8-45cf-9c98-0877e9e6963f-1733454809425] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.survival"}}
+  source_mode = direct
+  scale = 1.5
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-right
+  width = 153
+  height = 16
+  x = -160
+  y = 4
+  [loading_requirement:fancymenu_visibility_requirement_is_creative][requirement_mode:if][req_id:00b56e3d-9c64-4d01-9c8b-fdfcb4b14872-1733424316264] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:3e5a95c2-7e15-49fb-b321-6953d284d6c8-1733454803473] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.creative"}}
+  source_mode = direct
+  shadow = true
+  scale = 1.5
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-right
+  width = 153
+  height = 16
+  x = -160
+  y = 4
+  [loading_requirement:fancymenu_visibility_requirement_is_spectator][requirement_mode:if][req_id:00b56e3d-9c64-4d01-9c8b-fdfcb4b14872-1733424316264] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:a2809e0f-e104-417a-aaf9-366baaefc1f6-1733454796238] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.spectator"}}
+  source_mode = direct
+  scale = 1.5
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-right
+  width = 153
+  height = 16
+  x = -160
+  y = 4
+  [loading_requirement:fancymenu_visibility_requirement_is_adventure][requirement_mode:if][req_id:00b56e3d-9c64-4d01-9c8b-fdfcb4b14872-1733424316264] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:e158d281-ec60-4902-a63f-4b1740d82780-1733454737031] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.adventure"}}
+  source_mode = direct
+  scale = 1.5
+  enable_scrolling = false
+  auto_line_wrapping = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_advancements_button
+  anchor_point = bottom-left
+  width = 30
+  height = 30
+  x = 57
+  y = -45
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_return_to_game_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_stats_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_feedback_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_options_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504330
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_disconnect_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 370282
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 40
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_report_bugs_button
+  is_hidden = true
+}

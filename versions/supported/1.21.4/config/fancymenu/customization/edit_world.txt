@@ -1,0 +1,136 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = edit_world_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 14454115-8be4-4017-ba54-a676cb105ae5-1733064963585
+  width = 215
+  height = 38
+  x = 4
+  y = 11
+  color = #00000050
+}
+
+element {
+  instance_identifier = 14454115-8be4-4017-ba54-a676cb105ae5-1733064963585
+  element_type = image
+  anchor_point = mid-centered
+  width = 223
+  height = 53
+  x = -111
+  y = -122
+  source = [source:local]/config/fancymenu/assets/bg/command.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+element {
+  element_type = text_v2
+  anchor_point = mid-centered
+  width = 200
+  height = 14
+  x = -108
+  y = -120
+  source = {"placeholder":"local","values":{"key":"mco.configure.world.edit.slot.name"}}
+  source_mode = direct
+  shadow = false
+  base_color = #464546
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 400422
+  anchor_point = mid-centered
+  width = 200
+  height = 20
+  x = -100
+  y = -101
+}
+
+vanilla_button {
+  instance_identifier = 400472
+  anchor_point = mid-centered
+  width = 150
+  height = 30
+  x = 3
+  y = 65
+}
+
+vanilla_button {
+  instance_identifier = 400447
+  anchor_point = mid-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -3
+}
+
+vanilla_button {
+  instance_identifier = 400547
+  anchor_point = mid-centered
+  width = 150
+  height = 30
+  x = -155
+  y = 65
+}
+
+vanilla_button {
+  instance_identifier = 502597
+  anchor_point = mid-centered
+  width = 12
+  height = 12
+  x = 97
+  y = -120
+  label = 
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+}
+
+vanilla_button {
+  instance_identifier = 400597
+  anchor_point = mid-centered
+  width = 223
+  height = 30
+  x = -111
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 400522
+  anchor_point = mid-centered
+  width = 150
+  height = 30
+  x = 3
+  y = 31
+}
+
+vanilla_button {
+  instance_identifier = 400497
+  anchor_point = mid-centered
+  width = 150
+  height = 30
+  x = -155
+  y = 31
+}
+
+vanilla_button {
+  instance_identifier = 400408
+  is_hidden = true
+}

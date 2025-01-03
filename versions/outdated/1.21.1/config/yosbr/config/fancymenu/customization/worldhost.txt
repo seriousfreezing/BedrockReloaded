@@ -1,0 +1,260 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = text_v2
+  anchor_point = mid-centered
+  width = 166
+  height = 22
+  x = -290
+  y = -123
+  source = Server Settings
+  source_mode = direct
+  scale = 2.0
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 166
+  height = 25
+  x = -290
+  y = -18
+  description = {"placeholder":"local","values":{"key":"world-host.config.UPnP.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345238"}}
+  [executable_action_instance:0][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345238
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 166
+  height = 25
+  x = -290
+  y = -47
+  description = {"placeholder":"local","values":{"key":"world-host.config.requiredSecurityLevel.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345310"}}
+  [executable_action_instance:ad349c8b-9887-41bd-a7a2-3b274f689a61-1729724210474][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345310
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 166
+  height = 25
+  x = -290
+  y = 40
+  description = {"placeholder":"local","values":{"key":"world-host.config.whitelistJoins.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505286"}}
+  [executable_action_instance:1][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505286
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 166
+  height = 25
+  x = -290
+  y = 11
+  description = {"placeholder":"local","values":{"key":"world-host.config.UPnP.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505214"}}
+  [executable_action_instance:2][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505214
+}
+
+element {
+  element_type = text_v2
+  anchor_point = mid-centered
+  width = 166
+  height = 15
+  x = -290
+  y = -96
+  source = {"placeholder":"local","values":{"key":"world-host.config.serverIp"}}
+  source_mode = direct
+  scale = 1.25
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = -7
+  description = {"placeholder":"local","values":{"key":"world-host.config.announceFriendsOnline.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345286"}}
+  [executable_action_instance:3][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345286
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = -94
+  description = {"placeholder":"local","values":{"key":"world-host.config.allowFriendRequests.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505262"}}
+  [executable_action_instance:4][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505262
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = 51
+  description = {"placeholder":"local","values":{"key":"world-host.config.shareButton.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345262"}}
+  [executable_action_instance:5][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:345262
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = -65
+  description = {"placeholder":"local","values":{"key":"world-host.config.enableFriends.tooltip"}}
+  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505190"}}
+  [executable_action_instance:6][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen:505190
+}
+
+element {
+  element_type = text_v2
+  anchor_point = mid-centered
+  width = 202
+  height = 22
+  x = 95
+  y = -123
+  source = Interaction Options
+  source_mode = direct
+  scale = 2.0
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 345358
+  anchor_point = bottom-centered
+  width = 65
+  height = 25
+  x = -70
+  y = -40
+}
+
+vanilla_button {
+  instance_identifier = 345214
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = 22
+}
+
+vanilla_button {
+  instance_identifier = 505358
+  anchor_point = bottom-centered
+  width = 65
+  height = 25
+  x = 3
+  y = -40
+}
+
+vanilla_button {
+  instance_identifier = 345190
+  anchor_point = mid-centered
+  x = 95
+  y = -36
+  width = 196
+  height = 25
+}
+
+vanilla_button {
+  instance_identifier = 437166
+  anchor_point = mid-centered
+  x = -120
+  y = -76
+  width = 50
+  height = 25
+}
+
+vanilla_button {
+  instance_identifier = 505238
+  anchor_point = mid-centered
+  width = 196
+  height = 25
+  x = 95
+  y = 80
+}
+
+vanilla_button {
+  instance_identifier = 505166
+  anchor_point = mid-centered
+  width = 166
+  height = 25
+  x = -290
+  y = -76
+}
+
+vanilla_button {
+  instance_identifier = 345262
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 505190
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 350172
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 505262
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 505286
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345310
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 505214
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345286
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345238
+  is_hidden = true
+}

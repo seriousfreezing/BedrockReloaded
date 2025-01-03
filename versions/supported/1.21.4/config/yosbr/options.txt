@@ -1,0 +1,15 @@
+version:3953
+fullscreen:false
+showAutosaveIndicator:false
+maxFps:260
+simulationDistance:8
+darkMojangStudiosBackground:true
+resourcePacks:["fabric","midnightcontrols:bedrock"]
+menuBackgroundBlurriness:0.0
+key_bedrockIfy.key.settings:key.keyboard.unknown
+key_key.minepedia.screen:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_iris.keybind.wireframe:key.keyboard.unknown
+key_key.raised.options:key.keyboard.unknown

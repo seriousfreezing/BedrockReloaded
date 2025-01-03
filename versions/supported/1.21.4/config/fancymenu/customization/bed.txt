@@ -1,0 +1,14 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = in_bed_chat_screen
+}
+
+vanilla_button {
+  instance_identifier = 400960
+  anchor_point = bottom-centered
+  width = 200
+  height = 26
+  x = -100
+  y = -43
+}

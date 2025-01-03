@@ -1,0 +1,106 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dev.spiritstudios.snapper.gui.screen.ScreenshotScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = pause_screen
+}
+
+vanilla_button {
+  instance_identifier = 580944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = 57
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 346944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -167
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 502944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = 57
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 450968
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -55
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 424944
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -55
+  y = -65
+}
+
+vanilla_button {
+  instance_identifier = 346968
+  anchor_point = bottom-centered
+  width = 110
+  height = 30
+  x = -167
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 554968
+  anchor_point = bottom-right
+  width = 110
+  height = 30
+  x = -127
+  y = -33
+}
+
+vanilla_button {
+  instance_identifier = 322968
+  anchor_point = bottom-centered
+  width = 25
+  height = 25
+  x = -196
+  y = -46
+}
+
+vanilla_button {
+  instance_identifier = 658968
+  is_hidden = true
+}

@@ -1,0 +1,13 @@
+name = "Armor Stand Overhaul"
+filename = "armor-stand-overhaul-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b49CNrJY/versions/enzMoeDC/armor-stand-overhaul-0.1.jar"
+hash-format = "sha1"
+hash = "a69f0235f0c262974a27356eaef57bcf8a07ca14"
+
+[update]
+[update.modrinth]
+mod-id = "b49CNrJY"
+version = "enzMoeDC"

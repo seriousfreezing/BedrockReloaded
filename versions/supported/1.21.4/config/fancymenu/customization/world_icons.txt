@@ -1,0 +1,54 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen:504952
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 120
+  height = 30
+  x = 4
+  y = -40
+  label = {"placeholder":"local","values":{"key":"br.options.done"}}
+  [executable_action_instance:1][action_type:mimicbutton] = net.iamaprogrammer.reimaginedmenus.gui.screen.WorldIconScreen:504952
+}
+
+vanilla_button {
+  instance_identifier = 346952
+  anchor_point = bottom-centered
+  x = -124
+  y = -40
+  width = 120
+  height = 30
+}
+
+vanilla_button {
+  instance_identifier = 504952
+  is_hidden = true
+}

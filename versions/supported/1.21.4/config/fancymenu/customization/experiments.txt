@@ -1,0 +1,62 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = experiments_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 10
+  height = 16
+  x = 5
+  y = 4
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = experiments_screen:346974
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = bottom-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -32
+}
+
+vanilla_button {
+  instance_identifier = 34563
+}
+
+element {
+  element_type = shape
+  anchor_point = mid-centered
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"34563"}} - 4","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"34563"}} - 4","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"34563"}} + 8","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"34563"}} + 8","decimal":"true"}}
+  color = #00000075
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 46112
+  is_hidden = true
+}

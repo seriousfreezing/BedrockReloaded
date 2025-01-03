@@ -1,0 +1,77 @@
+br.menu.play = Jouer
+br.options.title = Paramètres
+br.menu.shop = Magasin
+br.menu.skin = Vestiaire
+
+br.lang.title = Langue
+br.lang.options = Paramètres de langue
+
+br.fonts.title = Polices
+br.fonts.options = Paramètres des polices
+
+br.options.bedrockify = Paramètres avancés
+br.options.fov = Champ de vision:
+br.options.done = Terminé
+br.options.confirm = Valider
+
+br.accessibility.title = Accessibilité
+br.accessibility.options = Paramètres d'accessibilité
+
+br.howtoplay = Comment jouer
+
+br.category.controls = Commandes
+br.category.general = Général
+
+br.general.text = Je ne sais pas où ni comment le dire de la meilleure façon, mais je tiens à remercier toutes les personnes qui ont contribué ou m'ont aidé d'une manière ou d'une autre avec ce modpack.
+Alors, merci à toi qui lis ceci. Ce modpack a pris des mois, voire même des années, à être créé. Et sans ces personnes, rien de tout cela n'aurait été possible:
+br.general.license = Licence
+br.general.licenses = Licences
+br.general.credits = Crédits
+br.general.attribution = Attribution
+
+br.keyboard.title = Clavier-souris
+br.keyboard.options = Paramètres clavier-souris
+br.keyboard.keybinds = Disposition du clavier
+
+br.mouse.options = Paramètres de la souris
+
+br.controller.title = Manette
+
+br.account.title = Compte
+br.account.options = Paramètres du compte
+
+br.online.title = En ligne
+br.online.options = Paramètres en ligne
+
+br.chat.title = Tchat
+br.chat.options = Paramètres du tchat
+
+br.video.title = Vidéo
+
+br.sounds.title = Audio
+br.sounds.options = Paramètres audio
+
+br.resourcepacks.title = Packs de ressources
+br.datapacks.title = Packs de données
+
+br.play.worlds = Mondes
+br.play.servers = Serveurs
+br.play.friends = Amis
+br.play.create = Créer un nouveau monde
+br.play.selected = Jouer dans ce monde
+
+br.server.guide = Guide
+
+br.friendserver.add = Ajouter
+br.friends.add = Ajouter un ami
+br.friends.remove = Supprimer l'ami
+br.friends.info = Afficher les informations
+
+br.pause.return = Reprendre le jeu
+br.pause.stats = Statistiques
+br.pause.invite = Invitation au jeu
+br.pause.quit = Sauv. et quitter
+
+br.command.block = Type de bloc:
+br.command.condition = Condition:
+br.command.redstone = Redstone:

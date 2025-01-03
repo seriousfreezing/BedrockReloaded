@@ -1,0 +1,29 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = inventory_screen
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = mid-centered
+  width = 16
+  height = 16
+  x = 70
+  y = -98
+  source = [source:local]/config/fancymenu/assets/bg/tab1.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 5
+  y = 6
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  [executable_action_instance:0][action_type:closegui] = 
+}

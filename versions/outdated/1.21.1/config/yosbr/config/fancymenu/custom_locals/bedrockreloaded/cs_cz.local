@@ -1,0 +1,77 @@
+br.menu.play = Hrát
+br.options.title = Nastavení
+br.menu.shop = Tržiště
+br.menu.skin = Šatna
+
+br.lang.title = Jazyk
+br.lang.options = Nastavení jazyka
+
+br.fonts.title = Písma
+br.fonts.options = Nastavení písem
+
+br.options.bedrockify = Rozšířená nastavení
+br.options.fov = Pole zobrazení:
+br.options.done = Hotovo
+br.options.confirm = Potvrdit
+
+br.accessibility.title = Usnadnění
+br.accessibility.options = Nastavení přístupnosti
+
+br.howtoplay = Pravidla hry
+
+br.category.controls = Ovládání
+br.category.general = Obecné
+
+br.general.text = Nevím, kde a jak by bylo nejlepší to říct, ale chci poděkovat všem, kteří nějakým způsobem přispěli nebo mi pomohli s tímto modpackem.
+Takže děkuji vám, kteří to čtete. Tento modpack trval měsíce, ba i roky, než vznikl. A bez těchto lidí by nic z toho nebylo možné:
+br.general.license = Licence
+br.general.licenses = Licence
+br.general.credits = Autoři
+br.general.attribution = Atributy
+
+br.keyboard.title = Klávesnice a myš
+br.keyboard.options = Nastavení klávesnice a myši
+br.keyboard.keybinds = Rozložení klávesnice
+
+br.mouse.options = Nastavení myši
+
+br.controller.title = Ovladač
+
+br.account.title = Účet
+br.account.options = Nastavení účtu
+
+br.online.title = Online
+br.online.options = Nastavení online
+
+br.chat.title = Chat
+br.chat.options = Nastavení chatu
+
+br.video.title = Video
+
+br.sounds.title = Audio
+br.sounds.options = Nastavení audia
+
+br.resourcepacks.title = Balíčky zdrojů
+br.datapacks.title = Datové balíčky
+
+br.play.worlds = Světy
+br.play.servers = Servery
+br.play.friends = Přátelé
+br.play.create = Vytvořit nový svět
+br.play.selected = Hrát vybraný svět
+
+br.server.guide = Průvodce
+
+br.friendserver.add = Přidat
+br.friends.add = Přidat přítele
+br.friends.remove = Odebrat přítele
+br.friends.info = Zobrazit informace
+
+br.pause.return = Pokračovat ve hře
+br.pause.stats = Statistika
+br.pause.invite = Pozvat do hry
+br.pause.quit = Uložit a ukončit
+
+br.command.block = Typ bloku:
+br.command.condition = Podmínka:
+br.command.redstone = Rudit:

@@ -1,0 +1,96 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dev.spiritstudios.snapper.gui.screen.RenameScreenshotScreen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 14454115-8be4-4017-ba54-a676cb105ae5-1733064963585
+  width = 215
+  height = 38
+  x = 4
+  y = 11
+  color = #00000050
+}
+
+element {
+  instance_identifier = 14454115-8be4-4017-ba54-a676cb105ae5-1733064963585
+  element_type = image
+  anchor_point = mid-centered
+  width = 223
+  height = 53
+  x = -111
+  y = -31
+  source = [source:local]/config/fancymenu/assets/bg/command.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+element {
+  element_type = text_v2
+  anchor_point = mid-centered
+  width = 200
+  height = 14
+  x = -108
+  y = -29
+  source = {"placeholder":"local","values":{"key":"text.snapper.rename_input"}}
+  source_mode = direct
+  shadow = false
+  base_color = #464546
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 12
+  height = 12
+  x = 98
+  y = -29
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  [executable_action_instance:0][action_type:mimicbutton] = dev.spiritstudios.snapper.gui.screen.RenameScreenshotScreen:504968
+}
+
+vanilla_button {
+  instance_identifier = 400500
+  anchor_point = mid-centered
+  width = 200
+  height = 20
+  x = -100
+  y = -10
+}
+
+vanilla_button {
+  instance_identifier = 346968
+  anchor_point = mid-centered
+  width = 223
+  height = 30
+  x = -111
+  y = 38
+}
+
+vanilla_button {
+  instance_identifier = 504968
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 447480
+  is_hidden = true
+}
