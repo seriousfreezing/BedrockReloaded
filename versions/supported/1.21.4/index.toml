@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "archives/Dark Mode.zip"
-hash = "0d44a213aa8071ab3fe5313764f1169135f00e65b00fd030dae3775749962103"
-
-[[files]]
-file = "archives/c2me.toml"
-hash = "acddd2f6403f1d3aee8010b32816049c5e2b8dc97cc0ac95d184ef807e70de66"
-
-[[files]]
-file = "archives/caramel.mica.properties"
-hash = "9e4180ba78652d4b17935e88247af7907b3b2f5a4260ac9e0b73f8a29ae497a2"
-
-[[files]]
-file = "archives/vmp.properties"
-hash = "15eec0092ca5c54f97fc46953311e20e63a5eb6bca4672bfec9dae63f61cc456"
-
-[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "e77da10023b4b4504a93574ad14f6440b1ec0ee81a0dc460b3a242fa5f4bb95b"
 
