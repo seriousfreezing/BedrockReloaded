@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "e77da10023b4b4504a93574ad14f6440b1ec0ee81a0dc460b3a242fa5f4bb95b"
+hash = "557c6f9fd89f9764ac0b761a90900717b58f5223f1808ac1c294b797924401b2"
 
 [[files]]
 file = "config/fancymenu/assets/bg/bt_market.gif"
@@ -466,7 +466,7 @@ hash = "c409725a095c9636060b4f6159b7eac540630d5548e89302d0777d687aaf738e"
 
 [[files]]
 file = "config/fancymenu/customization/pause.txt"
-hash = "9e030deb966fb89a9fe70966eaafb371c86a809c3e9cc80f3e1b60e631040093"
+hash = "6bd29dff70298da65fcf03293a8ce80d31bb75d2b7e44ae5fbf8625cdc2d7a38"
 
 [[files]]
 file = "config/fancymenu/customization/play.txt"
@@ -574,7 +574,7 @@ hash = "a7398bb602a0c458f202e6823f9eae94b94edf89e942f601d1efeba0e15ebe4f"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "30774764dd7c17e6e033b4bc0fd98f43fa8f9a4a488d639bd4814009b72c4e1a"
+hash = "309f7b35445a70b368a614017752ada719d2c8243462f2b287e2a901feface1c"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
@@ -582,15 +582,11 @@ hash = "611ee90bf2abd2452e1e43a997240458953032224dc977dd711436cdd7d33597"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "69735c2699d67011c4ef84eaa21af4cea386df708b1486c43aa6b3958679c540"
+hash = "ee46650a239dad604d2de3b721990386a4484dd9676ba4a6337f189db1948a32"
 
 [[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
 hash = "7ab2b42f6d3f992e71f626ea8e49dfa11fbe2dc19c81bb0342a67180118b1204"
-
-[[files]]
-file = "config/yosbr/config/badoptimizations.txt"
-hash = "8dca170f1581e3613e6d0938a70a285f803b365ba551dc879cc65c186b313130"
 
 [[files]]
 file = "config/yosbr/config/bedrockify/bedrockifyClient.json"
@@ -617,8 +613,24 @@ file = "config/yosbr/config/dynamic_fps.json"
 hash = "28ee26fda8144f763ae0a91b5d200bf1958ab8bef68429e7e2af811a7dd3937e"
 
 [[files]]
+file = "config/yosbr/config/emotecraft.json"
+hash = "705895b47de140c7c14b91ee7e37c9c298fc859100d7e66e4035700b8b980385"
+
+[[files]]
+file = "config/yosbr/config/emotecraft_emote_map.json"
+hash = "e90efb9f55e6974f85e3d69a342c24c9e065334aed72e523e08f20c5c0c6269f"
+
+[[files]]
+file = "config/yosbr/config/enhanced_bes.properties"
+hash = "ae694e12bb16553eff3f8e92cec601586c297d009bf6d5c94490f6bf58dd670b"
+
+[[files]]
 file = "config/yosbr/config/entityculling.json"
 hash = "050834eee7e592959c04afa0de4157077575f4d715cd4a22a96b8ada97d9975b"
+
+[[files]]
+file = "config/yosbr/config/fbp/config.json"
+hash = "fc19b10eed8b44b0ce36e58bec38b887d38966e4431f6295f8de3f726d292dc2"
 
 [[files]]
 file = "config/yosbr/config/ferritecore.mixin.properties"
@@ -649,6 +661,10 @@ file = "config/yosbr/config/raised.json"
 hash = "cda59c7defa012d9915d9db80608c127e3c03a0357f3ed5969c94c1d3e992c9f"
 
 [[files]]
+file = "config/yosbr/config/resourcepackoverrides.json"
+hash = "728f25652553e1eb40406d4ee00df48597a9dc45038cab45646cf7a4c5e2be9b"
+
+[[files]]
 file = "config/yosbr/config/resourcify.json"
 hash = "4cae3a2c2d9547f34fcb210e96d4e2621413b5f22055d131d17a5085e3a28b74"
 
@@ -669,35 +685,33 @@ file = "config/yosbr/config/sodium-shadowy-path-blocks-options.json"
 hash = "a5416a5b3f838c480b7bb507fec5346d00cecba0163505666500915c94d7e2e7"
 
 [[files]]
-file = "config/yosbr/config/threadtweak.json"
-hash = "92036354bf4486b540859e7ddc0da975ab0cba15fef7975c8e25fac3c0feefb6"
+file = "config/yosbr/options.txt"
+hash = "6d0cb110ac67584aa094017ababe3fcaac5654927dce37d84594cb2a6551eae8"
 
 [[files]]
-file = "config/yosbr/options.txt"
-hash = "5feceaa2c5142b89979e3bc1a3f6195e930c9865955c176bb0ea73c869384e60"
+file = "emotes/Cheer.emotecraft"
+hash = "5a2826f5b0d38e4db773d55851152a0200c04df825aba03d784e9b30b91bf7cf"
+
+[[files]]
+file = "emotes/Point.emotecraft"
+hash = "cc4050c8bf41f01cf3a1a2b8e5bb4e1d53885186834383aeb543aa25c6d4ffe2"
+
+[[files]]
+file = "emotes/Wave.emotecraft"
+hash = "8ba1915434e8fbaa463d557611a4962f638aa03d98b342de1df5757441261478"
 
 [[files]]
 file = "mods/DistantHorizons-fabric-2.3.0-b-dev-1.21.4.jar"
 hash = "ce39291b0fc3ebae2635632168d7b82f52eb9acfaf923b62e9fbd1e59bf36e13"
 
 [[files]]
-file = "mods/accurate-block-placement-reborn.pw.toml"
-hash = "3cd4b152b061a2d630d8d5592ac6e2299f215e6f2fa0530ca52c2a0dd60ac8af"
-metafile = true
-
-[[files]]
 file = "mods/armor-poser.pw.toml"
-hash = "9ea1e2fbea5108ecb02bd5f4d4588f94d9254dcfb10d3077bd3551eb7c33d015"
+hash = "fdd20192468955d0fce10abf58772851cae7bc0da7349e503c8bdc8341932e36"
 metafile = true
 
 [[files]]
 file = "mods/armor-stand-overhaul.pw.toml"
 hash = "7a40fd777d760fafb7ee9fae2cb141e2f2286054c86185f1fb1f82f3a969c47e"
-metafile = true
-
-[[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "5be9efdc4aa6ed914949b313af08ed6b9946b3fddde2a35602a60336aaf4dc40"
 metafile = true
 
 [[files]]
@@ -711,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/bettergrassify.pw.toml"
-hash = "51615e3fdd2e13ccfea84c6dfaff32aa6b87d084e62d0a783f68828186947433"
+hash = "c18622c8b5415137e73f6481a7f6c06adf915ccd018298c7b12fd630c4f5192d"
 metafile = true
 
 [[files]]
@@ -736,12 +750,27 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "b29157b97ddc91b9e027ee116121b851b86161a1dc3f50e7466729e6dc5d1abd"
+hash = "5c8570900a48b689ac3cccdc888598787b5fb6dd07cc11c96864c73e3f95ff9a"
+metafile = true
+
+[[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "fe2a5183d77bb09b589b612ba5a2771f47b4abe1ab7cde890e908a7525bfb36d"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "f42ac5b765061a9246f62bb63f682303c707c02addd50278cc078395c64e0dab"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "c8470b279372c8b2b220fea0292b2dd7efe17a0fa62a10b3c03aae0fbf29169a"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "df8837c0d00bcc904d3387334ae5b558f64e126b673c5a3b32633faf20695a39"
 metafile = true
 
 [[files]]
@@ -751,7 +780,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b9ec27ce57c7e756dfbfe52cc0cdf9e67259a0297b353e1b2466d4e620684889"
+hash = "6b5accaa1d5094fca206b392a80ecd3a0e4e0390519d4505c2f8ec9650c311cd"
 metafile = true
 
 [[files]]
@@ -761,7 +790,12 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "98797dca940bedfa81e2a1b2bc02170316ceb3dbf031be279a2d13c21dc9a926"
+hash = "30e65cba8b4361614b524e6c0a00c287c95a5c25f65e6cc5d89aa01cf99dd784"
+metafile = true
+
+[[files]]
+file = "mods/fbp-renewed.pw.toml"
+hash = "bfeff88d2248cc591443bab051d2d839fee2b73b0c968ce75f941e105444b189"
 metafile = true
 
 [[files]]
@@ -771,7 +805,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3c63c0bb4c0d0da3e2c3a0992c3d1f12d17cb1c3c953b56ab5ca29403df10613"
+hash = "485f230a4d6ce28bc67e8b6a475460016617ca2889e477274d762899d855485e"
 metafile = true
 
 [[files]]
@@ -796,7 +830,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "52b25d589bdb56a6b73c086432543f35a8e004cfbefcfb775fb2fd9c74f37962"
+hash = "ba1f90fb84c3d1ab93c85f24bd8097673f2128f1f50d8184abb979643bd414a2"
 metafile = true
 
 [[files]]
@@ -826,7 +860,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "8d2c588848301dd572f4c36ae84e5985b76c395bf820fa331bfc74c7d41264a7"
+hash = "563e21fe50f72092b64e05a3f09e0e4276f265fb3a1bde8d09da93e72a37bcc7"
 metafile = true
 
 [[files]]
@@ -841,7 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "f32acfd33cc0d0173e19f69d5aa73f2e1e45d198d62ca2b2eb91b8aa723ae32f"
+hash = "c0f80070f3bed878d56dab05a53377285a9ace2889656a4232d64dafbc2d0168"
 metafile = true
 
 [[files]]
@@ -851,7 +885,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "d21b853818486d726c233f0a5c37b75785b4ed8d1d41f9c796209e75c3a262ae"
+hash = "4ebad0a98ed8360e62f6644cfcd3f57c6307c3d68595f8d6672b6f083e8cfa09"
 metafile = true
 
 [[files]]
@@ -861,12 +895,17 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "c9f6c0dd507f1851e6bc100adedd1dca75c3dc1fdee734763ebac76d6d57c2b6"
+hash = "2057649daa10fcdc620dfd60eb0caee54b9ff80c80979564873b422fa94e2ced"
+metafile = true
+
+[[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "fdd6c3dea8b9b8f0dccdcfca285ba33e4dc35a047e9c110755cca13a8390046c"
 metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "a591bb3e73d75c2cd6515380f7048c3a3880ca475db6c277c1975beebf57850b"
+hash = "2490c8aef3bc397aa75c84d946a0cb15e07dd2ad0d9c2a526ef7954c487fcd9e"
 metafile = true
 
 [[files]]
@@ -900,13 +939,8 @@ hash = "412193be248fc8a1898798abc46733361bbd6a7d79865531ee1ce7d3904d1b29"
 metafile = true
 
 [[files]]
-file = "mods/threadtweak.pw.toml"
-hash = "b51f90510827d96628156a4e9abc851164bba27749ab60681856a6adbb1fab0d"
-metafile = true
-
-[[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "94432dc2ff2dbb716d0b5af8d82d1e6c06267a69bb5a440cf7d8ece2b31905ec"
+hash = "02518378f35e46e8f7aeaff027c19e67fc1d55ba71efdd0ce3383792a3083de9"
 metafile = true
 
 [[files]]
@@ -930,26 +964,22 @@ hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
 
 [[files]]
+file = "resourcepacks/Bedrocking.zip"
+hash = "583b66ecb3ca20c367a42e52b0972a44d1e0fcbd12cdf945c88a372b2e2405ca"
+
+[[files]]
 file = "resourcepacks/Noto Sans.zip"
 hash = "6c9511d4ec540131a6f0ab40c25e93687a090f1a6a8a74d8bc3bdbb220412404"
 
 [[files]]
 file = "resources/datapack/optional/Bedrocked.zip"
-hash = "be6d769b3f7c706e4f0045671b16ba3eb49193a53eedab042f930e70b7a4aa34"
+hash = "8bb42aee637980c366b449cfe29967a369208d234aef84c1363907185352b120"
 
 [[files]]
-file = "resources/resourcepack/required/Bedrocking.zip"
-hash = "a804a5260ed2a2591fafc08d4f0b374ecc691d73317dc74a77b7103be31f6ddf"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
+file = "shaderpacks/ComplementaryReimagined_r5.4.zip.txt"
 hash = "3bb716bacf64f9d32a48ab91574001a1b3be583b739ac39201b437934f845e3e"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "f18e6196d79be05795c41658af6ea9ad77457bb65058bdd65a0ef5d3c6f30ca0"
+hash = "a6069e50f5f040ca578879297c8be5bb4affc4abeb83438bce51c801f938a564"
 metafile = true
-
-[[files]]
-file = "shaderpacks/rethinking-voxels_r0.1-beta5.zip.txt"
-hash = "3bb716bacf64f9d32a48ab91574001a1b3be583b739ac39201b437934f845e3e"

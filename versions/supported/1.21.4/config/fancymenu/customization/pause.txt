@@ -356,6 +356,16 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 398306
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504306
+  is_hidden = true
+}
+
+vanilla_button {
   instance_identifier = mc_pausescreen_report_bugs_button
   is_hidden = true
 }

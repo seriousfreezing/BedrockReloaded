@@ -3,10 +3,16 @@ fullscreen:false
 showAutosaveIndicator:false
 maxFps:260
 simulationDistance:8
-darkMojangStudiosBackground:true
 resourcePacks:["fabric","midnightcontrols:bedrock"]
 menuBackgroundBlurriness:0.0
 key_bedrockIfy.key.settings:key.keyboard.unknown
+key_key.fbp.toggle_mod:key.keyboard.unknown
+key_key.fbp.toggle_animations:key.keyboard.unknown
+key_key.fbp.open_settings:key.keyboard.unknown
+key_key.fbp.freeze_particles:key.keyboard.unknown
+key_key.fbp.kill_particles:key.keyboard.unknown
+key_key.fbp.add_to_blacklist:key.keyboard.unknown
+key_key.fbp.reload_config:key.keyboard.unknown
 key_key.minepedia.screen:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
