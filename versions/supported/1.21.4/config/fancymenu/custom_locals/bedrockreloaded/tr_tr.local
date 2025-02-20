@@ -74,3 +74,5 @@ br.pause.quit = Kaydet ve Çık
 br.command.block = Blok Türü:
 br.command.condition = Koşul:
 br.command.redstone = Redstone:
+
+br.bed = Bu gece boyunca uyunuyor

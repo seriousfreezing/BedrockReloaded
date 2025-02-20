@@ -10,3 +10,7 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x.png';
 
 ##[tutorial]
 B:show_welcome_screen = 'false';
+
+##[loading]
+B:preload_animations = 'true';
+S:preload_resources = '[source:location]minecraft:textures/gui/title/minecraft.png%!source_end!%[source:local]config/fancymenu/assets/icons/loading.gif%!source_end!%';

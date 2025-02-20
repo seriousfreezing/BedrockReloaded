@@ -7,32 +7,26 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = shape
   anchor_point = element
-  anchor_point_element = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  anchor_point_element = 0
   width = 218
-  height = 186
+  height = 170
   x = 5
   color = #00000050
 }
 
 element {
-  instance_identifier = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  instance_identifier = 0
   element_type = image
   anchor_point = top-centered
   width = 226
-  height = 199
+  height = 175
   x = -112
   y = 31
   nine_slice_texture = true
@@ -42,23 +36,9 @@ element {
 }
 
 element {
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
-  width = 12
-  height = 12
-  x = 212
-  y = 2
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
-  [executable_action_instance:0][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.AddFriendScreen:400384
-}
-
-element {
   element_type = text_v2
   anchor_point = element
-  anchor_point_element = 7863b21e-910f-4c5b-90e5-395b4d5edf26-1733074229592
+  anchor_point_element = 0
   width = 200
   height = 12
   x = 4
@@ -72,5 +52,13 @@ element {
 
 vanilla_button {
   instance_identifier = 400384
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 214
+  y = 6
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  label = 
 }

@@ -6,77 +6,59 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = shape
   anchor_point = element
-  anchor_point_element = 630854b2-ef7e-45a5-9dfd-4c160c5a3d01-1732938215139
+  anchor_point_element = 0
   width = 339
-  height = 148
+  height = 135
   x = 3
   y = 16
   color = #00000050
 }
 
 element {
-  instance_identifier = 630854b2-ef7e-45a5-9dfd-4c160c5a3d01-1732938215139
+  instance_identifier = 0
   element_type = image
   anchor_point = top-centered
   width = 345
-  height = 169
+  height = 155
   x = -173
-  y = 43
+  y = 44
   source = [source:local]/config/fancymenu/assets/bg/command1.png
   nine_slice_texture = true
   nine_slice_texture_border_x = 8
   nine_slice_texture_border_y = 20
 }
 
-element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 12
-  height = 12
-  x = 156
-  y = 47
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
-  [executable_action_instance:0][action_type:mimicbutton] = share_to_lan_screen:505972
-}
-
 vanilla_button {
   instance_identifier = 505100
   anchor_point = top-centered
   width = 150
-  height = 30
+  height = 25
   x = 3
   y = 96
 }
 
 vanilla_button {
   instance_identifier = 345972
-  anchor_point = top-centered
+  anchor_point = bottom-centered
   width = 150
   height = 30
   x = -75
-  y = 220
-  label = {"placeholder":"local","values":{"key":"br.options.done"}}
+  y = -37
+  label = {"placeholder":"local","values":{"key":"gui.done"}}
 }
 
 vanilla_button {
   instance_identifier = 345100
   anchor_point = top-centered
   width = 150
-  height = 30
+  height = 25
   x = -154
   y = 96
 }
@@ -85,12 +67,19 @@ vanilla_button {
   instance_identifier = 425160
   anchor_point = top-centered
   width = 150
-  height = 30
+  height = 20
   x = -75
   y = 156
 }
 
 vanilla_button {
   instance_identifier = 505972
-  is_hidden = true
+  anchor_point = top-centered
+  width = 5
+  height = 5
+  x = 160
+  y = 52
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  label = 
 }

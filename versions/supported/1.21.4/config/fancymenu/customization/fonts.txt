@@ -2,51 +2,38 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = net.minecraft.class_9246
-}
-
-customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  render_custom_elements_behind_vanilla = true
 }
 
 menu_background {
-  background_type = drippy_color_background
+  background_type = color_fancymenu
   color = #313233
 }
 
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
 element {
+  instance_identifier = 0
   element_type = image
   anchor_point = top-centered
+  width = 100
   height = 32
   stretch_x = true
   source = [source:location]fancymenu:bg/header.png
 }
 
 element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:mimicbutton] = net.minecraft.class_9246:400974
-}
-
-element {
   element_type = text_v2
-  anchor_point = top-centered
+  anchor_point = element
+  anchor_point_element = 0
   width = 524
   height = 20
-  x = -262
+  x = -22
   y = 5
+  interactable = false
   source = ^^^%n%{"placeholder":"local","values":{"key":"br.fonts.options"}}%n%^^^
   source_mode = direct
   shadow = false
@@ -57,10 +44,13 @@ element {
 
 vanilla_button {
   instance_identifier = 400974
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 46712
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
 }

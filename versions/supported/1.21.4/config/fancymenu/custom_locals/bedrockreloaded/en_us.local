@@ -22,7 +22,7 @@ br.howtoplay = How to Play
 br.category.controls = Controls
 br.category.general = General
 
-br.general.text = I don't know where and what would be the best way to say: thank you to all those people who contributed or helped me in some way with this modpack. So thank you, you who are reading this, this modpack took months and even many years to make. And without these people, none of this would be possible:
+br.general.text = I don't know where and what would be the best way to say: thank you to all those people who contributed or helped me in some way with this modpack.%n%%n%So thank you, you who are reading this, this modpack took months and even many years to make. And without these people, none of this would be possible:
 br.general.license = License
 br.general.licenses = Licenses
 br.general.credits = Credits
@@ -74,3 +74,5 @@ br.pause.quit = Save & Quit
 br.command.block = Block Type:
 br.command.condition = Condition:
 br.command.redstone = Redstone:
+
+br.bed = Sleeping through this night

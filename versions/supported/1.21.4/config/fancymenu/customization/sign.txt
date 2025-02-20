@@ -2,6 +2,12 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = sign_edit_screen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 vanilla_button {

@@ -5,12 +5,6 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }

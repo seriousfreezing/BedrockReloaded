@@ -75,3 +75,5 @@ br.pause.quit = セーブして終了
 br.command.block = ブロックの種類:
 br.command.condition = 条件:
 br.command.redstone = レッドストーン:
+
+br.bed = この夜を眠り通す

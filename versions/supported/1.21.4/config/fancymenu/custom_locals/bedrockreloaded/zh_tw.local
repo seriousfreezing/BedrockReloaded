@@ -74,3 +74,5 @@ br.pause.quit = 儲存並退出
 br.command.block = 方塊類型：
 br.command.condition = 條件：
 br.command.redstone = 紅石：
+
+br.bed = 一覺到天亮

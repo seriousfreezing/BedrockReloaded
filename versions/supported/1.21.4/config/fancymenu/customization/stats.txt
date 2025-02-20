@@ -2,16 +2,9 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = stats_screen
-  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }

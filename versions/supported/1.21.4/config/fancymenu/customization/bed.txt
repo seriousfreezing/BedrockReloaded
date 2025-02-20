@@ -4,11 +4,47 @@ layout-meta {
   identifier = in_bed_chat_screen
 }
 
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"0"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"0"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"0"}}
+  advanced_height = {"placeholder":"elementheight","values":{"id":"0"}}
+  color = #00000050
+  fade_in_v2 = every_time
+  fade_in_speed = 0.5
+}
+
+element {
+  instance_identifier = 0
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 400960
+  width = 200
+  height = 14
+  x = -31
+  y = -19
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.bed"}}%n%^^^
+  source_mode = direct
+  enable_scrolling = false
+  fade_in_v2 = every_time
+  fade_in_speed = 0.5
+}
+
 vanilla_button {
   instance_identifier = 400960
   anchor_point = bottom-centered
-  width = 200
-  height = 26
-  x = -100
-  y = -43
+  width = 138
+  height = 30
+  x = -69
+  y = -66
+  fade_in_v2 = every_time
+  fade_in_speed = 0.5
 }

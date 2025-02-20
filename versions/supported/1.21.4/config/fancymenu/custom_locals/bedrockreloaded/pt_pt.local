@@ -75,3 +75,5 @@ br.pause.quit = Guardar e Sair
 br.command.block = Tipo de Bloco:
 br.command.condition = Condição:
 br.command.redstone = Redstone:
+
+br.bed = A dormir o resto da noite

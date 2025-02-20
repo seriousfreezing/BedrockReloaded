@@ -4,6 +4,11 @@ layout-meta {
   identifier = container_screen
 }
 
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
 element {
   instance_identifier = 0
   element_type = image
@@ -19,9 +24,9 @@ element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 0
-  width = 6
-  height = 6
-  x = 4
+  width = 5
+  height = 5
+  x = 5
   y = 5
   backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
   backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png

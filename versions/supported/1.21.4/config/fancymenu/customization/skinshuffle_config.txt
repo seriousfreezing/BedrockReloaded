@@ -5,48 +5,6 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-vanilla_button {
-  instance_identifier = 682964
-  anchor_point = bottom-right
-  width = 200
-  height = 30
-  x = -206
-  y = -40
-}
-
-vanilla_button {
-  instance_identifier = 683920
-  anchor_point = bottom-right
-  width = 200
-  height = 20
-  x = -206
-  y = -98
-}
-
-vanilla_button {
-  instance_identifier = 835942
-  anchor_point = bottom-right
-  width = 98
-  height = 30
-  x = -104
-  y = -74
-}
-
-vanilla_button {
-  instance_identifier = 682942
-  anchor_point = bottom-right
-  width = 98
-  height = 30
-  x = -206
-  y = -74
+  action = backgroundoptions
+  keepaspectratio = true
 }

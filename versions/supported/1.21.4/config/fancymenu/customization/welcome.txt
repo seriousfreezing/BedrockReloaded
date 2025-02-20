@@ -2,62 +2,33 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = accessibility_onboarding_screen
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1735589872978
-  is_enabled = true
-  randommode = false
-  randomgroup = 1
-  randomonlyfirsttime = false
-  layout_index = 0
-  [loading_requirement_container_meta:560622f2-1b14-486b-8aa1-bd6c2b3d57a1-1735589835640] = [groups:][instances:]
-}
-
-customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  render_custom_elements_behind_vanilla = true
 }
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
-}
-
-scroll_list_customization {
-  preserve_scroll_list_header_footer_aspect_ratio = true
-  render_scroll_list_header_shadow = true
-  render_scroll_list_footer_shadow = true
-  show_scroll_list_header_footer_preview_in_editor = false
-  repeat_scroll_list_header_texture = false
-  repeat_scroll_list_footer_texture = false
-  show_screen_background_overlay_on_custom_background = false
-  apply_vanilla_background_blur = false
+  keepaspectratio = true
 }
 
 element {
   element_type = shape
   anchor_point = element
-  anchor_point_element = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
-  width = 192
-  height = 169
+  anchor_point_element = 0
+  width = 153
+  height = 125
   x = 4
   y = 16
   color = #00000050
 }
 
 element {
+  instance_identifier = 0
   element_type = image
-  instance_identifier = bcc88d5b-252b-498a-b783-de3d8c196fd2-1732753187746
   anchor_point = mid-centered
-  width = 200
-  height = 190
-  x = -100
-  y = -58
+  width = 160
+  height = 145
+  x = -80
+  y = -43
   source = [source:local]/config/fancymenu/assets/bg/command1.png
   nine_slice_texture = true
   nine_slice_texture_border_x = 8
@@ -65,47 +36,14 @@ element {
 }
 
 element {
-  element_type = custom_button
-  instance_identifier = 5f63966f-1f76-41c6-867a-20593126510a-1732936056803
-  anchor_point = mid-centered
-  width = 150
-  height = 30
-  x = -75
-  y = -29
-  label = {"placeholder":"local","values":{"key":"br.accessibility.title"}}
-  [executable_action_instance:0][action_type:mimicbutton] = accessibility_onboarding_screen:424195
-}
-
-element {
-  element_type = custom_button
-  instance_identifier = 5bb2116d-eb60-4611-b4fc-b7f6b3761633-1732936059103
-  anchor_point = mid-centered
-  width = 150
-  height = 30
-  x = -75
-  y = 5
-  label = {"placeholder":"local","values":{"key":"br.lang.title"}}
-  [executable_action_instance:1][action_type:mimicbutton] = accessibility_onboarding_screen:424223
-}
-
-element {
-  element_type = custom_button
-  anchor_point = mid-centered
-  width = 150
-  height = 30
-  x = -75
-  y = 39
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"accessibility_onboarding_screen:424167"}}
-  [executable_action_instance:2][action_type:mimicbutton] = accessibility_onboarding_screen:424167
-}
-
-element {
   element_type = text_v2
-  anchor_point = mid-centered
-  width = 200
-  height = 48
-  x = -100
-  y = -107
+  anchor_point = element
+  anchor_point_element = 0
+  width = 146
+  height = 50
+  x = 7
+  y = 3
+  interactable = false
   source = ^^^%n%{"placeholder":"local","values":{"key":"accessibility.onboarding.screen.title"}}%n%^^^
   source_mode = direct
   shadow = true
@@ -113,66 +51,49 @@ element {
   enable_scrolling = false
 }
 
-element {
-  element_type = custom_button
-  anchor_point = mid-centered
-  width = 150
-  height = 30
-  x = -75
-  y = 85
-  label = {"placeholder":"local","values":{"key":"br.options.done"}}
-  [executable_action_instance:3][action_type:mimicbutton] = accessibility_onboarding_screen:425974
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 5f63966f-1f76-41c6-867a-20593126510a-1732936056803
-  width = 11
-  height = 16
-  x = 6
-  y = 7
-  source = [source:local]/config/fancymenu/assets/icons/accessibility.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 5bb2116d-eb60-4611-b4fc-b7f6b3761633-1732936059103
-  width = 30
-  height = 16
-  x = 6
-  y = 7
-  source = [source:local]/config/fancymenu/assets/icons/language.png
-}
-
 vanilla_button {
-  instance_identifier = 424167
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 424195
-  is_hidden = true
+  instance_identifier = 425974
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 149
+  y = 8
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  label = 
 }
 
 vanilla_button {
   instance_identifier = 424223
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 424195
+  width = 130
+  height = 25
+  y = 27
+  label = {"placeholder":"local","values":{"key":"br.lang.title"}}
 }
 
 vanilla_button {
-  instance_identifier = 325128
-  is_hidden = true
+  instance_identifier = 424195
+  anchor_point = mid-centered
+  width = 130
+  height = 25
+  x = -66
+  y = 12
+  label = {"placeholder":"local","values":{"key":"br.accessibility.title"}}
 }
 
 vanilla_button {
-  instance_identifier = 425974
-  is_hidden = true
+  instance_identifier = 424167
+  anchor_point = element
+  anchor_point_element = 424223
+  width = 130
+  height = 25
+  y = 27
 }
 
 vanilla_button {
   instance_identifier = 317128
   is_hidden = true
 }
-

@@ -75,3 +75,5 @@ br.pause.quit = Zapisz i zamknij
 br.command.block = Typ bloku:
 br.command.condition = Warunek:
 br.command.redstone = Czerwienit:
+
+br.bed = Przesypiasz tę noc

@@ -74,3 +74,5 @@ br.pause.quit = Lagre og avslutt
 br.command.block = Blokktype:
 br.command.condition = Betingelse:
 br.command.redstone = Rødstein:
+
+br.bed = Sover gjennom denne natten

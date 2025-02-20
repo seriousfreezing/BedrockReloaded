@@ -23,8 +23,7 @@ br.category.controls = Styring
 br.category.general = Generelt
 
 br.general.text = 
-Jeg ved ikke, hvor og hvordan det ville være bedst at sige dette, men jeg vil gerne takke alle dem, der på en eller anden måde har bidraget eller hjulpet mig med denne modpakke.
-Så tak, dig der læser dette. Denne modpakke tog måneder, og endda mange år, at lave. Uden disse mennesker ville intet af dette have været muligt:
+Jeg ved ikke, hvor og hvordan det ville være bedst at sige dette, men jeg vil gerne takke alle dem, der på en eller anden måde har bidraget eller hjulpet mig med denne modpakke.%n%%n%Så tak, dig der læser dette. Denne modpakke tog måneder, og endda mange år, at lave. Uden disse mennesker ville intet af dette have været muligt:
 br.general.license = Licens
 br.general.licenses = Licenser
 br.general.credits = Credits
@@ -76,3 +75,5 @@ br.pause.quit = Gem og afslut
 br.command.block = Bloktype:
 br.command.condition = Betingelse:
 br.command.redstone = Redstone:
+
+br.bed = Sover igennem denne nat

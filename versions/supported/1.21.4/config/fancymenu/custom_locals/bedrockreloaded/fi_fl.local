@@ -22,8 +22,7 @@ br.howtoplay = Peliohjeet
 br.category.controls = Ohjauskomennot
 br.category.general = Yleinen
 
-br.general.text = En tiedä, missä ja miten olisi paras tapa sanoa tämä, mutta haluan kiittää kaikkia niitä, jotka ovat auttaneet tai olleet jollain tavalla mukana tässä modpakissa.
-Joten kiitos sinulle, joka luet tätä. Tämä modpaketti kesti kuukausia, jopa vuosia, tehdä. Ilman näitä ihmisiä mikään tästä ei olisi ollut mahdollista:
+br.general.text = En tiedä, missä ja miten olisi paras tapa sanoa tämä, mutta haluan kiittää kaikkia niitä, jotka ovat auttaneet tai olleet jollain tavalla mukana tässä modpakissa.%n%%n%Joten kiitos sinulle, joka luet tätä. Tämä modpaketti kesti kuukausia, jopa vuosia, tehdä. Ilman näitä ihmisiä mikään tästä ei olisi ollut mahdollista:
 br.general.license = Lisenssi
 br.general.licenses = Käyttöoikeudet
 br.general.credits = Tekijät
@@ -75,3 +74,5 @@ br.pause.quit = Tallenna ja lopeta
 br.command.block = Kuutiotyyppi:
 br.command.condition = Ehto:
 br.command.redstone = Punakivi:
+
+br.bed = Nuku läpi yön

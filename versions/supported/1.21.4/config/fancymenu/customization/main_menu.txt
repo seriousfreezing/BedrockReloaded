@@ -2,36 +2,33 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = title_screen
+  render_custom_elements_behind_vanilla = true
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
+  instance_identifier = 0
   element_type = image
   anchor_point = top-centered
-  width = 276
-  height = 66
-  x = -132
-  y = 23
+  width = 269
+  height = 64
+  x = -134
+  y = 33
   source = [source:location]minecraft:textures/gui/title/minecraft.png
 }
 
 element {
+  instance_identifier = 1
   element_type = custom_button
   anchor_point = mid-centered
-  width = 169
-  height = 35
-  x = -85
-  y = -20
+  width = 148
+  height = 30
+  x = -74
+  y = -13
   label = {"placeholder":"local","values":{"key":"br.menu.play"}}
   [executable_action_instance:0][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
   [executable_action_instance:1][action_type:set_variable] = create_world:true
@@ -39,57 +36,48 @@ element {
 
 element {
   element_type = splash_text
-  anchor_point = top-centered
+  anchor_point = element
+  anchor_point_element = 0
   width = 100
   height = 20
-  x = 78
-  y = 55
-  rotation = -20.0
+  x = 211
+  y = 26
   source = [source:local]/config/fancymenu/assets/texts/splashes.txt
   source_mode = text_file
+  rotation = -20.0
 }
 
 element {
   element_type = fancymenu_customization_player_entity
-  anchor_point = bottom-right
+  anchor_point = element
+  anchor_point_element = 629382
   width = 24
   height = 72
-  x = -88
-  y = -135
+  x = 17
+  y = -83
   copy_client_player = true
   scale = 40
-  body_follows_mouse = false
-}
-
-element {
-  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
-  element_type = custom_button
-  anchor_point = bottom-right
-  width = 92
-  height = 28
-  x = -123
-  y = -48
-  [executable_action_instance:2][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+  head_follows_mouse = true
 }
 
 element {
   element_type = shape
   anchor_point = bottom-right
-  advanced_posx = {"placeholder":"elementposx","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
-  advanced_posy = {"placeholder":"elementposy","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
-  advanced_width = {"placeholder":"elementwidth","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
-  advanced_height = {"placeholder":"elementheight","values":{"id":"447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715"}}
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"3"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"3"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"3"}} + 8","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"3"}} + 4","decimal":"true"}}
   color = #00000075
 }
 
 element {
-  instance_identifier = 447c4d19-e54e-48a3-85a7-dd5593670535-1732575457715
+  instance_identifier = 3
   element_type = text_v2
   anchor_point = bottom-right
-  width = 41
-  height = 14
-  x = -38
-  y = -14
+  width = 42
+  height = 13
+  x = -42
+  y = -13
   source = v{"placeholder":"mcversion"}
   source_mode = direct
   shadow = false
@@ -98,11 +86,11 @@ element {
 
 element {
   element_type = custom_button
-  anchor_point = mid-centered
-  width = 169
-  height = 35
-  x = -85
-  y = 54
+  anchor_point = element
+  anchor_point_element = mc_titlescreen_options_button
+  width = 148
+  height = 30
+  y = 31
   backgroundnormal = [source:local]/config/fancymenu/assets/bg/bt_market.gif
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/bt_market_hover.gif
   label = {"placeholder":"local","values":{"key":"br.menu.shop"}}
@@ -110,11 +98,12 @@ element {
 }
 
 element {
+  instance_identifier = 4
   element_type = custom_button
   anchor_point = bottom-left
-  width = 27
-  height = 27
-  x = 4
+  width = 25
+  height = 25
+  x = 5
   y = -55
   [executable_action_instance:4][action_type:opengui] = language_select_screen
   [executable_action_instance:5][action_type:set_variable] = main_menu:true
@@ -122,20 +111,22 @@ element {
 
 element {
   element_type = image
-  anchor_point = bottom-left
-  width = 20
-  height = 11
-  x = 7
-  y = -47
+  anchor_point = element
+  anchor_point_element = 4
+  width = 15
+  height = 8
+  x = 5
+  y = 8
   source = [source:local]/config/fancymenu/assets/icons/language.png
 }
 
 element {
+  instance_identifier = 5
   element_type = custom_button
   anchor_point = bottom-left
-  width = 27
-  height = 27
-  x = 33
+  width = 25
+  height = 25
+  x = 35
   y = -55
   [executable_action_instance:6][action_type:opengui] = accessibility_options_screen
   [executable_action_instance:7][action_type:set_variable] = main_menu:true
@@ -143,56 +134,52 @@ element {
 
 element {
   element_type = image
-  anchor_point = bottom-left
-  width = 10
-  height = 16
-  x = 42
-  y = -50
+  anchor_point = element
+  anchor_point_element = 5
+  width = 7
+  height = 12
+  x = 9
+  y = 6
   source = [source:local]/config/fancymenu/assets/icons/accessibility.png
 }
 
 element {
   element_type = shape
   anchor_point = bottom-left
-  advanced_posx = {"placeholder":"elementposx","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_posy = {"placeholder":"elementposy","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_width = {"placeholder":"elementwidth","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_height = {"placeholder":"elementheight","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"title_screen_copyright_button"}} - 2","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"title_screen_copyright_button"}} - 3","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"title_screen_copyright_button"}} + 5","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"title_screen_copyright_button"}} + 5","decimal":"true"}}
   color = #00000075
 }
 
-element {
-  instance_identifier = 5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384
-  element_type = text_v2
+vanilla_button {
+  instance_identifier = title_screen_copyright_button
   anchor_point = bottom-left
-  width = 70
-  height = 13
-  x = 0
-  y = -14
-  source = © Mojang AB
-  source_mode = direct
-  shadow = false
-  enable_scrolling = false
+  width = 60
+  height = 10
+  x = 2
+  y = -12
 }
 
 vanilla_button {
   instance_identifier = mc_titlescreen_options_button
-  anchor_point = mid-centered
-  width = 169
-  height = 35
-  x = -85
-  y = 17
+  anchor_point = element
+  anchor_point_element = 1
+  width = 148
+  height = 30
+  y = 31
   label = {"placeholder":"local","values":{"key":"br.options.title"}}
 }
 
-deep_element {
-  element_type = title_screen_logo
-  is_hidden = true
-}
-
 vanilla_button {
-  instance_identifier = mc_titlescreen_singleplayer_button
-  is_hidden = true
+  instance_identifier = 629382
+  anchor_point = bottom-right
+  width = 56
+  height = 26
+  x = -110
+  y = -56
+  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
 }
 
 deep_element {
@@ -201,7 +188,7 @@ deep_element {
 }
 
 deep_element {
-  element_type = title_screen_splash
+  element_type = title_screen_logo
   is_hidden = true
 }
 
@@ -210,73 +197,13 @@ deep_element {
   is_hidden = true
 }
 
-vanilla_button {
-  instance_identifier = 376394
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = mc_titlescreen_multiplayer_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = mc_titlescreen_realms_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 802990
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 376310
+deep_element {
+  element_type = title_screen_splash
   is_hidden = true
 }
 
 vanilla_button {
   instance_identifier = 901980
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = mc_titlescreen_quit_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = modmenu_titlescreen_mods_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 604394
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 604310
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 376322
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 376382
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 604382
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 604298
   is_hidden = true
 }
 
@@ -291,11 +218,81 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 802990
+  is_hidden = true
+}
+
+vanilla_button {
   instance_identifier = 768990
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 629382
+  instance_identifier = 629394
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604394
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604382
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604310
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 604298
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376394
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376382
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376322
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 376310
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_titlescreen_multiplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_titlescreen_quit_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_titlescreen_singleplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = modmenu_titlescreen_mods_button
   is_hidden = true
 }

@@ -2,108 +2,39 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = credits_and_attribution_screen
-}
-
-customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  render_custom_elements_behind_vanilla = true
 }
 
 menu_background {
+  background_type = color_fancymenu
   color = #313233
-  background_type = drippy_color_background
 }
 
-element {
-  element_type = image
-  anchor_point = mid-left
-  width = 4
-  height = 332
-  x = 237
-  y = -152
-  stretch_y = true
-  source = [source:location]fancymenu:bg/bar.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-centered
-  height = 32
-  stretch_x = true
-  source = [source:location]fancymenu:bg/header.png
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:opengui] = options_screen
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = text_v2
-  anchor_point = top-centered
-  width = 363
-  height = 78
-  x = -67
-  y = 42
-  source = {"placeholder":"local","values":{"key":"br.general.text"}}
+  anchor_point = top-left
+  width = 200
+  height = 125
+  x = 4
+  y = 37
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.general.text"}}%n%^^^
   source_mode = direct
   enable_scrolling = false
 }
 
 element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 65
-  height = 30
-  x = 8
-  y = 262
-  label = {"placeholder":"local","values":{"key":"br.general.credits"}}
-  [executable_action_instance:1][action_type:mimicbutton] = credits_and_attribution_screen:39563
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 65
-  height = 30
-  x = 83
-  y = 262
-  label = {"placeholder":"local","values":{"key":"br.general.attribution"}}
-  [executable_action_instance:2][action_type:openlink] = https://aka.ms/MinecraftJavaAttribution
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 65
-  height = 30
-  x = -67
-  y = 262
-  label = {"placeholder":"local","values":{"key":"br.general.licenses"}}
-  [executable_action_instance:3][action_type:openlink] = https://aka.ms/MinecraftJavaLicenses
-}
-
-element {
   element_type = text_v2
-  anchor_point = top-centered
-  width = 353
-  height = 45
-  x = -67
-  y = 121
-  source = {"placeholder":"randomtext","values":{"path":"config/fancymenu/assets/texts/credits.txt","interval":"5"}}
+  anchor_point = top-left
+  width = 200
+  height = 25
+  x = 4
+  y = 162
+  source = ^^^%n%{"placeholder":"randomtext","values":{"path":"config/fancymenu/assets/texts/credits.txt","interval":"5"}}%n%^^^
   source_mode = direct
   scale = 2.0
   base_color = #FFDF00
@@ -112,22 +43,22 @@ element {
 
 element {
   element_type = custom_button
-  anchor_point = top-centered
-  width = 65
+  anchor_point = top-left
+  width = 100
   height = 30
-  x = -67
-  y = 170
+  x = 54
+  y = 191
   label = {"placeholder":"local","values":{"key":"br.general.license"}}
-  [executable_action_instance:4][action_type:openlink] = https://www.gnu.org/licenses/gpl-3.0.html.en#license-text
+  [executable_action_instance:0][action_type:openlink] = https://www.gnu.org/licenses/gpl-3.0.html.en#license-text
 }
 
 element {
   element_type = text_v2
-  anchor_point = top-centered
+  anchor_point = top-left
   width = 104
   height = 20
-  x = -67
-  y = 234
+  x = 216
+  y = 37
   source = Minecraft:
   source_mode = direct
   scale = 2.0
@@ -136,267 +67,34 @@ element {
 
 element {
   element_type = shape
-  anchor_point = top-centered
-  width = 326
-  height = 2
-  x = -52
-  y = 216
+  anchor_point = top-left
+  width = 2
+  height = 178
+  x = 208
+  y = 41
   color = #9d9e9e
 }
 
 element {
-  label = {"placeholder":"local","values":{"key":"br.howtoplay"}}
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 61
-  [executable_action_instance:5][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
-}
-
-element {
-  element_type = text_v2
-  anchor_point = top-left
-  width = 89
-  height = 19
-  x = 4
-  y = 93
-  source = {"placeholder":"local","values":{"key":"br.category.controls"}}
-  source_mode = direct
-  scale = 2.0
-  enable_scrolling = false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 194
-  label = {"placeholder":"local","values":{"key":"br.category.general"}}
-  [executable_action_instance:6][action_type:opengui] = credits_and_attribution_screen
-  [executable_action_instance:7][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = text_v2
-  anchor_point = top-left
-  width = 81
-  height = 19
-  x = 4
-  y = 173
-  source = {"placeholder":"local","values":{"key":"br.category.general"}}
-  source_mode = direct
-  scale = 2.0
-  enable_scrolling = false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 34
-  label = {"placeholder":"local","values":{"key":"br.accessibility.title"}}
-  [executable_action_instance:8][action_type:opengui] = accessibility_options_screen
-  [executable_action_instance:9][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 114
-  label = {"placeholder":"local","values":{"key":"br.keyboard.title"}}
-  [executable_action_instance:10][action_type:opengui] = controls_screen
-  [executable_action_instance:11][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 221
-  label = {"placeholder":"local","values":{"key":"br.account.title"}}
-  [executable_action_instance:12][action_type:opengui] = skin_customization_screen
-  [executable_action_instance:13][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 275
-  label = {"placeholder":"local","values":{"key":"br.sounds.title"}}
-  [executable_action_instance:14][action_type:opengui] = sound_options_screen
-  [executable_action_instance:15][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 302
-  label = {"placeholder":"local","values":{"key":"br.resourcepacks.title"}}
-  [executable_action_instance:16][action_type:opengui] = pack_selection_screen
-  [executable_action_instance:17][action_type:set_variable] = create_world:false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 329
-  label = {"placeholder":"local","values":{"key":"br.lang.title"}}
-  [executable_action_instance:18][action_type:opengui] = language_select_screen
-  [executable_action_instance:19][action_type:set_variable] = main_menu:false
-}
-
-element {
+  instance_identifier = 0
   element_type = image
-  anchor_point = top-left
-  width = 11
-  height = 16
-  x = 14
-  y = 38
-  source = [source:local]/config/fancymenu/assets/icons/accessibility.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 12
-  height = 16
-  x = 14
-  y = 65
-  source = [source:location]fancymenu:icons/howto.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 31
-  height = 15
-  x = 12
-  y = 119
-  source = [source:location]fancymenu:icons/keyboard.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 14
-  height = 15
-  x = 12
-  y = 199
-  source = [source:local]/config/fancymenu/assets/icons/general.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 13
-  height = 15
-  x = 12
-  y = 226
-  source = [source:local]/config/fancymenu/assets/icons/avatar.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 20
-  height = 15
-  x = 12
-  y = 280
-  source = [source:local]/config/fancymenu/assets/icons/sound.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 28
-  height = 15
-  x = 12
-  y = 334
-  source = [source:local]/config/fancymenu/assets/icons/language.png
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 16
-  height = 16
-  x = 13
-  y = 306
-  source = [source:local]/config/fancymenu/assets/icons/resource.png
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 248
-  label = {"placeholder":"local","values":{"key":"br.video.title"}}
-  [executable_action_instance:20][action_type:mimicbutton] = options_screen:345139
-  [executable_action_instance:21][action_type:set_variable] = main_menu:false
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  width = 18
-  height = 15
-  x = 12
-  y = 253
-  source = [source:local]/config/fancymenu/assets/icons/video.png
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 141
-  label = {"placeholder":"local","values":{"key":"br.controller.title"}}
-  [executable_action_instance:22][action_type:set_variable] = main_menu:false
-  [executable_action_instance:23][action_type:mimicbutton] = controls_screen:65837
-}
-
-element {
-  element_type = image
-  anchor_point = top-left
-  x = 12
-  y = 146
-  width = 22
-  height = 15
-  source = [source:location]fancymenu:icons/controller.png
-}
-
-element {
-  element_type = text_v2
   anchor_point = top-centered
-  width = 400
+  width = 100
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:bg/header.png
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 524
   height = 20
-  x = -82
+  x = -22
   y = 5
-  source = ^^^%n%{"placeholder":"local","values":{"key":"br.category.general"}}%n%^^^
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"br.general.credits"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 1.5
@@ -405,26 +103,42 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = 39591
-  is_hidden = true
-}
-
-vanilla_button {
   instance_identifier = 400974
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
 }
 
 vanilla_button {
   instance_identifier = 395119
-  is_hidden = true
+  anchor_point = top-left
+  width = 65
+  height = 30
+  x = 216
+  y = 59
+  label = {"placeholder":"local","values":{"key":"br.general.licenses"}}
 }
 
 vanilla_button {
   instance_identifier = 39563
-  is_hidden = true
+  anchor_point = top-left
+  width = 65
+  height = 30
+  x = 285
+  y = 59
 }
 
 vanilla_button {
-  instance_identifier = 44312
-  is_hidden = true
+  instance_identifier = 39591
+  anchor_point = top-left
+  width = 65
+  height = 30
+  x = 354
+  y = 59
 }

@@ -74,3 +74,5 @@ br.pause.quit = Save & Quit
 br.command.block = Block Type:
 br.command.condition = Condition:
 br.command.redstone = Redstone:
+
+br.bed = Sleeping through this night

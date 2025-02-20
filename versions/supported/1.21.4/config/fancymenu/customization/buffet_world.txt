@@ -5,48 +5,27 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:mimicbutton] = create_buffet_world_screen:504974
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 vanilla_button {
   instance_identifier = 346974
   anchor_point = bottom-centered
-  width = 150
-  height = 30
-  x = -75
-  y = -32
+  width = 130
+  height = 25
+  x = -65
+  y = -28
 }
 
 vanilla_button {
   instance_identifier = 504974
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 44521
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 4334
-  is_hidden = true
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
 }

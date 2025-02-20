@@ -1,38 +1,27 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = de.florianmichael.viafabricplus.screen.settings.SettingsScreen
+  identifier = com.viaversion.viafabricplus.screen.impl.settings.SettingsScreen
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:mimicbutton] = de.florianmichael.viafabricplus.screen.settings.SettingsScreen:55
-}
-
-vanilla_button {
-  instance_identifier = 39025
-  is_hidden = true
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 vanilla_button {
   instance_identifier = 55
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 39025
   is_hidden = true
 }

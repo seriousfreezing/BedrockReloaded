@@ -75,3 +75,5 @@ br.pause.quit = Opslaan en afsluiten
 br.command.block = Type blok:
 br.command.condition = Voorwaarde:
 br.command.redstone = Redstone:
+
+br.bed = Door deze nacht slapen

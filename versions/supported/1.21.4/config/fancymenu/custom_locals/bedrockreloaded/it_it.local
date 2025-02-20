@@ -75,3 +75,5 @@ br.pause.quit = Salva ed esci
 br.command.block = Tipo di blocco:
 br.command.condition = Condizione:
 br.command.redstone = Pietrarossa:
+
+br.bed = Riposo notturno in corso

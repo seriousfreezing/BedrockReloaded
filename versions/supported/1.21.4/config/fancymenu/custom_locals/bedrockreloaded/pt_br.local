@@ -74,3 +74,5 @@ br.pause.quit = Salvar e Sair
 br.command.block = Tipo de bloqueio:
 br.command.condition = Condição:
 br.command.redstone = Redstone:
+
+br.bed = Dormindo a noite toda

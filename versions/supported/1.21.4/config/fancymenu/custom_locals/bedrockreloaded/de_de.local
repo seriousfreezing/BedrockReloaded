@@ -22,8 +22,7 @@ br.howtoplay = So wird gespielt
 br.category.controls = Steuerung
 br.category.general = Allgemein
 
-br.general.text = Ich weiß nicht, wo und wie es am besten wäre, dies zu sagen, aber ich möchte allen danken, die in irgendeiner Weise zu diesem Modpack beigetragen oder mir geholfen haben.
-Also danke an dich, der du das hier liest. Dieses Modpack hat Monate, sogar Jahre, gebraucht, um es zu erstellen. Und ohne diese Menschen wäre nichts davon möglich gewesen:
+br.general.text = Ich weiß nicht, wo und wie es am besten wäre, dies zu sagen, aber ich möchte allen danken, die in irgendeiner Weise zu diesem Modpack beigetragen oder mir geholfen haben. Also danke an dich, der du das hier liest.%n%%n%Dieses Modpack hat Monate, sogar Jahre, gebraucht, um es zu erstellen. Und ohne diese Menschen wäre nichts davon möglich gewesen:
 br.general.license = Lizenz
 br.general.licenses = Lizenzen
 br.general.credits = Mitwirkende
@@ -75,3 +74,5 @@ br.pause.quit = Speichern & beenden
 br.command.block = Blocktyp:
 br.command.condition = Bedingung:
 br.command.redstone = Redstone:
+
+br.bed = Diese Nacht durchschlafen

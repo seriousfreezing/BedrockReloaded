@@ -22,8 +22,7 @@ br.howtoplay = Útmutató
 br.category.controls = Kezelőszervek
 br.category.general = Általános
 
-br.general.text = Nem tudom, hol és hogyan lenne a legjobb ezt mondani, de szeretném megköszönni mindazoknak, akik valamilyen módon hozzájárultak vagy segítettek nekem ezzel a modpack-kal kapcsolatban.
-Szóval köszönöm neked, aki ezt olvasod. Ez a modpack hónapokat, sőt éveket vett igénybe a létrehozása. És ezek az emberek nélkül semmi sem lett volna lehetséges:
+br.general.text = Nem tudom, hol és hogyan lenne a legjobb ezt mondani, de szeretném megköszönni mindazoknak, akik valamilyen módon hozzájárultak vagy segítettek nekem ezzel a modpack-kal kapcsolatban.%n%%n%Szóval köszönöm neked, aki ezt olvasod. Ez a modpack hónapokat, sőt éveket vett igénybe a létrehozása. És ezek az emberek nélkül semmi sem lett volna lehetséges:
 br.general.license = Licenc
 br.general.licenses = Licencek
 br.general.credits = Készítők
@@ -75,3 +74,5 @@ br.pause.quit = Mentés és kilépés
 br.command.block = Blokk típusa:
 br.command.condition = Feltétel:
 br.command.redstone = Vöröskő:
+
+br.bed = Az éjszaka átalvása

@@ -75,3 +75,5 @@ br.pause.quit = 저장 및 종료
 br.command.block = 블록 유형:
 br.command.condition = 조건:
 br.command.redstone = 레드스톤:
+
+br.bed = 이 밤 내내 수면을 취하세요.

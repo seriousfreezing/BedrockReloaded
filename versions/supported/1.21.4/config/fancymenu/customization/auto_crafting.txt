@@ -4,13 +4,18 @@ layout-meta {
   identifier = net.minecraft.class_8898
 }
 
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
 element {
   element_type = custom_button
   anchor_point = mid-centered
   width = 5
   height = 5
-  x = 73
-  y = -73
+  x = 76
+  y = -75
   backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
   backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
   [executable_action_instance:0][action_type:closegui] = 

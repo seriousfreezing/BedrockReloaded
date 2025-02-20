@@ -74,3 +74,5 @@ br.pause.quit = 保存并退出
 br.command.block = 方块类型：
 br.command.condition = 条件：
 br.command.redstone = 红石：
+
+br.bed = 整夜睡觉

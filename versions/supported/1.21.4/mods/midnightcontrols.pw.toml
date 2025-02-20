@@ -1,13 +1,13 @@
 name = "MidnightControls"
-filename = "midnightcontrols-fabric-1.10.3.jar"
+filename = "midnightcontrols-fabric-1.10.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/bXX9h73M/versions/3bg8IbA5/midnightcontrols-fabric-1.10.3.jar"
+url = "https://cdn.modrinth.com/data/bXX9h73M/versions/JsJTIdUG/midnightcontrols-fabric-1.10.4.jar"
 hash-format = "sha1"
-hash = "e3cf3e8ee6cbb84dab056f26336cffdd424d5bb0"
+hash = "dbfff51aaef356882e5046590585b2d2fd3a41f8"
 
 [update]
 [update.modrinth]
 mod-id = "bXX9h73M"
-version = "3bg8IbA5"
+version = "JsJTIdUG"

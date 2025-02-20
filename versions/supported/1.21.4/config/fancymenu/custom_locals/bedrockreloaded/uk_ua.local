@@ -74,3 +74,5 @@ br.pause.quit = Зберегти й вийти
 br.command.block = Тип блоку:
 br.command.condition = Умова:
 br.command.redstone = Редстоун:
+
+br.bed = Проспати ніч

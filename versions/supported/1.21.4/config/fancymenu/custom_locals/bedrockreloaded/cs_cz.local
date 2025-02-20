@@ -22,8 +22,7 @@ br.howtoplay = Pravidla hry
 br.category.controls = Ovládání
 br.category.general = Obecné
 
-br.general.text = Nevím, kde a jak by bylo nejlepší to říct, ale chci poděkovat všem, kteří nějakým způsobem přispěli nebo mi pomohli s tímto modpackem.
-Takže děkuji vám, kteří to čtete. Tento modpack trval měsíce, ba i roky, než vznikl. A bez těchto lidí by nic z toho nebylo možné:
+br.general.text = Nevím, kde a jak by bylo nejlepší to říct, ale chci poděkovat všem, kteří nějakým způsobem přispěli nebo mi pomohli s tímto modpackem.%n%%n%Takže děkuji vám, kteří to čtete. Tento modpack trval měsíce, ba i roky, než vznikl. A bez těchto lidí by nic z toho nebylo možné:
 br.general.license = Licence
 br.general.licenses = Licence
 br.general.credits = Autoři
@@ -75,3 +74,5 @@ br.pause.quit = Uložit a ukončit
 br.command.block = Typ bloku:
 br.command.condition = Podmínka:
 br.command.redstone = Rudit:
+
+br.bed = Prospávání noci

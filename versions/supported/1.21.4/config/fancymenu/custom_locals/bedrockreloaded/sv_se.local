@@ -74,3 +74,5 @@ br.pause.quit = Spara och avsluta
 br.command.block = Blocktyp:
 br.command.condition = Villkor:
 br.command.redstone = Rödsten:
+
+br.bed = Sover genom den här natten

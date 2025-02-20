@@ -6,59 +6,48 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 502970
   anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
+  width = 8
+  height = 12
+  x = 4
+  y = 6
   backgroundnormal = [source:location]fancymenu:icons/back.png
   backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:mimicbutton] = io.github.gaming32.worldhost.gui.screen.FriendsScreen:502970
+  label = 
 }
 
 vanilla_button {
   instance_identifier = 346946
   anchor_point = bottom-centered
-  width = 150
+  width = 100
   height = 30
-  x = -229
-  y = -48
+  x = -154
+  y = -53
   label = {"placeholder":"local","values":{"key":"br.friends.add"}}
 }
 
 vanilla_button {
   instance_identifier = 502946
   anchor_point = bottom-centered
-  width = 150
+  width = 100
   height = 30
-  x = 79
-  y = -48
+  x = 54
+  y = -53
   label = {"placeholder":"local","values":{"key":"br.friends.remove"}}
 }
 
 vanilla_button {
   instance_identifier = 346970
   anchor_point = bottom-centered
-  width = 150
+  width = 100
   height = 30
-  x = -75
-  y = -48
+  x = -50
+  y = -53
   label = {"placeholder":"local","values":{"key":"br.friends.info"}}
-}
-
-vanilla_button {
-  instance_identifier = 502970
-  is_hidden = true
 }

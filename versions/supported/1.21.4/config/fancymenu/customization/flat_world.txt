@@ -5,63 +5,45 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:mimicbutton] = create_flat_world_screen:504970
-}
-
-element {
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 150
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = element
+  anchor_point_element = 504946
+  width = 130
   height = 30
-  x = 83
-  y = -32
-  label = {"placeholder":"local","values":{"key":"br.options.done"}}
-  [executable_action_instance:1][action_type:mimicbutton] = create_flat_world_screen:346970
+  x = 134
+}
+
+vanilla_button {
+  instance_identifier = 504946
+  anchor_point = element
+  anchor_point_element = 346946
+  width = 130
+  height = 30
+  x = 134
 }
 
 vanilla_button {
   instance_identifier = 346946
   anchor_point = bottom-centered
-  width = 150
+  width = 130
   height = 30
-  x = -233
-  y = -32
-}
-
-vanilla_button {
-  instance_identifier = 504946
-  anchor_point = bottom-centered
-  width = 150
-  height = 30
-  x = -75
-  y = -32
-}
-
-vanilla_button {
-  instance_identifier = 346970
-  is_hidden = true
+  x = -198
+  y = -40
 }
 
 vanilla_button {
   instance_identifier = 504970
-  is_hidden = true
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
 }

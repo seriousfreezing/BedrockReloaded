@@ -74,3 +74,5 @@ br.pause.quit = Uložiť a ukončiť
 br.command.block = Typ bloku:
 br.command.condition = Podmienka:
 br.command.redstone = Rudit:
+
+br.bed = Spať počas noci

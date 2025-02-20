@@ -22,8 +22,7 @@ br.howtoplay = Cara Main
 br.category.controls = Kontrol
 br.category.general = Umum
 
-br.general.text = Saya tidak tahu di mana dan bagaimana cara terbaik untuk mengucapkannya, tetapi saya ingin mengucapkan terima kasih kepada semua orang yang telah berkontribusi atau membantu saya dengan cara apa pun dalam pembuatan modpack ini.
-Jadi, terima kasih kepada Anda yang sedang membaca ini. Modpack ini memerlukan waktu berbulan-bulan, bahkan bertahun-tahun untuk dibuat. Tanpa orang-orang ini, semua ini tidak akan mungkin terjadi:
+br.general.text = Saya tidak tahu di mana dan bagaimana cara terbaik untuk mengucapkannya, tetapi saya ingin mengucapkan terima kasih kepada semua orang yang telah berkontribusi atau membantu saya dengan cara apa pun dalam pembuatan modpack ini.%n%%n%Jadi, terima kasih kepada Anda yang sedang membaca ini. Modpack ini memerlukan waktu berbulan-bulan, bahkan bertahun-tahun untuk dibuat. Tanpa orang-orang ini, semua ini tidak akan mungkin terjadi:
 br.general.license = Lisensi
 br.general.licenses = Lisensi
 br.general.credits = Kredit
@@ -75,3 +74,5 @@ br.pause.quit = Simpan & Keluar
 br.command.block = Jenis Blok:
 br.command.condition = Kondisi:
 br.command.redstone = Batu Merah:
+
+br.bed = Tidur melewati malam ini

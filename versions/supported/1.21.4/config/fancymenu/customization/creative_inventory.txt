@@ -4,12 +4,17 @@ layout-meta {
   identifier = creative_mode_inventory_screen
 }
 
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
 element {
   element_type = custom_button
   anchor_point = mid-centered
   width = 5
   height = 5
-  x = 83
+  x = 82
   y = -61
   backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
   backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png

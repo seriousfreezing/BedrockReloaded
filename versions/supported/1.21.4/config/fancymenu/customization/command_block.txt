@@ -6,33 +6,27 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = shape
   anchor_point = element
-  anchor_point_element = 8521fd1f-2c7e-40fb-8336-6391140cae5f-1733104251009
+  anchor_point_element = 0
   width = 319
-  height = 201
-  x = 4
-  y = 12
+  height = 153
+  x = 3
+  y = 3
   color = #00000050
 }
 
 element {
-  element_type = image
   instance_identifier = 0
+  element_type = image
   anchor_point = top-centered
   width = 327
-  height = 218
+  height = 160
   x = -163
   y = 15
   source = [source:local]/config/fancymenu/assets/bg/command.png
@@ -42,120 +36,13 @@ element {
 }
 
 element {
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 100
-  height = 30
-  x = -50
-  y = -39
-  label = {"placeholder":"local","values":{"key":"br.options.done"}}
-  [executable_action_instance:1][action_type:mimicbutton] = command_block_edit_screen:346382
-}
-
-element {
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 0
-  width = 6
-  height = 6
-  x = 316
-  y = 20
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
-  [executable_action_instance:4][action_type:closegui] = 
-}
-
-element {
-  element_type = custom_button
-  instance_identifier = 1
-  anchor_point = top-centered
-  width = 97
-  height = 30
-  x = -150
-  y = 182
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"command_block_edit_screen:346165"}}
-  [executable_action_instance:2][action_type:mimicbutton] = command_block_edit_screen:346165
-}
-
-element {
-  element_type = custom_button
-  instance_identifier = 2
-  anchor_point = top-centered
-  width = 98
-  height = 30
-  x = -49
-  y = 182
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"command_block_edit_screen:450165"}}
-  [executable_action_instance:0][action_type:mimicbutton] = command_block_edit_screen:450165
-}
-
-element {
-  element_type = custom_button
-  instance_identifier = 3
-  anchor_point = top-centered
-  width = 97
-  height = 30
-  x = 53
-  y = 182
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"command_block_edit_screen:554165"}}
-  [executable_action_instance:3][action_type:mimicbutton] = command_block_edit_screen:554165
-}
-
-element {
-  element_type = shape
-  anchor_point = top-centered
-  width = 300
-  height = 2
-  x = -150
-  y = 92
-  color = #9d9e9e
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 20
-  height = 20
-  x = 130
-  y = 135
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"command_block_edit_screen:630135"}}
-  [executable_action_instance:5][action_type:mimicbutton] = command_block_edit_screen:630135
-}
-
-element {
-  element_type = shape
-  anchor_point = element
-  anchor_point_element = 4
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"4"}} - 4","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"4"}} - 4","decimal":"true"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"4"}} + 8","decimal":"true"}}
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"4"}} + 8","decimal":"true"}}
-  width = 100
-  height = 100
-  color = #00000050
-}
-
-element {
-  instance_identifier = 4
   element_type = text_v2
-  anchor_point = bottom-left
-  width = 203
-  height = 60
-  x = 10
-  y = -70
-  source = {"placeholder":"local","values":{"key":"advMode.self"}}%n%{"placeholder":"local","values":{"key":"advMode.nearestPlayer"}}%n%{"placeholder":"local","values":{"key":"advMode.randomPlayer"}}%n%{"placeholder":"local","values":{"key":"advMode.allPlayers"}}%n%{"placeholder":"local","values":{"key":"advMode.allEntities"}}
-  source_mode = direct
-  enable_scrolling = false
-}
-
-element {
-  element_type = text_v2
-  anchor_point = top-centered
-  width = 100
+  anchor_point = element
+  anchor_point_element = 346165
+  width = 99
   height = 15
-  x = -150
-  y = 165
+  x = -1
+  y = -15
   source = {"placeholder":"local","values":{"key":"br.command.block"}}
   source_mode = direct
   base_color = #9e9e9e
@@ -164,11 +51,12 @@ element {
 
 element {
   element_type = text_v2
-  anchor_point = top-centered
-  width = 100
+  anchor_point = element
+  anchor_point_element = 450165
+  width = 99
   height = 15
-  x = -49
-  y = 165
+  x = -1
+  y = -15
   source = {"placeholder":"local","values":{"key":"br.command.condition"}}
   source_mode = direct
   base_color = #9e9e9e
@@ -177,76 +65,73 @@ element {
 
 element {
   element_type = text_v2
-  anchor_point = top-centered
-  width = 100
+  anchor_point = element
+  anchor_point_element = 554165
+  width = 99
   height = 15
-  x = 53
-  y = 165
+  x = -1
+  y = -15
   source = {"placeholder":"local","values":{"key":"br.command.redstone"}}
   source_mode = direct
   base_color = #9e9e9e
   enable_scrolling = false
 }
 
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 1
-  width = 10
-  height = 6
-  x = 83
-  y = 12
-  source = [source:local]/config/fancymenu/assets/icons/down.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 2
-  width = 10
-  height = 6
-  x = 84
-  y = 12
-  source = [source:local]/config/fancymenu/assets/icons/down.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 3
-  width = 10
-  height = 6
-  x = 83
-  y = 12
-  source = [source:local]/config/fancymenu/assets/icons/down.png
-}
-
-vanilla_button {
-  instance_identifier = 630135
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 554165
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 504382
-  is_hidden = true
-}
-
 vanilla_button {
   instance_identifier = 450165
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 346382
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 346165
+  width = 99
+  height = 25
+  x = 103
 }
 
 vanilla_button {
   instance_identifier = 346165
-  is_hidden = true
+  anchor_point = top-centered
+  width = 99
+  height = 25
+  x = -151
+  y = 92
+}
+
+vanilla_button {
+  instance_identifier = 346382
+  anchor_point = element
+  anchor_point_element = 0
+  width = 100
+  height = 30
+  x = 113
+  y = 185
+}
+
+vanilla_button {
+  instance_identifier = 554165
+  anchor_point = element
+  anchor_point_element = 450165
+  width = 99
+  height = 25
+  x = 103
+}
+
+vanilla_button {
+  instance_identifier = 630135
+  anchor_point = top-centered
+  width = 20
+  height = 20
+  x = 130
+  y = 135
+}
+
+vanilla_button {
+  instance_identifier = 504382
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 316
+  y = 6
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  label = 
 }

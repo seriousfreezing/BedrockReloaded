@@ -5,35 +5,28 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = custom_button
   anchor_point = mid-centered
-  width = 12
-  height = 12
-  x = 110
-  y = -67
-  label = 
+  width = 5
+  height = 5
+  x = 115
+  y = -63
   backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
   backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
   [executable_action_instance:0][action_type:closegui] = 
 }
 
 vanilla_button {
-  instance_identifier = 46512
+  instance_identifier = 400974
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 400974
+  instance_identifier = 47012
   is_hidden = true
 }

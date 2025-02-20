@@ -6,23 +6,17 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
   element_type = custom_button
   anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
+  width = 8
+  height = 12
+  x = 4
+  y = 6
   backgroundnormal = [source:location]fancymenu:icons/back.png
   backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
   [executable_action_instance:0][action_type:opengui] = select_world_screen
@@ -77,7 +71,7 @@ element {
   x = -9
   y = -54
   label = {"placeholder":"local","values":{"key":"br.play.friends"}}
-  [executable_action_instance:2][action_type:mimicbutton] = join_multiplayer_screen:50232
+  [executable_action_instance:2][action_type:opengui] = io.github.gaming32.worldhost.gui.screen.FriendsScreen
 }
 
 element {

@@ -6,29 +6,12 @@ layout-meta {
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 10
-  height = 16
-  x = 5
-  y = 4
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:opengui] = title_screen
-}
-
-element {
+  instance_identifier = 2
   element_type = custom_button
   anchor_point = bottom-centered
   width = 75
@@ -36,20 +19,11 @@ element {
   x = -9
   y = -54
   label = {"placeholder":"local","values":{"key":"br.play.friends"}}
-  [executable_action_instance:1][action_type:mimicbutton] = join_multiplayer_screen:50232
+  [executable_action_instance:1][action_type:opengui] = io.github.gaming32.worldhost.gui.screen.FriendsScreen
 }
 
 element {
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 80
-  height = 20
-  x = -177
-  y = -54
-  label = {"placeholder":"local","values":{"key":"br.play.worlds"}}
-}
-
-element {
+  instance_identifier = 1
   element_type = custom_button
   anchor_point = bottom-centered
   width = 80
@@ -61,32 +35,46 @@ element {
 }
 
 element {
-  element_type = image
+  instance_identifier = 0
+  element_type = custom_button
   anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -177
+  y = -54
+  label = {"placeholder":"local","values":{"key":"br.play.worlds"}}
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 2
   width = 12
   height = 12
-  x = -5
-  y = -50
+  x = 4
+  y = 4
   source = [source:local]/config/fancymenu/assets/icons/social.png
 }
 
 element {
   element_type = image
-  anchor_point = bottom-centered
+  anchor_point = element
+  anchor_point_element = 1
   width = 12
   height = 12
-  x = -89
-  y = -50
+  x = 4
+  y = 4
   source = [source:location]fancymenu:icons/server.png
 }
 
 element {
   element_type = image
-  anchor_point = bottom-centered
+  anchor_point = element
+  anchor_point_element = 0
   width = 12
   height = 12
-  x = -173
-  y = -50
+  x = 4
+  y = 4
   source = [source:local]/config/fancymenu/assets/icons/general.png
 }
 
@@ -104,24 +92,14 @@ element {
 
 element {
   element_type = custom_button
-  instance_identifier = 62be85a0-6095-4110-bceb-7937d4a3a8c7-1732766130406
-  anchor_point = top-centered
-  width = 25
-  height = 25
-  x = 104
-  y = 19
-  [executable_action_instance:5][action_type:mimicbutton] = select_world_screen:63422
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 62be85a0-6095-4110-bceb-7937d4a3a8c7-1732766130406
-  width = 15
-  height = 13
-  x = 5
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
   y = 6
-  source = [source:location]fancymenu:icons/download.png
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = title_screen
 }
 
 vanilla_button {
@@ -162,6 +140,13 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 63422
+  anchor_point = top-centered
+  x = 104
+  y = 22
+}
+
+vanilla_button {
   instance_identifier = 582972
   is_hidden = true
 }
@@ -172,16 +157,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 504948
-  is_hidden = true
-}
-
-vanilla_button {
   instance_identifier = 450948
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 63422
   is_hidden = true
 }

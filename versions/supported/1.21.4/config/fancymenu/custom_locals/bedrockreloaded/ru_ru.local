@@ -74,3 +74,5 @@ br.pause.quit = Сохранить и выйти
 br.command.block = Тип блока:
 br.command.condition = Условие:
 br.command.redstone = Красный камень:
+
+br.bed = Спать в эту ночь

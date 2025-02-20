@@ -2,29 +2,13 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = direct_join_server_screen
+  render_custom_elements_behind_vanilla = true
   custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
 }
 
 customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1920
-  baseheight = 1080
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-centered
-  width = 225
-  height = 30
-  x = -112
-  y = 156
-  label = {"placeholder":"vanillabuttonlabel","values":{"locator":"direct_join_server_screen:400358"}}
-  [executable_action_instance:0][action_type:mimicbutton] = direct_join_server_screen:400358
+  action = backgroundoptions
+  keepaspectratio = true
 }
 
 element {
@@ -59,36 +43,34 @@ element {
   width = 225
   height = 14
   y = 4
+  interactable = false
   source = ^^^%n%{"placeholder":"local","values":{"key":"selectServer.direct"}}%n%^^^
   source_mode = direct
   shadow = false
   base_color = #464546
   enable_scrolling = false
-  interactable = false
-}
-
-element {
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 0
-  width = 6
-  height = 6
-  x = 215
-  y = 7
-  label = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
-  [executable_action_instance:1][action_type:mimicbutton] = direct_join_server_screen:400382
 }
 
 vanilla_button {
   instance_identifier = 400382
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 212
+  y = 7
+  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  label = 
 }
 
 vanilla_button {
   instance_identifier = 400358
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 0
+  width = 225
+  height = 30
+  y = 81
 }
 
 vanilla_button {
