@@ -2,78 +2,49 @@ br.menu.play = Spelen
 br.options.title = Instellingen
 br.menu.shop = Marketplace
 br.menu.skin = Kleedkamer
-
 br.lang.title = Taal
 br.lang.options = Taalinstellingen
-
 br.fonts.title = Lettertypen
 br.fonts.options = Lettertype-instellingen
-
 br.options.bedrockify =Geavanceerde instellingen
-br.options.fov = Zichtveld:
-br.options.done = Klaar
-br.options.confirm = Bevestigen
-
 br.accessibility.title = Toegankelijkheid
 br.accessibility.options = Toegankelijkheidsinstellingen
-
 br.howtoplay = Speluitleg
-
 br.category.controls = Besturing
 br.category.general = Algemeen
-
 br.general.text = Bedankt aan alle mensen die op de een of andere manier hebben bijgedragen of mij hebben geholpen met dit modpack.
 Dus bedankt, jij die dit leest, dit modpack heeft maanden en zelfs vele jaren gekost om te maken. En zonder deze mensen zou dit alles niet mogelijk zijn:
 br.general.license = Licentie
 br.general.licenses = Licenties
 br.general.credits = Credits
-br.general.attribution = Attributie
-
-br.keyboard.title = Toetsenbord en muis
 br.keyboard.options = Toetsenbord- en muisinstellingen
 br.keyboard.keybinds = Toetsenbordindeling
-
 br.mouse.options = Muisinstellingen
-
-br.controller.title = Controller
-
 br.account.title = Account
 br.account.options = Accountinstellingen
-
 br.online.title = Online
 br.online.options = Online-instellingen
-
 br.chat.title = Chat
 br.chat.options = Chatinstellingen
-
 br.video.title = Video
-
 br.sounds.title = Geluid
 br.sounds.options = Geluidsinstellingen
-
 br.resourcepacks.title = Resourcepakketten
 br.datapacks.title = Gegevenspakketten
-
 br.play.worlds = Werelden
 br.play.servers = Servers
 br.play.friends = Vrienden
 br.play.create = Nieuwe wereld maken
 br.play.selected = Geselecteerde wereld spelen
-
 br.server.guide = Gids
-
-br.friendserver.add = Toevoegen
 br.friends.add = Vriend toevoegen
 br.friends.remove = Verwijder vriend
 br.friends.info = Toon informatie
-
 br.pause.return = Verder spelen
 br.pause.stats = Statistieken
 br.pause.invite = Uitnodigen voor spel
 br.pause.quit = Opslaan en afsluiten
-
 br.command.block = Type blok:
 br.command.condition = Voorwaarde:
 br.command.redstone = Redstone:
-
 br.bed = Door deze nacht slapen

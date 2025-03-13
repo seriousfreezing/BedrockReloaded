@@ -2,77 +2,48 @@ br.menu.play = Hrať
 br.options.title = Nastavenia
 br.menu.shop = Trhovisko
 br.menu.skin = Šatňa
-
 br.lang.title = Jazyk
 br.lang.options = Nastavenia jazyka
-
 br.fonts.title = Písma
 br.fonts.options = Nastavenia písiem
-
 br.options.bedrockify = Rozšírené nastavenia
-br.options.fov = Zorné pole:
-br.options.done = Hotovo
-br.options.confirm = Potvrdiť
-
 br.accessibility.title = Zjednodušenie ovládania
 br.accessibility.options = Nastavenia dostupnosti
-
 br.howtoplay = Pokyny na hranie
-
 br.category.controls = Ovládacie prvky
 br.category.general = Všeobecné
-
 br.general.text = Neviem, kde a čo by bolo najlepšie povedať: ďakujem všetkým ľuďom, ktorí mi prispeli alebo mi nejakým spôsobom pomohli s týmto modpackom.%n%%n%Takže ďakujem vám, ktorí to čítate, Výroba tohto modpacku trvala mesiace a dokonca aj roky. A bez týchto ľudí by nič z toho nebolo možné:
 br.general.license = Licencia
 br.general.licenses = Licencie
 br.general.credits = Autori
-br.general.attribution = Funkcia
-
-br.keyboard.title = Klávesnica a myš
 br.keyboard.options = Nastavenia myši a klávesnice
 br.keyboard.keybinds = 
-
 br.mouse.options = Nastavenia myši
-
-br.controller.title = Ovládač
-
 br.account.title = Konto
 br.account.options = Nastavenia konta
-
 br.online.title = Online
 br.online.options = Online nastavenia
-
 br.chat.title = Chat
 br.chat.options = Nastavenia chatu
-
 br.video.title = Video
-
 br.sounds.title = Zvuk
 br.sounds.options = Nastavenia zvuku
-
 br.resourcepacks.title = Balíky zdrojov
 br.datapacks.title = Dátové balíky
-
 br.play.worlds = Svety
 br.play.servers = Servery
 br.play.friends = Priatelia
 br.play.create = Vytvoriť nový svet
 br.play.selected = Hrať vo vybratom svete
-
 br.server.guide = Sprievodca
-
-br.friendserver.add = Pridať
 br.friends.add = Pridať priateľa
 br.friends.remove = Odstrániť priateľa
 br.friends.info = Zobraziť informácie
-
 br.pause.return = Pokračovať v hre
 br.pause.stats = Štatistiky
 br.pause.invite = Pozvať do hry
 br.pause.quit = Uložiť a ukončiť
-
 br.command.block = Typ bloku:
 br.command.condition = Podmienka:
 br.command.redstone = Rudit:
-
 br.bed = Spať počas noci

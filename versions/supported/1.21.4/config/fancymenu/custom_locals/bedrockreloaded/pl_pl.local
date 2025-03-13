@@ -2,78 +2,49 @@ br.menu.play = Graj
 br.options.title = Ustawienia
 br.menu.shop = Rynek
 br.menu.skin = Przebieralnia
-
 br.lang.title = Język
 br.lang.options = Ustawienia języka
-
 br.fonts.title = Czcionki
 br.fonts.options = Ustawienia czcionek
-
 br.options.bedrockify = Ustawienia zaawansowane
-br.options.fov = Pole widzenia:
-br.options.done = Gotowe
-br.options.confirm = Potwierdź
-
 br.accessibility.title = Ułatwienia dostępu
 br.accessibility.options = Ustawienia dostępności
-
 br.howtoplay = Obsługa gry
-
 br.category.controls = Sterowanie
 br.category.general = Ogólne
-
 br.general.text = Dziękuję wszystkim tym osobom, które w jakikolwiek sposób przyczyniły się do powstania tego modpacka.
 Więc dziękuję Tobie, który to czytasz, ten modpack zajął miesiące, a nawet wiele lat pracy. Bez tych osób nic z tego nie byłoby możliwe:
 br.general.license = Licencja
 br.general.licenses = Licencje
 br.general.credits = Autorzy
-br.general.attribution = Atrybucja
-
-br.keyboard.title = Klawiatura i mysz
 br.keyboard.options = Ustawienia myszy i klawiatury
 br.keyboard.keybinds = Układ klawiatury
-
 br.mouse.options = Ustawienia myszy
-
-br.controller.title = Kontroler
-
 br.account.title = Konto
 br.account.options = Ustawienia konta
-
 br.online.title = Online
 br.online.options = Ustawienia online
-
 br.chat.title = Czat
 br.chat.options = Ustawienia czatu
-
 br.video.title = Wideo
-
 br.sounds.title = Dźwięk
 br.sounds.options = Ustawienia dźwięku
-
 br.resourcepacks.title = Paczki zasobów
 br.datapacks.title = Pakiety danych
-
 br.play.worlds = Światy
 br.play.servers = Serwery
 br.play.friends = Znajomi
 br.play.create = Stwórz nowy świat
 br.play.selected = Graj w wybrany świat
-
 br.server.guide = Przewodnik
-
-br.friendserver.add = Dodaj
 br.friends.add = Dodaj znajomego
 br.friends.remove = Usuń znajomego
 br.friends.info = Pokaż informacje
-
 br.pause.return = Wznów grę
 br.pause.stats = Statystyki
 br.pause.invite = Zaproś do gry
 br.pause.quit = Zapisz i zamknij
-
 br.command.block = Typ bloku:
 br.command.condition = Warunek:
 br.command.redstone = Czerwienit:
-
 br.bed = Przesypiasz tę noc

@@ -2,77 +2,48 @@ br.menu.play = Spielen
 br.options.title = Einstellungen
 br.menu.shop = Marketplace
 br.menu.skin = Ankleidezimmer
-
 br.lang.title = Sprache
 br.lang.options = Spracheinstellungen
-
 br.fonts.title = Schriftarten
 br.fonts.options = Schriftarteneinstellungen
-
 br.options.bedrockify = Erweiterte Einstellungen
-br.options.fov = Sichtfeld:
-br.options.done = Fertig
-br.options.confirm = Bestätigen
-
 br.accessibility.title = Bedienungshilfe
 br.accessibility.options = Barrierefreiheits-Einstellungen
-
 br.howtoplay = So wird gespielt
-
 br.category.controls = Steuerung
 br.category.general = Allgemein
-
 br.general.text = Ich weiß nicht, wo und wie es am besten wäre, dies zu sagen, aber ich möchte allen danken, die in irgendeiner Weise zu diesem Modpack beigetragen oder mir geholfen haben. Also danke an dich, der du das hier liest.%n%%n%Dieses Modpack hat Monate, sogar Jahre, gebraucht, um es zu erstellen. Und ohne diese Menschen wäre nichts davon möglich gewesen:
 br.general.license = Lizenz
 br.general.licenses = Lizenzen
 br.general.credits = Mitwirkende
-br.general.attribution = Zuschreibung
-
-br.keyboard.title = Tastatur & Maus
 br.keyboard.options = Tastatur- & Mauseinstellungen
 br.keyboard.keybinds = Tastenbelegung
-
 br.mouse.options = Mauseinstellungen
-
-br.controller.title = Controller
-
 br.account.title = Konto
 br.account.options = Account-Einstellungen
-
 br.online.title = Online
 br.online.options = Online-Einstellungen
-
 br.chat.title = Chat
 br.chat.options = Chateinstellungen
-
 br.video.title = Grafik
-
 br.sounds.title = Audio
 br.sounds.options = Audio-Einstellungen
-
 br.resourcepacks.title = Ressourcenpakete
 br.datapacks.title = Datenpakete
-
 br.play.worlds = Welten
 br.play.servers = Server
 br.play.friends = Freunde
 br.play.create = Neue Welt erstellen
 br.play.selected = Ausgewählte Welt spielen
-
 br.server.guide = Leitfaden
-
-br.friendserver.add = Hinzufügen
 br.friends.add = Freund hinzufügen
 br.friends.remove = Freund entfernen
 br.friends.info = Informationen anzeigen
-
 br.pause.return = Spiel fortsetzen
 br.pause.stats = Statistiken
 br.pause.invite = Ins Spiel einladen
 br.pause.quit = Speichern & beenden
-
 br.command.block = Blocktyp:
 br.command.condition = Bedingung:
 br.command.redstone = Redstone:
-
 br.bed = Diese Nacht durchschlafen

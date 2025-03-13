@@ -2,77 +2,48 @@ br.menu.play = Игра
 br.options.title = Настройки
 br.menu.shop = Пазар
 br.menu.skin = Съблекалня
-
 br.lang.title = Език
 br.lang.options = Языковые настройки
-
 br.fonts.title = Шрифты
 br.fonts.options = Настройки шрифтов
-
 br.options.bedrockify = Разширени настройки
-br.options.fov = Обхват на изгледа:
-br.options.done = Готово
-br.options.confirm = Потвърждение
-
 br.accessibility.title = Достъпност
 br.accessibility.options = Настройки доступности
-
 br.howtoplay = Как да играем
-
 br.category.controls = Контроли
 br.category.general = Общи
-
 br.general.text = Я не знаю, где и как будет лучше сказать это, но я хочу поблагодарить всех, кто каким-либо образом помогал или вносил свой вклад в этот модпак.%n%%n%Итак, спасибо вам, кто читает это. Этот модпак занял месяцы, а возможно, и годы, чтобы его создать. И без этих людей ничего из этого было бы невозможно:
 br.general.license = Лицензия
 br.general.licenses = Лицензи
 br.general.credits = Данни
-br.general.attribution = Технологии, използвани в играта
-
-br.keyboard.title = Клавиатура и мишка
 br.keyboard.options = Настройки за клавиатура и мишка
 br.keyboard.keybinds = Клавиатурна подредба
-
 br.mouse.options = Настройки мыши
-
-br.controller.title = Контролер
-
 br.account.title = Акаунт
 br.account.options = Настройки на акаунта
-
 br.online.title = Онлайн
 br.online.options = Настройки онлайн
-
 br.chat.title = Настройки за чат
 br.chat.options = Настройки за чат
-
 br.video.title = Видео
-
 br.sounds.title = Аудио
 br.sounds.options = Настройки за аудио
-
 br.resourcepacks.title = Пакети с ресурси
 br.datapacks.title = Дата-паки
-
 br.play.worlds = Светове
 br.play.servers = Сървъри
 br.play.friends = Приятели
 br.play.create = Създаване на нов свят
 br.play.selected = Игра в избрания свят
-
 br.server.guide = Руководство
-
-br.friendserver.add = Добавяне
 br.friends.add = Добавяне на приятел
 br.friends.remove = Удалить друга
 br.friends.info = Показать информацию
-
 br.pause.return = Възобновяване на играта
 br.pause.stats = Статистика
 br.pause.invite = Покана в играта
 br.pause.quit = Записване и изход
-
 br.command.block = Тип блок:
 br.command.condition = Условие:
 br.command.redstone = Червен камък:
-
 br.bed = Проспиване на тази нощ

@@ -2,78 +2,49 @@ br.menu.play = Spil
 br.options.title = Indstillinger
 br.menu.shop = Markedsplads
 br.menu.skin = Omklædningsrum
-
 br.lang.title = Sprog
 br.lang.options = Sprogindstillinger
-
 br.fonts.title = Skrifttyper
 br.fonts.options = Indstillinger for skrifttyper
-
 br.options.bedrockify = Avancerede indstillinger
-br.options.fov = Synsfelt:
-br.options.done = OK
-br.options.confirm = Bekræft
-
 br.accessibility.title = Tilgængelighed
 br.accessibility.options = Indstillinger for tilgængelighed
-
 br.howtoplay = Sådan spiller du
-
 br.category.controls = Styring
 br.category.general = Generelt
-
 br.general.text = 
 Jeg ved ikke, hvor og hvordan det ville være bedst at sige dette, men jeg vil gerne takke alle dem, der på en eller anden måde har bidraget eller hjulpet mig med denne modpakke.%n%%n%Så tak, dig der læser dette. Denne modpakke tog måneder, og endda mange år, at lave. Uden disse mennesker ville intet af dette have været muligt:
 br.general.license = Licens
 br.general.licenses = Licenser
 br.general.credits = Credits
-br.general.attribution = Kreditering
-
-br.keyboard.title = Tastatur og mus
 br.keyboard.options = Indstillinger for tastatur og mus
 br.keyboard.keybinds = Tastaturlayout
-
 br.mouse.options = Musindstillinger
-
-br.controller.title = Controller
-
 br.account.title = Konto
 br.account.options = Kontoindstillinger
-
 br.online.title = Online
 br.online.options = Online-indstillinger
-
 br.chat.title = Chat
 br.chat.options = Chatindstillinger
-
 br.video.title = Video
-
 br.sounds.title = Lyd
 br.sounds.options = Lydindstillinger
-
 br.resourcepacks.title = Ressourcepakker
 br.datapacks.title = Datapakker
-
 br.play.worlds = Verdener
 br.play.servers = Servere
 br.play.friends = Venner
 br.play.create = Opret ny verden
 br.play.selected = Spil valgt verden
-
 br.server.guide = Guide
-
-br.friendserver.add = Tilføj
 br.friends.add = Tilføj ven
 br.friends.remove = Fjern ven
 br.friends.info = Vis information
-
 br.pause.return = Genoptag spil
 br.pause.stats = Statistik
 br.pause.invite = Inviter til spil
 br.pause.quit = Gem og afslut
-
 br.command.block = Bloktype:
 br.command.condition = Betingelse:
 br.command.redstone = Redstone:
-
 br.bed = Sover igennem denne nat

@@ -1,13 +1,13 @@
 name = "Dyeable Shulkers"
-filename = "dyeable-shulkers-1.2.1+1.21.4.jar"
+filename = "dyeable-shulkers-1.2.2+1.21.4.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/J5U6gv1m/versions/nvnthGhh/dyeable-shulkers-1.2.1%2B1.21.4.jar"
+url = "https://cdn.modrinth.com/data/J5U6gv1m/versions/PGi4WZnB/dyeable-shulkers-1.2.2%2B1.21.4.jar"
 hash-format = "sha1"
-hash = "95cd2fb6842ccb28173eaeb3b6fe2ea08f9e17fc"
+hash = "aad533351d8ec89a22df104a0760f30f46e32d7c"
 
 [update]
 [update.modrinth]
 mod-id = "J5U6gv1m"
-version = "nvnthGhh"
+version = "PGi4WZnB"

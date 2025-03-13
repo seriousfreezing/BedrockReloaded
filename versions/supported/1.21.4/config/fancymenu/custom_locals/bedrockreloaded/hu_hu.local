@@ -2,77 +2,48 @@ br.menu.play = Játék
 br.options.title = Beállítások
 br.menu.shop = Piactér
 br.menu.skin = Öltöző
-
 br.lang.title = Nyelv
 br.lang.options = Nyelvi beállítások
-
 br.fonts.title = Betűtípusok
 br.fonts.options = Betűtípus beállítások
-
 br.options.bedrockify = Speciális beállítások
-br.options.fov = Látótér:
-br.options.done = Kész
-br.options.confirm = Megerősítés
-
 br.accessibility.title = Kisegítő lehetőségek
 br.accessibility.options = Akadálymentességi beállítások
-
 br.howtoplay = Útmutató
-
 br.category.controls = Kezelőszervek
 br.category.general = Általános
-
 br.general.text = Nem tudom, hol és hogyan lenne a legjobb ezt mondani, de szeretném megköszönni mindazoknak, akik valamilyen módon hozzájárultak vagy segítettek nekem ezzel a modpack-kal kapcsolatban.%n%%n%Szóval köszönöm neked, aki ezt olvasod. Ez a modpack hónapokat, sőt éveket vett igénybe a létrehozása. És ezek az emberek nélkül semmi sem lett volna lehetséges:
 br.general.license = Licenc
 br.general.licenses = Licencek
 br.general.credits = Készítők
-br.general.attribution = Hozzárendelés
-
-br.keyboard.title = Billentyűzet és egér
 br.keyboard.options = Billentyűzet és egér beállításai
 br.keyboard.keybinds = Billentyűzetkiosztás
-
 br.mouse.options = Egér beállítások
-
-br.controller.title = Kontroller
-
 br.account.title = Fiók
 br.account.options = Fiókbeállítások
-
 br.online.title = Online
 br.online.options = Online beállítások
-
 br.chat.title = Csevegés
 br.chat.options = Csevegés beállításai
-
 br.video.title = Kép
-
 br.sounds.title = Hang
 br.sounds.options = Hangbeállítások
-
 br.resourcepacks.title = Erőforráscsomagok
 br.datapacks.title = Adatcsomagok
-
 br.play.worlds = Világok
 br.play.servers = Kiszolg.
 br.play.friends = Barátok
 br.play.create = Új világ létrehozása
 br.play.selected = Játék a választott világban
-
 br.server.guide = Útmutató
-
-br.friendserver.add = Megadás
 br.friends.add = Barát hozzáadása
 br.friends.remove = Barát eltávolítása
 br.friends.info = Információk megjelenítése
-
 br.pause.return = Játék folytatása
 br.pause.stats = Statisztika
 br.pause.invite = Meghívás a játékba
 br.pause.quit = Mentés és kilépés
-
 br.command.block = Blokk típusa:
 br.command.condition = Feltétel:
 br.command.redstone = Vöröskő:
-
 br.bed = Az éjszaka átalvása

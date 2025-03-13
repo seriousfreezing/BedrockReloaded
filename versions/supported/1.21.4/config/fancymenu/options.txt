@@ -1,5 +1,5 @@
 ##[customization]
-B:show_customization_overlay = 'false';
+B:modpack_mode = 'true';
 
 ##[window]
 B:show_custom_window_icon = 'true';

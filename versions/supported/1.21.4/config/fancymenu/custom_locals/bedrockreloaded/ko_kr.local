@@ -2,78 +2,50 @@ br.menu.play = 플레이
 br.options.title = 설정
 br.menu.shop = 마켓플레이스
 br.menu.skin = 탈의실
-
 br.lang.title = 언어
 br.lang.options = 언어 설정
-
 br.fonts.title = 글꼴
 br.fonts.options = 글꼴 설정
-
 br.options.bedrockify = 고급 설정
-br.options.fov = 시야 범위:
-br.options.done = 완료
-br.options.confirm = 확인
-
 br.accessibility.title = 접근성
 br.accessibility.options = 접근성 설정
-
 br.howtoplay = 게임 방법
-
 br.category.controls = 컨트롤
 br.category.general = 일반
-
 br.general.text = 이 모드팩에 어떤 방식으로든 기여하거나 도와준 모든 사람들에게 감사드립니다.
 그리고 이 글을 읽고 있는 당신에게도 감사드립니다. 이 모드팩을 만드는 데 몇 달, 심지어 몇 년이 걸렸습니다. 이 사람들이 없었다면, 이 모든 것은 불가능했을 것입니다.
 br.general.license = 라이센스
 br.general.licenses = 라이선스
 br.general.credits = 제작진
-br.general.attribution = 권한 정보
-
-br.keyboard.title = 키보드 및 마우스
 br.keyboard.options = 키보드 및 마우스 설정
 br.keyboard.keybinds = 키보드 레이아웃
-
 br.mouse.options = 마우스 설정
-
 br.controller.title =컨트롤러
-
 br.account.title = 계정
 br.account.options = 계정 설정
-
 br.online.title = 온라인
 br.online.options = 온라인 설정
-
 br.chat.title = 채팅
 br.chat.options = 대화 설정
-
 br.video.title = 비디오
-
 br.sounds.title = 오디오
 br.sounds.options = 오디오 설정
-
 br.resourcepacks.title = 리소스 팩
 br.datapacks.title = 데이터 팩
-
 br.play.worlds = 월드
 br.play.servers = 서버
 br.play.friends = 친구
 br.play.create = 새로운 월드 만들기
 br.play.selected = 선택된 월드 시작
-
 br.server.guide = 가이드
-
-br.friendserver.add = 추가
 br.friends.add = 친구 추가
 br.friends.remove = 친구 제거
 br.friends.info = 정보 보기
-
 br.pause.return = 게임 계속하기
 br.pause.stats = 통계
 br.pause.invite = 게임에 초대
 br.pause.quit = 저장 및 종료
-
 br.command.block = 블록 유형:
 br.command.condition = 조건:
 br.command.redstone = 레드스톤:
-
 br.bed = 이 밤 내내 수면을 취하세요.

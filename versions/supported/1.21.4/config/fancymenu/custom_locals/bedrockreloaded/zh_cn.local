@@ -2,77 +2,48 @@ br.menu.play = 游戏
 br.options.title = 设置
 br.menu.shop = 市场
 br.menu.skin = 更衣室
-
 br.lang.title = 语言
 br.lang.options = 语言设置
-
 br.fonts.title = 字体
 br.fonts.options = 字体设置
-
 br.options.bedrockify = 高级设置
-br.options.fov = 视野:
-br.options.done = 完成
-br.options.confirm = 确认
-
 br.accessibility.title = 可访问性
 br.accessibility.options = 辅助功能设置
-
 br.howtoplay = 游戏指南
-
 br.category.controls = 控制
 br.category.general = 通用
-
 br.general.text = 我不知道在哪里以及什么才是最好的方式去表达：感谢所有为这个模组包做出贡献或帮助我的人。%n%%n%所以谢谢你们，正在阅读这篇文章的人，这个模组包花了几个月甚至很多年才制作出来。如果没有这些人，这一切都不可能实现：
 br.general.license = 执照
 br.general.licenses = 许可
 br.general.credits = 制作团队
-br.general.attribution = 署名
-
-br.keyboard.title = 键盘和鼠标
 br.keyboard.options = 键盘和鼠标设置
 br.keyboard.keybinds = 键盘布局
-
 br.mouse.options = 鼠标设置
-
-br.controller.title = 控制器
-
 br.account.title = 帐户
 br.account.options = 帐户设置
-
 br.online.title = 已上线
 br.online.options = 在线设置
-
 br.chat.title = 聊天设置
 br.chat.options = 聊天设置
-
 br.video.title = 视频
-
 br.sounds.title = 音频
 br.sounds.options = 音频设置
-
 br.resourcepacks.title = 资源包
 br.datapacks.title = 数据包
-
 br.play.worlds = 世界
 br.play.servers = 服务器
 br.play.friends = 好友
 br.play.create = 创建新的世界
 br.play.selected = 进入选中的世界
-
 br.server.guide = 指导
-
-br.friendserver.add = 添加
 br.friends.add = 添加好友
 br.friends.remove = 删除好友
 br.friends.info = 显示信息
-
 br.pause.return = 继续游戏
 br.pause.stats = 统计信息
 br.pause.invite = 邀请加入游戏
 br.pause.quit = 保存并退出
-
 br.command.block = 方块类型：
 br.command.condition = 条件：
 br.command.redstone = 红石：
-
 br.bed = 整夜睡觉

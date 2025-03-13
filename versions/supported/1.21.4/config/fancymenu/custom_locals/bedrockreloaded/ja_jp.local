@@ -2,78 +2,49 @@ br.menu.play = プレイ
 br.options.title = 設定
 br.menu.shop = マーケットプレイス
 br.menu.skin = 更衣室
-
 br.lang.title = 言語設定
 br.lang.options = 言語設定
-
 br.fonts.title = フォント
 br.fonts.options = フォント設定
-
 br.options.bedrockify = 詳細設定
-br.options.fov = 視野:
-br.options.done = 完了
-br.options.confirm = 確認
-
 br.accessibility.title = アクセシビリティ設定
 br.accessibility.options = アクセシビリティ設定
-
 br.howtoplay = 遊び方
-
 br.category.controls = 操作設定
 br.category.general = 一般
-
 br.general.text = どこでどのように言うのが一番良い方法かわかりませんが、このmodpackに何らかの形で貢献してくれた、または助けてくれたすべての人々に感謝します。
 そして、これを読んでいるあなたにも感謝します。このmodpackを作るのには数ヶ月、さらには何年もかかりました。これらの人々がいなければ、これらのすべては実現しなかったでしょう。
 br.general.license = ライセンス
 br.general.licenses = ライセンス
 br.general.credits = クレジット
-br.general.attribution = 帰属
-
-br.keyboard.title = キーボード & マウス
 br.keyboard.options = キーボードとマウスの設定
 br.keyboard.keybinds = キーボード レイアウト
-
 br.mouse.options = マウス設定
-
-br.controller.title = コントローラー
-
 br.account.title = アカウント
 br.account.options = アカウント設定
-
 br.online.title = アカウント設定
 br.online.options = オンライン設定
-
 br.chat.title = チャット設定
 br.chat.options = チャット設定
-
 br.video.title = ビデオ
-
 br.sounds.title = オーディオ
 br.sounds.options = オーディオ設定
-
 br.resourcepacks.title = リソースパック
 br.datapacks.title = データパック
-
 br.play.worlds = ワールド
 br.play.servers = サーバー
 br.play.friends = フレンド
 br.play.create = 世界新規作成
 br.play.selected = 選択したワールドで遊ぶ
-
 br.server.guide = ガイド
-
-br.friendserver.add = 追加
 br.friends.add = フレンドを追加
 br.friends.remove = 友達を削除
 br.friends.info = 情報を表示
-
 br.pause.return = ゲームを再開
 br.pause.stats = 統計
 br.pause.invite = ゲームへ招待
 br.pause.quit = セーブして終了
-
 br.command.block = ブロックの種類:
 br.command.condition = 条件:
 br.command.redstone = レッドストーン:
-
 br.bed = この夜を眠り通す

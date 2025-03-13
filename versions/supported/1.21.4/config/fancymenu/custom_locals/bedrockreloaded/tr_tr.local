@@ -2,77 +2,48 @@ br.menu.play = Oyna
 br.options.title = Ayarlar
 br.menu.shop = Market
 br.menu.skin = Soyunma Odası
-
 br.lang.title = Dil
 br.lang.options = Dil Ayarları
-
 br.fonts.title = Yazı tipleri
 br.fonts.options = Yazı Tipi Ayarları
-
 br.options.bedrockify = Gelişmiş Ayarlar
-br.options.fov = FOV:
-br.options.done = Bitti
-br.options.confirm = Onayla
-
 br.accessibility.title = Erişilebilirlik
 br.accessibility.options = Erişilebilirlik Ayarları
-
 br.howtoplay = Nasıl Oynanır
-
 br.category.controls = Kontroller
 br.category.general = Genel
-
 br.general.text = Bu mod paketine katkıda bulunan veya bir şekilde bana yardım eden tüm insanlara teşekkür etmenin en iyi yolunun nerede ve ne olduğunu bilmiyorum.%n%%n%Bu yüzden bunu okuyan sizlere teşekkür ederim, bu mod paketinin yapılması aylar hatta yıllar aldı. Ve bu insanlar olmadan, bunların hiçbiri mümkün olmazdı:
 br.general.license = Lisans
 br.general.licenses = Lisanslar
 br.general.credits = Jenerik
-br.general.attribution = Özellik
-
-br.keyboard.title = Klavye ve Fare
 br.keyboard.options = Klavye ve Fare Ayarları
 br.keyboard.keybinds = Klavye Tasarımı
-
 br.mouse.options = Fare Ayarları
-
-br.controller.title = Kumanda
-
 br.account.title = Hesap
 br.account.options = Hesap Ayarları
-
 br.online.title = Çevrimiçi
 br.online.options = Çevrimiçi Ayarlar
-
 br.chat.title = Sohbet
 br.chat.options = Sohbet Ayarları
-
 br.video.title = Video
-
 br.sounds.title = Ses
 br.sounds.options = Ses Ayarları
-
 br.resourcepacks.title = Kaynak Paketleri
 br.datapacks.title = Veri Paketleri
-
 br.play.worlds = Dünyalar
 br.play.servers = Sunucular
 br.play.friends = Arkadaşlar
 br.play.create = Yeni Dünya Oluştur
 br.play.selected = Seçilen Dünyayı Oyna
-
 br.server.guide = Rehber
-
-br.friendserver.add = Ekle
 br.friends.add = Arkadaşı Ekle
 br.friends.remove = Arkadaşı Kaldır
 br.friends.info = Bilgileri Göster
-
 br.pause.return = Oyuna Devam Et
 br.pause.stats = İstatistikler
 br.pause.invite = Oyuna Davet Et
 br.pause.quit = Kaydet ve Çık
-
 br.command.block = Blok Türü:
 br.command.condition = Koşul:
 br.command.redstone = Redstone:
-
 br.bed = Bu gece boyunca uyunuyor

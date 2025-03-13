@@ -2,77 +2,48 @@ br.menu.play = Spela
 br.options.title = Inställningar
 br.menu.shop = Marknaden
 br.menu.skin = Omklädningsrum
-
 br.lang.title = Språk
 br.lang.options = Språkinställningar
-
 br.fonts.title = Teckensnitt
 br.fonts.options = Teckensnittsinställningar
-
 br.options.bedrockify = Avancerade inställningar
-br.options.fov = Synfält:
-br.options.done = Färdig
-br.options.confirm = Bekräfta
-
 br.accessibility.title = Hjälpmedel
 br.accessibility.options = Tillgänglighetsinställningar
-
 br.howtoplay = Så spelar du
-
 br.category.controls = Kontroller
 br.category.general = Allmänt
-
 br.general.text = Jag vet inte var och vad som skulle vara det bästa sättet att säga: tack till alla de människor som har bidragit eller hjälpt mig på något sätt med detta modpack.%n%%n%Så tack, ni som läser detta, detta modpack tog månader och till och med många år att göra. Och utan dessa människor skulle inget av detta vara möjligt:
 br.general.license = Licens
 br.general.licenses = Licenser
 br.general.credits = Medverkande
-br.general.attribution = Tillskrivelser
-
-br.keyboard.title = Tangentbord och mus
 br.keyboard.options = Tangentbords- och musinställningar
 br.keyboard.keybinds = Tangentbordslayout
-
 br.mouse.options = Musinställningar
-
-br.controller.title = Handkontroll
-
 br.account.title = Konto
 br.account.options = Kontoinställningar
-
 br.online.title = Online
 br.online.options = Onlineinställningar
-
 br.chat.title = Chatt
 br.chat.options = Chattinställningar
-
 br.video.title = Bild
-
 br.sounds.title = Ljud
 br.sounds.options = Ljudinställningar
-
 br.resourcepacks.title = Resurspaket
 br.datapacks.title = Datapaket
-
 br.play.worlds = Världar
 br.play.servers = Servrar
 br.play.friends = Kompisar
 br.play.create = Skapa ny värld
 br.play.selected = Spela vald värld
-
 br.server.guide = Guide
-
-br.friendserver.add = Lägg till
 br.friends.add = Lägg till kompis
 br.friends.remove = Ta bort vän
 br.friends.info = Visa info
-
 br.pause.return = Fortsätt spela
 br.pause.stats = Statistik
 br.pause.invite = Bjud in till spelet
 br.pause.quit = Spara och avsluta
-
 br.command.block = Blocktyp:
 br.command.condition = Villkor:
 br.command.redstone = Rödsten:
-
 br.bed = Sover genom den här natten

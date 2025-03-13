@@ -1,0 +1,13 @@
+name = "Bedrock Edition Music"
+filename = "Bedrock Edition Music.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8DAnZMWQ/versions/9GT7Bi20/Bedrock%20Edition%20Music.zip"
+hash-format = "sha1"
+hash = "563d9ce33cad9e244589f7f98718d00beebe4785"
+
+[update]
+[update.modrinth]
+mod-id = "8DAnZMWQ"
+version = "9GT7Bi20"

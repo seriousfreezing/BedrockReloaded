@@ -2,77 +2,48 @@ br.menu.play = Main
 br.options.title = Pengaturan
 br.menu.shop = Marketplace
 br.menu.skin = Kamar Ganti
-
 br.lang.title = Bahasa
 br.lang.options = Pengaturan Bahasa
-
 br.fonts.title = Jenis Huruf
 br.fonts.options = Pengaturan Jenis Huruf
-
 br.options.bedrockify = Pengaturan Lanjutan
-br.options.fov = FOV:
-br.options.done = Selesai
-br.options.confirm = Konfirmasi
-
 br.accessibility.title = Aksesibilitas
 br.accessibility.options = Pengaturan Aksesibilitas
-
 br.howtoplay = Cara Main
-
 br.category.controls = Kontrol
 br.category.general = Umum
-
 br.general.text = Saya tidak tahu di mana dan bagaimana cara terbaik untuk mengucapkannya, tetapi saya ingin mengucapkan terima kasih kepada semua orang yang telah berkontribusi atau membantu saya dengan cara apa pun dalam pembuatan modpack ini.%n%%n%Jadi, terima kasih kepada Anda yang sedang membaca ini. Modpack ini memerlukan waktu berbulan-bulan, bahkan bertahun-tahun untuk dibuat. Tanpa orang-orang ini, semua ini tidak akan mungkin terjadi:
 br.general.license = Lisensi
 br.general.licenses = Lisensi
 br.general.credits = Kredit
-br.general.attribution = Atribusi
-
-br.keyboard.title = Keyboard & Mouse
 br.keyboard.options = Pengaturan Keyboard dan Mouse
 br.keyboard.keybinds = Tata Letak Keyboard
-
 br.mouse.options = Pengaturan Mouse
-
-br.controller.title = Pengontrol
-
 br.account.title = Akun
 br.account.options = Pengaturan Akun
-
 br.online.title = Online
 br.online.options = Pengaturan Online
-
 br.chat.title = Obrolan
 br.chat.options = Pengaturan Obrolan
-
 br.video.title = Video
-
 br.sounds.title = Audio
 br.sounds.options = Pengaturan Audio
-
 br.resourcepacks.title = Paket Sumber Daya
 br.datapacks.title = Paket Data
-
 br.play.worlds = Dunia
 br.play.servers = Server
 br.play.friends = Teman
 br.play.create = Buat Dunia Baru
 br.play.selected = Mainkan Dunia yang Dipilih
-
 br.server.guide = Panduan
-
-br.friendserver.add = Tambah
 br.friends.add = Tambah Teman
 br.friends.remove = Hapus Teman
 br.friends.info = Tampilkan Informasi
-
 br.pause.return = Lanjutkan Permainan
 br.pause.stats = Statistik
 br.pause.invite = Undang ke Permainan
 br.pause.quit = Simpan & Keluar
-
 br.command.block = Jenis Blok:
 br.command.condition = Kondisi:
 br.command.redstone = Batu Merah:
-
 br.bed = Tidur melewati malam ini

@@ -2,77 +2,48 @@ br.menu.play = Pelaa
 br.options.title = Asetukset
 br.menu.shop = Kauppa
 br.menu.skin = Pukuhuone
-
 br.lang.title = Kieli
 br.lang.options = Kieliasetukset
-
 br.fonts.title = Kirjasimet
 br.fonts.options = Kirjasinasetukset
-
 br.options.bedrockify = Edistyneet asetukset
-br.options.fov = Näkökenttä:
-br.options.done = Valmis
-br.options.confirm = Vahvista
-
 br.accessibility.title = Käytettävyys
 br.accessibility.options = Esteettömyyden asetukset
-
 br.howtoplay = Peliohjeet
-
 br.category.controls = Ohjauskomennot
 br.category.general = Yleinen
-
 br.general.text = En tiedä, missä ja miten olisi paras tapa sanoa tämä, mutta haluan kiittää kaikkia niitä, jotka ovat auttaneet tai olleet jollain tavalla mukana tässä modpakissa.%n%%n%Joten kiitos sinulle, joka luet tätä. Tämä modpaketti kesti kuukausia, jopa vuosia, tehdä. Ilman näitä ihmisiä mikään tästä ei olisi ollut mahdollista:
 br.general.license = Lisenssi
 br.general.licenses = Käyttöoikeudet
 br.general.credits = Tekijät
-br.general.attribution = Käytettävät teknologiat
-
-br.keyboard.title = Näppäimistö ja hiiri
 br.keyboard.options = Näppäimistö ja hiiri
 br.keyboard.keybinds = Näppäimistöasettelu
-
 br.mouse.options = Hiiren asetukset
-
-br.controller.title = Ohjain
-
 br.account.title = Tili
 br.account.options = Tilin asetukset
-
 br.online.title = Online
 br.online.options = Verkkoasetukset
-
 br.chat.title = Chat-asetukset
 br.chat.options = Chattiasetukset
-
 br.video.title = Video
-
 br.sounds.title = Äänet
 br.sounds.options = Ääniasetukset
-
 br.resourcepacks.title = Resurssipaketit
 br.datapacks.title = Tietopakettit
-
 br.play.worlds = Maailmat
 br.play.servers = Palvelimet
 br.play.friends = Ystävät
 br.play.create = Luo uusi maailma
 br.play.selected = Pelaa valittua maailmaa
-
 br.server.guide = Opas
-
-br.friendserver.add = Lisää
 br.friends.add = Lisää ystävä
 br.friends.remove = Poista ystävä
 br.friends.info = Näytä tiedot
-
 br.pause.return = Jatka peliä
 br.pause.stats = Tilastot
 br.pause.invite = Kutsu peliin
 br.pause.quit = Tallenna ja lopeta
-
 br.command.block = Kuutiotyyppi:
 br.command.condition = Ehto:
 br.command.redstone = Punakivi:
-
 br.bed = Nuku läpi yön

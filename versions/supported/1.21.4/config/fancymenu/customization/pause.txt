@@ -53,17 +53,6 @@ element {
 }
 
 element {
-  element_type = custom_button
-  anchor_point = mid-centered
-  width = 60
-  height = 27
-  x = -8
-  y = 26
-  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
-  [executable_action_instance:0][action_type:opengui] = dev.imb11.skinshuffle.client.gui.CompactCarouselScreen
-}
-
-element {
   element_type = fancymenu_customization_player_entity
   anchor_point = element
   anchor_point_element = 3
@@ -128,7 +117,7 @@ element {
   width = 24
   height = 24
   x = -30
-  [executable_action_instance:7][action_type:mimicbutton] = pause_screen:370282
+  [executable_action_instance:7][action_type:mimicbutton] = pause_screen:606258
 }
 
 element {
@@ -304,6 +293,21 @@ vanilla_button {
   x = 5
   y = 96
   label = {"placeholder":"local","values":{"key":"br.pause.quit"}}
+}
+
+vanilla_button {
+  instance_identifier = 617354
+  anchor_point = mid-centered
+  width = 60
+  height = 27
+  x = -8
+  y = 26
+  label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
+}
+
+vanilla_button {
+  instance_identifier = 606258
+  is_hidden = true
 }
 
 vanilla_button {

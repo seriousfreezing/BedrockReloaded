@@ -2,77 +2,48 @@ br.menu.play = Jogar
 br.options.title = Opções
 br.menu.shop = Marketplace
 br.menu.skin = Vestiário
-
 br.lang.title = Idioma
 br.lang.options = Configurações de idioma
-
 br.fonts.title = Fontes
 br.fonts.options = Configurações de fontes
-
 br.options.bedrockify = Configurações Avançadas
-br.options.fov = Campo de Visão:
-br.options.done = Concluído
-br.options.confirm = Confirmar
-
 br.accessibility.title = Acessibilidade
 br.accessibility.options = Configurações de Acessibilidade
-
 br.howtoplay = Como Jogar
-
 br.category.controls = Controles
 br.category.general = Geral
-
 br.general.text = Obrigado a todas as pessoas que contribuíram ou me ajudaram de alguma forma com este modpack.%n%%n%Então, obrigado a você que está lendo isso, este modpack levou meses e até muitos anos para ser feito. E sem essas pessoas, nada disso seria possível:
 br.general.license = Licença
 br.general.licenses = Licenças
 br.general.credits = Créditos
-br.general.attribution = Atribuição
-
-br.keyboard.title = Teclado e mouse
 br.keyboard.options = Configurações de mouse e teclado
 br.keyboard.keybinds = Layout do Teclado
-
 br.mouse.options = Configuração de Mouse
-
-br.controller.title = Controle
-
 br.account.title = Conta
 br.account.options = Configurações da Conta
-
 br.online.title = Online
 br.online.options = Configurações Online
-
 br.chat.title = Chat
 br.chat.options = Configurações do Chat
-
 br.video.title = Vídeo
-
 br.sounds.title = Áudio
 br.sounds.options = Configurações de Áudio
-
 br.resourcepacks.title = Pacotes de texturas
 br.datapacks.title = Data Packs
-
 br.play.worlds = Mundos
 br.play.servers = Servidores
 br.play.friends = Amigos
 br.play.create = Criar Novo Mundo
 br.play.selected = Jogar no Mundo Selecionado
-
 br.server.guide = Guia
-
-br.friendserver.add = Adicionar
 br.friends.add = Adicionar amigo
 br.friends.remove = Remover Amigo
 br.friends.info = Mostrar Informações
-
 br.pause.return = Continuar Jogo
 br.pause.stats = Estatísticas
 br.pause.invite = Convidar para jogo
 br.pause.quit = Salvar e Sair
-
 br.command.block = Tipo de bloqueio:
 br.command.condition = Condição:
 br.command.redstone = Redstone:
-
 br.bed = Dormindo a noite toda

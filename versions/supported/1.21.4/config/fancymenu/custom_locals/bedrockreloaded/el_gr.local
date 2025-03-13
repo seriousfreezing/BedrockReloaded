@@ -2,77 +2,48 @@ br.menu.play = Παίξε
 br.options.title = Ρυθμίσεις
 br.menu.shop = Marketplace
 br.menu.skin = Γκαρνταρόμπα
-
 br.lang.title = Γλώσσα
 br.lang.options = Ρυθμίσεις Γλώσσας
-
 br.fonts.title = Γραμματοσειρές
 br.fonts.options = Ρυθμίσεις Γραμματοσειρών
-
 br.options.bedrockify = Ρυθμίσεις για προχωρημένους
-br.options.fov = Οπτικό πεδίο:
-br.options.done = Ολοκληρώθηκε
-br.options.confirm = Επιβεβαίωση
-
 br.accessibility.title = Προσβασιμότητα
 br.accessibility.options = Ρυθμίσεις Προσβασιμότητας
-
 br.howtoplay = Οδηγίες παιχνιδιού
-
 br.category.controls = Στοιχεία ελέγχου
 br.category.general = Γενικά
-
 br.general.text = Δεν ξέρω πού και ποιος θα ήταν ο καλύτερος τρόπος να το πω, αλλά θέλω να ευχαριστήσω όλους εκείνους που συνέβαλαν ή με βοήθησαν με κάποιον τρόπο με αυτό το modpack. Οπότε, ευχαριστώ εσένα που το διαβάζεις.%n%%n%Αυτό το modpack πήρε μήνες και ίσως και χρόνια για να δημιουργηθεί. Και χωρίς αυτούς τους ανθρώπους, τίποτα από αυτό δεν θα ήταν δυνατό:
 br.general.license = Άδεια
 br.general.licenses = Άδειες χρήσης
 br.general.credits = Συντελεστές
-br.general.attribution = Αναφορά
-
-br.keyboard.title = Πληκτρολόγιο και ποντίκι
 br.keyboard.options = Ρυθμίσεις πληκτρολογίου και ποντικιού
 br.keyboard.keybinds = Διάταξη πληκτρολογίου
-
 br.mouse.options = Ρυθμίσεις Ποντικιού
-
-br.controller.title = Χειριστήριο
-
 br.account.title = Λογαριασμός
 br.account.options = Ρυθμίσεις λογαριασμού
-
 br.online.title = Σε σύνδεση
 br.online.options = Ρυθμίσεις Διαδικτύου
-
 br.chat.title = Συνομιλία
 br.chat.options = Ρυθμίσεις συνομιλίας
-
 br.video.title = Βίντεο
-
 br.sounds.title = Ήχος
 br.sounds.options = Ρυθμίσεις ήχου
-
 br.resourcepacks.title = Πακέτα πόρων
 br.datapacks.title = Πακέτα Δεδομένων
-
 br.play.worlds = Κόσμοι
 br.play.servers = Διακομιστές
 br.play.friends = Φίλοι
 br.play.create = Δημιουργία Νέου κόσμου
 br.play.selected = Παιχνίδι στον επιλεγμένο κόσμο
-
 br.server.guide = Οδηγός
-
-br.friendserver.add = Προσθήκη
 br.friends.add = Προσθήκη φίλου
 br.friends.remove = Αφαίρεση φίλου
 br.friends.info = Εμφάνιση Πληροφοριών
-
 br.pause.return = Συνέχιση παιχνιδιού
 br.pause.stats = Στατιστικά στοιχεία
 br.pause.invite = Πρόσκληση σε παιχνίδι
 br.pause.quit = Αποθήκευση και έξοδος
-
 br.command.block = Τύπος κύβου:
 br.command.condition = Συνθήκη:
 br.command.redstone = Ερυθρόλιθος:
-
 br.bed = Κοιμήσου για να περάσει αυτή η νύχτα

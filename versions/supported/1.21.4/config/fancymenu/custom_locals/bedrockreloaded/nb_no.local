@@ -2,77 +2,48 @@ br.menu.play = Spill
 br.options.title = Innstillinger
 br.menu.shop = Markedsplass
 br.menu.skin = Påkledningsrom
-
 br.lang.title = Språk
 br.lang.options = Språkinställningar
-
 br.fonts.title = Teckensnitt
 br.fonts.options = Teckensnittsinställningar
-
 br.options.bedrockify = Avanserte innstillinger
-br.options.fov = Synsfelt:
-br.options.done = Ferdig
-br.options.confirm = Bekreft
-
 br.accessibility.title = Tilgjengelighet
 br.accessibility.options = Tillgänglighetsinställningar
-
 br.howtoplay = Slik spiller du
-
 br.category.controls = Kontroller
 br.category.general = Generelt
-
 br.general.text = Tack till alla de som bidragit eller hjälpt mig på något sätt med detta modpack.%n%nSå tack till dig som läser detta, detta modpack tog månader och till och med många år att skapa. Och utan dessa personer skulle inget av detta vara möjligt:
 br.general.license = Licens
 br.general.licenses = Lisenser
 br.general.credits = Medvirkende
-br.general.attribution = Verktøy med åpen kildekode
-
-br.keyboard.title = Tastatur og mus
 br.keyboard.options = Innstillinger for tastatur og mus
 br.keyboard.keybinds = Tastaturoppsett
-
 br.mouse.options = Musinställningar
-
-br.controller.title = Kontroller
-
 br.account.title = Konto
 br.account.options = Kontoinnstillinger
-
 br.online.title = Pålogget
 br.online.options = Onlinesinställningar
-
 br.chat.title = Chat
 br.chat.options = Chatinnstillinger
-
 br.video.title = Video
-
 br.sounds.title = Lyd
 br.sounds.options = Lydinnstillinger
-
 br.resourcepacks.title = Ressurspakker
 br.datapacks.title = Datapaketer
-
 br.play.worlds = Verdener
 br.play.servers = Servere
 br.play.friends = Venner
 br.play.create = Lag ny verden
 br.play.selected = Spill valgt verden
-
 br.server.guide = Guide
-
-br.friendserver.add = Legg til
 br.friends.add = Legg til venn
 br.friends.remove = Ta bort vän
 br.friends.info = Visa information
-
 br.pause.return = Fortsett spill
 br.pause.stats = Statistikk
 br.pause.invite = Inviter til spillet
 br.pause.quit = Lagre og avslutt
-
 br.command.block = Blokktype:
 br.command.condition = Betingelse:
 br.command.redstone = Rødstein:
-
 br.bed = Sover gjennom denne natten

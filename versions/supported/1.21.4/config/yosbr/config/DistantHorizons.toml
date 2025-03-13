@@ -1,6 +1,26 @@
+[common]
+	[common.logging]
+		logRendererGLEvent = "DISABLED"
+		logWorldGenPerformance = "DISABLED"
+		logNetworkEvent = "DISABLED"
+		logRendererBufferEvent = "DISABLED"
+		logWorldGenEvent = "DISABLED"
+		logWorldGenLoadEvent = "DISABLED"
+		[common.logging.warning]
+			showModCompatibilityWarningsOnStartup = false
 [client]
 	[client.advanced]
 			[client.advanced.graphics.quality]
 				lodChunkRenderDistanceRadius = 96
 			[client.advanced.autoUpdater]
 				enableAutoUpdater = false
+			[client.advanced.debugging.f3Screen]
+				showQueuedChunkUpdateCount = false
+				showSeparatedObjectPools = false
+				showPlayerPos = false
+				showCombinedObjectPools = false
+				showThreadPools = false
+				showLevelStatus = false
+
+	[common.worldGenerator]
+		showGenerationProgress = "DISABLED"
