@@ -1,0 +1,13 @@
+name = "Datapack Utils"
+filename = "datapack_utils-fabric-0.1.4+1.21.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/I0ObTTI7/versions/nmTcQEcy/datapack_utils-fabric-0.1.4%2B1.21.3.jar"
+hash-format = "sha1"
+hash = "d1d4191f34ba0c619451d301be2e5f797b5ce704"
+
+[update]
+[update.modrinth]
+mod-id = "I0ObTTI7"
+version = "nmTcQEcy"

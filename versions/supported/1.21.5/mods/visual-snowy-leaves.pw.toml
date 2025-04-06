@@ -1,0 +1,13 @@
+name = "[Bedrock Parity] Visual Snowy Leaves"
+filename = "visual-snowy-leaves-0.4.6+mc1.21.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ff2M7Ii7/versions/3yc6gHnW/visual-snowy-leaves-0.4.6%2Bmc1.21.5.jar"
+hash-format = "sha1"
+hash = "6225e7ec13079b58e0669cd9f0bb172e3378bcf6"
+
+[update]
+[update.modrinth]
+mod-id = "Ff2M7Ii7"
+version = "3yc6gHnW"

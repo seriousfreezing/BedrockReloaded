@@ -1,0 +1,13 @@
+name = "Sodium Shadowy Path Blocks"
+filename = "sodium-shadowy-path-blocks-fabric-5.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EIa1eiMm/versions/RkAlGPsT/sodium-shadowy-path-blocks-fabric-5.0.0.jar"
+hash-format = "sha1"
+hash = "e16654f4073d9ad4f81b1a21d98fca5ebd79c9d7"
+
+[update]
+[update.modrinth]
+mod-id = "EIa1eiMm"
+version = "RkAlGPsT"

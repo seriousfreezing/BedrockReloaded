@@ -1,0 +1,23 @@
+version:4325
+fullscreen:false
+showAutosaveIndicator:false
+darkMojangStudiosBackground:true
+maxFps:260
+simulationDistance:8
+resourcePacks:["fabric","file/Bedrock Edition Music.zip","file/Bedrocking.zip","file/SodiumTranslations.zip","file/dynamic-rain-shader_0.1.2_1.21.4.zip"]
+menuBackgroundBlurriness:0.0
+key_key.swapOffhand:key.keyboard.unknown
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.command:key.keyboard.keypad.divide
+key_key.socialInteractions:key.keyboard.unknown
+key_key.advancements:key.keyboard.unknown
+key_bedrockIfy.key.settings:key.keyboard.unknown
+key_key.fbp.add_to_blacklist:key.keyboard.unknown
+key_key.fbp.open_settings:key.keyboard.unknown
+key_key.fbp.freeze_particles:key.keyboard.unknown
+key_key.minepedia.screen:key.keyboard.unknown
+key_key.raised.options:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.slash

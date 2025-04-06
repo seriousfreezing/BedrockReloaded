@@ -1,0 +1,13 @@
+name = "Wither's Wrath"
+filename = "witherswrath-1.11.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qqIrLnDt/versions/onhGfNrG/witherswrath-1.11.2.jar"
+hash-format = "sha1"
+hash = "f7834b9660e26172c4d512a193c5f37fde175b02"
+
+[update]
+[update.modrinth]
+mod-id = "qqIrLnDt"
+version = "onhGfNrG"

@@ -1,0 +1,13 @@
+name = "Dynamic Rain Shader"
+filename = "dynamic-rain-shader_0.1.2_1.21.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/h1XaRPDH/versions/9vWDGhLQ/dynamic-rain-shader_0.1.2_1.21.4.zip"
+hash-format = "sha1"
+hash = "d279f84d1388771e3bd18a29ddc62fec5e3baf2d"
+
+[update]
+[update.modrinth]
+mod-id = "h1XaRPDH"
+version = "9vWDGhLQ"

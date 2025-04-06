@@ -1,0 +1,13 @@
+name = "Stfu"
+filename = "Stfu-2.4.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rg9WdvvR/versions/yVyPT9vl/Stfu-2.4.4.jar"
+hash-format = "sha1"
+hash = "92a25a29a76b8f9ab1e9f4e1c537c75425088c76"
+
+[update]
+[update.modrinth]
+mod-id = "Rg9WdvvR"
+version = "yVyPT9vl"

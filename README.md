@@ -34,20 +34,9 @@
   </details>
 </details>
 
-# ⭐ Credits
-This modpack takes inspiration from various projects, incorporating ideas, descriptions and assets to create a unique and cohesive experience. **Be sure to check out their amazing work!**
-- **[3D Item Icons](https://modrinth.com/resourcepack/3d-items-mintynoura)**
-- **[Adrenaline](https://modrinth.com/modpack/adrenaline)**
-- **[Bedrock weather](https://modrinth.com/resourcepack/bedrock-weather)**
-- **[Environmental Water](https://modrinth.com/resourcepack/environmental-water)**
-- **[Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)**
-- **[MCHeads](https://mc-heads.net/)**
-- **[Ore UI Expanded](https://modrinth.com/resourcepack/ore-ui-expanded)**
-- **[Simply Optimized](https://modrinth.com/modpack/sop)**
-- **[Sodium](https://modrinth.com/mod/sodium)**
-- **[Translations for Sodium](https://modrinth.com/resourcepack/translations-for-sodium)**
-- **[Vanilla Tweaks](https://vanillatweaks.net/share#KZtWpI)**
-
 # 📜 License
 This modpack is licensed under the **GPL-3.0!**   
-Some artwork is licensed under **CC-NC-ND**. **[Learn More.](https://github.com/seriousfreezing/SolarApocalypse/wiki/Forking-Guidelines)** 
+Some artwork is licensed under **CC-NC-ND**. **[Learn More.](https://github.com/seriousfreezing/SolarApocalypse/wiki/Forking-Guidelines)**
+
+**&copy; 2025 SeriousFreezing**  
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.

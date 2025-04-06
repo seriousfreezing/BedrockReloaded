@@ -1,0 +1,7 @@
+{
+	serverIp: "world-host.jemnetworks.com",
+	enableFriends: false,
+	UPnP: false,
+	announceFriendsOnline: true,
+	whitelistJoins: false,
+}
